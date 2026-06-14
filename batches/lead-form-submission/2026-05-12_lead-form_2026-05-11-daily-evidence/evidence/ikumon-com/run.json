@@ -1,0 +1,17 @@
+{
+  "url": "https://ikumon.com",
+  "email": "onb.rjs+ikumoncom@gmail.com",
+  "domain": "ikumon.com",
+  "startedAt": "2026-05-12T22:41:10.870Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:41:38.836Z",
+      "url": "https://www.ikumon.com/loginpage.aspx"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:41:38.836Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

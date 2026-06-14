@@ -1,0 +1,17 @@
+{
+  "url": "https://corekonect.com",
+  "email": "onb.rjs+corekonectcom@gmail.com",
+  "domain": "corekonect.com",
+  "startedAt": "2026-05-12T21:42:49.715Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:43:17.726Z",
+      "url": "https://corekonect.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:43:17.726Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

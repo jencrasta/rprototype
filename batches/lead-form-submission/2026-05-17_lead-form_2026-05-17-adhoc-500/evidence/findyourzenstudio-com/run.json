@@ -1,0 +1,35 @@
+{
+  "url": "https://findyourzenstudio.com",
+  "email": "onb.rjs+findyourzenstudiocom@gmail.com",
+  "domain": "findyourzenstudio.com",
+  "startedAt": "2026-05-18T02:43:27.635Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:43:41.296Z",
+      "fields": [
+        "Email"
+      ],
+      "cta": "",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:43:41.397Z",
+      "url": "https://findyourzenstudio.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:43:54.586Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://findyourzenstudio.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:43:54.586Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

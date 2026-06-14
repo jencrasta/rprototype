@@ -1,0 +1,19 @@
+{
+  "url": "https://sgibusiness.com",
+  "email": "onb.rjs+sgibusinesscom@gmail.com",
+  "domain": "sgibusiness.com",
+  "startedAt": "2026-05-18T04:11:13.591Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:11:41.887Z",
+      "url": "https://sgibusiness.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:11:41.887Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "url": "https://mdeagriparts.co.uk",
+  "email": "onb.rjs+mdeagripartscouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-12T22:19:06.405Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:19:27.624Z",
+      "fields": [
+        "First Name *",
+        "Last Name *",
+        "email",
+        "Subject *",
+        "Message *"
+      ],
+      "cta": "Send",
+      "placement": "Popup / Modal",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:19:27.710Z",
+      "url": "https://www.mdeagriparts.co.uk/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:19:34.761Z",
+      "state": "redirect",
+      "evidence": "→ https://www.mdeagriparts.co.uk/contact-us/?tractor-manufacturers=case-international (path doesn't look like a confirmation)",
+      "url": "https://www.mdeagriparts.co.uk/contact-us/?tractor-manufacturers=case-international"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:19:34.761Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

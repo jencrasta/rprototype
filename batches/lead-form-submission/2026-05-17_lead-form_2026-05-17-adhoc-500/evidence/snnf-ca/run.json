@@ -1,0 +1,36 @@
+{
+  "url": "https://snnf.ca",
+  "email": "onb.rjs+snnfca@gmail.com",
+  "domain": "snnf.ca",
+  "startedAt": "2026-05-18T02:44:59.334Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:45:12.245Z",
+      "fields": [
+        "Email address",
+        "b_6f2f14af3cab163dd6dc7e72e_dd246b69e8"
+      ],
+      "cta": "Subscribe",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:45:12.468Z",
+      "url": "https://www.snnf.ca/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:45:25.663Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.snnf.ca/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:45:25.663Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

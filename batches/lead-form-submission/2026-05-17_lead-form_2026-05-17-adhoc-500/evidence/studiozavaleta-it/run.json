@@ -1,0 +1,41 @@
+{
+  "url": "https://studiozavaleta.it",
+  "email": "onb.rjs+studiozavaletait@gmail.com",
+  "domain": "studiozavaleta.it",
+  "startedAt": "2026-05-18T01:58:09.470Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:58:21.228Z",
+      "fields": [
+        "Nome e Cognome *",
+        "Email *",
+        "Telefono *",
+        "Tipo di Studio",
+        "Programma di Interesse *",
+        "Messaggio *",
+        "Ho letto e accetto la Privacy Policy *"
+      ],
+      "cta": "Richiedi Consulenza Gratuita",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:58:21.335Z",
+      "url": "https://studiozavaleta.it/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:58:34.504Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://studiozavaleta.it/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:58:34.504Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

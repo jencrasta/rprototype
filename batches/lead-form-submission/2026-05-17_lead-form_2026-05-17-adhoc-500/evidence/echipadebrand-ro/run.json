@@ -1,0 +1,19 @@
+{
+  "url": "https://echipadebrand.ro",
+  "email": "onb.rjs+echipadebrandro@gmail.com",
+  "domain": "echipadebrand.ro",
+  "startedAt": "2026-05-18T00:43:37.811Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:44:05.972Z",
+      "url": "https://echipadebrand.ro/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:44:05.972Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

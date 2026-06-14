@@ -1,0 +1,36 @@
+{
+  "url": "https://veego.app",
+  "email": "onb.rjs+veegoapp@gmail.com",
+  "domain": "veego.app",
+  "startedAt": "2026-05-12T21:41:45.013Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:41:56.329Z",
+      "fields": [
+        "Enter your email address…",
+        "b_60144987f52c4b10f2847926e_2a1973e925"
+      ],
+      "cta": "Notify Me 🌿",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:41:56.468Z",
+      "url": "https://veego.app/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:42:03.488Z",
+      "state": "redirect",
+      "evidence": "→ https://veego.app/thankyou",
+      "url": "https://veego.app/thankyou"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:42:03.488Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

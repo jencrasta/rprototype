@@ -1,0 +1,33 @@
+{
+  "url": "https://dipuri.com",
+  "email": "onb.rjs+dipuricom@gmail.com",
+  "domain": "dipuri.com",
+  "startedAt": "2026-05-18T01:12:12.807Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:12:25.573Z",
+      "fields": [],
+      "cta": "",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:12:25.697Z",
+      "url": "https://dipuri.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:12:38.844Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://dipuri.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:12:38.844Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

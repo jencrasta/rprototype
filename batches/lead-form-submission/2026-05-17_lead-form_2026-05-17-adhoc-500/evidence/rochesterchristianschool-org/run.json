@@ -1,0 +1,19 @@
+{
+  "url": "https://rochesterchristianschool.org",
+  "email": "onb.rjs+rochesterchristianschoolorg@gmail.com",
+  "domain": "rochesterchristianschool.org",
+  "startedAt": "2026-05-17T23:50:14.421Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:50:44.588Z",
+      "url": "https://www.rochesterchristianschool.org/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:50:44.588Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

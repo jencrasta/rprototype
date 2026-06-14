@@ -1,0 +1,19 @@
+{
+  "url": "https://simformlabs.com",
+  "email": "onb.rjs+simformlabscom@gmail.com",
+  "domain": "simformlabs.com",
+  "startedAt": "2026-05-18T02:04:28.060Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:04:57.003Z",
+      "url": "https://www.godaddy.com/domainsearch/find?key=parkweb&utm_source=godaddy&utm_medium=parkedpages&utm_campaign=x_dom-broker_parkedpages_x_x_invest_001&tmskey=dpp_dbs&domainToCheck=simformlabs.com&isc=GPPTCOM&itc=parkedpage_landers",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:04:57.003Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

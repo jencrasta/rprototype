@@ -1,0 +1,44 @@
+{
+  "url": "https://alignenergetics.com",
+  "email": "onb.rjs+alignenergeticscom@gmail.com",
+  "domain": "alignenergetics.com",
+  "startedAt": "2026-05-18T03:56:28.344Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:56:40.748Z",
+      "fields": [
+        "First Name(required)",
+        "Last Name(required)",
+        "Email(required)",
+        "Somatic Energy",
+        "Spinal Energetics",
+        "Sound Journey",
+        "Yoga",
+        "Not sure yet",
+        "Message(required)",
+        "message-yui_0e62ad47-eedc-4cf7-b4e9-f2e463bdac14-field"
+      ],
+      "cta": "SendSend",
+      "placement": "Popup / Modal",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:56:40.917Z",
+      "url": "https://www.alignenergetics.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:56:47.966Z",
+      "state": "inline-error",
+      "evidence": "Form submission failed. ⏎ Review the following information: Message. ⏎ Name First Name (required) Last Name (required) Email (required) Interested in Somatic Energy Spinal Energetics Sound Journey…",
+      "url": "https://www.alignenergetics.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:56:47.966Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

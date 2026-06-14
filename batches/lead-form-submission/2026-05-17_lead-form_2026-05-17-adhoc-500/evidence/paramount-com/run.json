@@ -1,0 +1,19 @@
+{
+  "url": "https://paramount.com",
+  "email": "onb.rjs+paramountcom@gmail.com",
+  "domain": "paramount.com",
+  "startedAt": "2026-05-18T00:15:14.128Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:15:44.444Z",
+      "url": "https://www.paramount.com/careers",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:15:44.446Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

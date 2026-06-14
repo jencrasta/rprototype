@@ -1,0 +1,35 @@
+{
+  "url": "https://yourformula.health",
+  "email": "onb.rjs+yourformulahealth@gmail.com",
+  "domain": "yourformula.health",
+  "startedAt": "2026-05-18T00:48:32.894Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:48:45.174Z",
+      "fields": [
+        "Email Address"
+      ],
+      "cta": "Sign Up",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:48:45.269Z",
+      "url": "https://www.yourformula.health/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:48:52.309Z",
+      "state": "inline",
+      "evidence": "Thank you!",
+      "url": "https://www.yourformula.health/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:48:52.309Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://ufcorpinc.com",
+  "email": "onb.rjs+ufcorpinccom@gmail.com",
+  "domain": "ufcorpinc.com",
+  "startedAt": "2026-05-18T02:37:07.808Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:37:23.505Z",
+      "fields": [],
+      "cta": "",
+      "placement": "No form",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:37:23.575Z",
+      "url": "https://ufcorpinc.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:37:36.861Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://ufcorpinc.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:37:36.861Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

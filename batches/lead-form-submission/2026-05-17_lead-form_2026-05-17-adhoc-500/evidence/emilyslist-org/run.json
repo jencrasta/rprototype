@@ -1,0 +1,39 @@
+{
+  "url": "https://emilyslist.org",
+  "email": "onb.rjs+emilyslistorg@gmail.com",
+  "domain": "emilyslist.org",
+  "startedAt": "2026-05-18T02:00:14.210Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:00:33.879Z",
+      "fields": [
+        "First Name",
+        "Last Name (Optional)",
+        "Postal Code",
+        "Email Address",
+        "Remember me so that I can use FastAction next time."
+      ],
+      "cta": "Sign Up",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:00:33.955Z",
+      "url": "https://win.emilyslist.org/a/join-our-email-list"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:00:40.989Z",
+      "state": "inline-error",
+      "evidence": "Log in or Sign up for FastAction Contact Information First Name Last Name (Optional) Postal Code Please enter a valid Postal Code. ⏎ Email Address Remember me so that I can use FastAction next time.",
+      "url": "https://win.emilyslist.org/a/join-our-email-list"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:00:40.989Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

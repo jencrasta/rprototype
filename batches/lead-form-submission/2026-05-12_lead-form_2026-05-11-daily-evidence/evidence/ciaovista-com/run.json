@@ -1,0 +1,38 @@
+{
+  "url": "https://ciaovista.com",
+  "email": "onb.rjs+ciaovistacom@gmail.com",
+  "domain": "ciaovista.com",
+  "startedAt": "2026-05-12T22:09:29.986Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:09:51.897Z",
+      "fields": [
+        "Name:",
+        "Email:",
+        "Phone:",
+        "Message:"
+      ],
+      "cta": "Send Now",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:09:52.060Z",
+      "url": "https://www.ciaovista.com/contact"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:09:59.088Z",
+      "state": "inline",
+      "evidence": "Forbidden",
+      "url": "https://www.ciaovista.com/contact"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:09:59.088Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

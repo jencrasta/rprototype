@@ -1,0 +1,12 @@
+{"type":"request","ts":1779076498436,"method":"GET","url":"https://everystate.blue/","resourceType":"document"}
+{"type":"response","ts":1779076498744,"status":200,"url":"https://everystate.blue/"}
+{"type":"request","ts":1779076498756,"method":"GET","url":"https://img1.wsimg.com/traffic-assets/js/tccl.min.js","resourceType":"script"}
+{"type":"response","ts":1779076498863,"status":301,"url":"https://img1.wsimg.com/traffic-assets/js/tccl.min.js"}
+{"type":"request","ts":1779076498864,"method":"GET","url":"https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js","resourceType":"script"}
+{"type":"response","ts":1779076498889,"status":200,"url":"https://img1.wsimg.com/signals/js/clients/scc-c2/scc-c2.min.js"}
+{"type":"request","ts":1779076498912,"method":"GET","url":"https://everystate.blue/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779076498986,"status":404,"url":"https://everystate.blue/favicon.ico"}
+{"type":"request","ts":1779076499166,"method":"POST","url":"https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3","resourceType":"fetch"}
+{"type":"request","ts":1779076499166,"method":"POST","url":"https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb","resourceType":"fetch"}
+{"type":"response","ts":1779076499371,"status":202,"url":"https://csp.secureserver.net/eventbus/web?clientid=8da2217409854bee82e12dc4ca0b39fb"}
+{"type":"response","ts":1779076499373,"status":202,"url":"https://csp.secureserver.net/eventbus/web?clientid=b18ef4f046435b64a469b32c3c1c20a3"}

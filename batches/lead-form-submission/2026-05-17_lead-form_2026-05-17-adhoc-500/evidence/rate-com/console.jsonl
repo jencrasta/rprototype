@@ -1,0 +1,32 @@
+{"type":"error","ts":1779066800966,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066800966,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066800966,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066801019,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066801020,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066801020,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066801062,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779066801062,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779066801063,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"log","ts":1779066801104,"text":"[config] Initialized for env=\"production\" with 9 brands"}
+{"type":"warn","ts":1779066801209,"text":"Background component is being used as a link but was not given an aria label. This hurts our accessibility score. Please pass a string to the 'label' param. Link received: /rate-app?icid=hp:rateapp"}
+{"type":"debug","ts":1779066801267,"text":"Invalid loId on load: undefined. Clearing data stores."}
+{"type":"warn","ts":1779066801831,"text":"Failed to add event listener to anchor tag with href to external domain tel:8669347283: TypeError: Failed to construct 'URL': Invalid URL"}
+{"type":"debug","ts":1779066802147,"text":"Error"}
+{"type":"error","ts":1779066802432,"text":"Failed to load resource: net::ERR_FAILED"}
+{"type":"warn","ts":1779066806858,"text":"AT: metric element not found [object Object]"}
+{"type":"warn","ts":1779066806858,"text":"AT: metric element not found [object Object]"}
+{"type":"log","ts":1779066819966,"text":"[config] Initialized for env=\"production\" with 9 brands"}
+{"type":"error","ts":1779066819966,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066819967,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066819967,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"debug","ts":1779066820028,"text":"Invalid loId on load: undefined. Clearing data stores."}
+{"type":"error","ts":1779066820029,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066820030,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066820030,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066820190,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066820190,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779066820190,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"debug","ts":1779066820346,"text":"Error"}
+{"type":"warn","ts":1779066821764,"text":"Failed to add event listener to anchor tag with href to external domain tel:8669347283: TypeError: Failed to construct 'URL': Invalid URL"}
+{"type":"warn","ts":1779066824992,"text":"AT: metric element not found [object Object]"}
+{"type":"warn","ts":1779066824992,"text":"AT: metric element not found [object Object]"}

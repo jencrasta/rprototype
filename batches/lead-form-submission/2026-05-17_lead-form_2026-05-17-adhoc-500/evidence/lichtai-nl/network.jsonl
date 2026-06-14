@@ -1,0 +1,26 @@
+{"type":"request","ts":1779063001698,"method":"GET","url":"https://lichtai.nl/","resourceType":"document"}
+{"type":"response","ts":1779063001867,"status":307,"url":"https://lichtai.nl/"}
+{"type":"request","ts":1779063001868,"method":"GET","url":"https://www.lichtai.nl/","resourceType":"document"}
+{"type":"response","ts":1779063002118,"status":200,"url":"https://www.lichtai.nl/"}
+{"type":"request","ts":1779063002131,"method":"GET","url":"https://www.googletagmanager.com/gtag/js?id=G-7Y3TZEGQPY","resourceType":"script"}
+{"type":"request","ts":1779063002132,"method":"GET","url":"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap","resourceType":"stylesheet"}
+{"type":"response","ts":1779063002281,"status":200,"url":"https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Jost:wght@300;400;500;600&family=DM+Mono:wght@300;400;500&display=swap"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E","resourceType":"image"}
+{"type":"response","ts":1779063002339,"status":200,"url":"data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2","resourceType":"font"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvrGyEYOtbYf-Vlg.woff2","resourceType":"font"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2","resourceType":"font"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2","resourceType":"font"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4jQmfxI.woff2","resourceType":"font"}
+{"type":"request","ts":1779063002339,"method":"GET","url":"https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2","resourceType":"font"}
+{"type":"response","ts":1779063002340,"status":200,"url":"https://www.googletagmanager.com/gtag/js?id=G-7Y3TZEGQPY"}
+{"type":"request","ts":1779063002368,"method":"POST","url":"https://www.google-analytics.com/g/collect?v=2&tid=G-7Y3TZEGQPY&gtm=45je65d0v9251796336za200zd9251796336&_p=1779063002127&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=727057153.1779063002&frm=0&pscdl=noapi&rcb=10&sr=3440x1440&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938469~118128923&sid=1779063002&sct=1&seg=0&dl=https%3A%2F%2Fwww.lichtai.nl%2F&dt=LichtAI%20%E2%80%94%20Professioneel%20lichtplan%20in%202%20minuten&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=668","resourceType":"fetch"}
+{"type":"response","ts":1779063002402,"status":200,"url":"https://fonts.gstatic.com/s/jost/v20/92zatBhPNqw73oTd4jQmfxI.woff2"}
+{"type":"response","ts":1779063002425,"status":200,"url":"https://fonts.gstatic.com/s/dmmono/v16/aFTU7PB1QTsUX8KYthqQBK6PYK0.woff2"}
+{"type":"response","ts":1779063002426,"status":200,"url":"https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvumzEYOtbYf-Vlg.woff2"}
+{"type":"response","ts":1779063002426,"status":200,"url":"https://fonts.gstatic.com/s/dmmono/v16/aFTR7PB1QTsUX8KYvrGyEYOtbYf-Vlg.woff2"}
+{"type":"response","ts":1779063002426,"status":200,"url":"https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnogkk7yRZrPA.woff2"}
+{"type":"response","ts":1779063002426,"status":200,"url":"https://fonts.gstatic.com/s/playfairdisplay/v40/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgEM86xQ.woff2"}
+{"type":"request","ts":1779063002439,"method":"GET","url":"https://www.lichtai.nl/favicon.svg","resourceType":"other"}
+{"type":"response","ts":1779063002466,"status":200,"url":"https://www.lichtai.nl/favicon.svg"}
+{"type":"response","ts":1779063002476,"status":204,"url":"https://www.google-analytics.com/g/collect?v=2&tid=G-7Y3TZEGQPY&gtm=45je65d0v9251796336za200zd9251796336&_p=1779063002127&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=727057153.1779063002&frm=0&pscdl=noapi&rcb=10&sr=3440x1440&uaa=&uab=&uafvl=&uam=&uamb=0&uap=&uapv=&uaw=0&ul=en-us&_s=1&tag_exp=0~115938465~115938469~118128923&sid=1779063002&sct=1&seg=0&dl=https%3A%2F%2Fwww.lichtai.nl%2F&dt=LichtAI%20%E2%80%94%20Professioneel%20lichtplan%20in%202%20minuten&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=668"}

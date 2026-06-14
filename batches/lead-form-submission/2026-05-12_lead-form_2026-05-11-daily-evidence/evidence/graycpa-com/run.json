@@ -1,0 +1,39 @@
+{
+  "url": "https://graycpa.com",
+  "email": "onb.rjs+graycpacom@gmail.com",
+  "domain": "graycpa.com",
+  "startedAt": "2026-05-12T22:32:22.721Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:33:17.584Z",
+      "fields": [
+        "NAME",
+        "EMAIL",
+        "PHONE",
+        "ADDRESS",
+        "COMPANY"
+      ],
+      "cta": "SUBMIT",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:33:17.657Z",
+      "url": "https://www.graycpa.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:33:30.826Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.graycpa.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:33:30.826Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

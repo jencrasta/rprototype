@@ -1,0 +1,19 @@
+{
+  "url": "https://student.hepl.be",
+  "email": "onb.rjs+studentheplbe@gmail.com",
+  "domain": "hepl.be",
+  "startedAt": "2026-05-18T02:59:57.649Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:00:24.605Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:00:24.605Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

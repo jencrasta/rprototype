@@ -1,0 +1,35 @@
+{
+  "url": "https://lettingops.co.uk",
+  "email": "onb.rjs+lettingopscouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-18T01:43:16.664Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:43:28.740Z",
+      "fields": [
+        "Enter your email address"
+      ],
+      "cta": "Send me the free guide",
+      "placement": "Inline (page body)",
+      "formType": "Support"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:43:28.798Z",
+      "url": "https://www.lettingops.co.uk/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:43:41.922Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.lettingops.co.uk/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:43:41.922Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

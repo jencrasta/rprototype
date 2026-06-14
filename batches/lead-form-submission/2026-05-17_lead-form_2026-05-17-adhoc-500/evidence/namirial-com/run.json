@@ -1,0 +1,19 @@
+{
+  "url": "https://namirial.com",
+  "email": "onb.rjs+namirialcom@gmail.com",
+  "domain": "namirial.com",
+  "startedAt": "2026-05-18T02:10:53.987Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:12:23.356Z",
+      "url": "https://www.namirial.com/en/newsletter/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:12:23.357Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

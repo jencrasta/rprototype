@@ -1,0 +1,19 @@
+{
+  "url": "https://sbtempus.com",
+  "email": "onb.rjs+sbtempuscom@gmail.com",
+  "domain": "sbtempus.com",
+  "startedAt": "2026-05-18T04:20:46.205Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:21:19.867Z",
+      "url": "https://www.sbtempus.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:21:19.867Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

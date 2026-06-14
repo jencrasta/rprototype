@@ -1,0 +1,19 @@
+{
+  "url": "https://2bconnected.org",
+  "email": "onb.rjs+2bconnectedorg@gmail.com",
+  "domain": "2bconnected.org",
+  "startedAt": "2026-05-18T03:37:39.245Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:38:08.339Z",
+      "url": "https://2bconnected.org/",
+      "noFormReason": "needs_scroll"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:38:08.339Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "needs_scroll"
+  }
+}

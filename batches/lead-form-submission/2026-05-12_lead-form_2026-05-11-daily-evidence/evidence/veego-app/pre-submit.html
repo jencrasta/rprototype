@@ -1,0 +1,948 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeeGo — Find Vegan, Feel Good</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;0,9..144,900;1,9..144,300;1,9..144,700&amp;family=DM+Sans:wght@300;400;500&amp;display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --green:    #1a9e5c;
+      --green-lt: #22c46e;
+      --lime:     #b8f5d0;
+      --cream:    #fdf9f7;
+      --warm:     #fdf0ea;
+      --rust:     #f4a68a;
+      --dark:     #1a1a18;
+      --muted:    #6b6b60;
+      --card-bg:  #ffffff;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--cream);
+      color: var(--dark);
+      overflow-x: hidden;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 18px 40px;
+      background: rgba(253,248,240,0.88);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(30,102,65,0.08);
+      animation: slideDown .6s ease both;
+    }
+    @keyframes slideDown { from { opacity:0; transform:translateY(-20px); } to { opacity:1; transform:translateY(0); } }
+
+    .nav-logo {
+      font-family: 'Fraunces', serif;
+      font-size: 1.7rem;
+      font-weight: 900;
+      color: var(--green);
+      letter-spacing: -1px;
+    }
+    .nav-logo span { color: var(--rust); }
+
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a {
+      font-size: .88rem; font-weight: 500; color: var(--muted);
+      text-decoration: none; transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--green); }
+
+    .nav-cta {
+      background: var(--green); color: #fff;
+      border: none; border-radius: 100px;
+      padding: 10px 24px; font-size: .88rem; font-weight: 500;
+      cursor: pointer; transition: background .2s, transform .15s;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .nav-cta:hover { background: var(--green-lt); transform: scale(1.04); }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 120px 40px 80px;
+      gap: 60px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* organic blobs */
+    .hero::before {
+      content: '';
+      position: absolute; top: -120px; right: -80px;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, #c8f04b44 0%, transparent 70%);
+      border-radius: 50%; pointer-events: none;
+      animation: pulse 6s ease-in-out infinite;
+    }
+    .hero::after {
+      content: '';
+      position: absolute; bottom: -100px; left: -60px;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, #d95f2b22 0%, transparent 70%);
+      border-radius: 50%; pointer-events: none;
+    }
+    @keyframes pulse { 0%,100% { transform: scale(1); opacity:.7; } 50% { transform: scale(1.08); opacity:1; } }
+
+    .hero-text { animation: fadeUp .8s .1s ease both; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(30px); } to { opacity:1; transform:translateY(0); } }
+
+    .hero-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #fde8e0; color: #c45e3e;
+      border-radius: 100px; padding: 6px 16px;
+      font-size: .78rem; font-weight: 500; letter-spacing: .04em;
+      text-transform: uppercase; margin-bottom: 24px;
+    }
+    .hero-badge::before { content: '🌿'; font-size: 1rem; }
+
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2.8rem, 5vw, 4.2rem);
+      font-weight: 900;
+      line-height: 1.08;
+      letter-spacing: -2px;
+      color: var(--dark);
+      margin-bottom: 22px;
+    }
+    h1 em {
+      font-style: italic;
+      color: var(--green);
+    }
+    h1 .underline-rust {
+      position: relative; display: inline-block;
+    }
+    h1 .underline-rust::after {
+      content: '';
+      position: absolute; left: 0; bottom: -4px; right: 0;
+      height: 5px;
+      background: var(--rust);
+      border-radius: 3px;
+      transform: scaleX(0); transform-origin: left;
+      animation: drawLine 1s .9s ease forwards;
+    }
+    @keyframes drawLine { to { transform: scaleX(1); } }
+
+    .hero-sub {
+      font-size: 1.08rem; color: var(--muted); line-height: 1.65;
+      max-width: 420px; margin-bottom: 36px;
+    }
+
+    .hero-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+
+    .btn-primary {
+      background: var(--green); color: #fff;
+      border: none; border-radius: 100px;
+      padding: 15px 34px; font-size: 1rem; font-weight: 500;
+      cursor: pointer; transition: all .2s;
+      font-family: 'DM Sans', sans-serif;
+      box-shadow: 0 8px 28px rgba(30,102,65,.28);
+    }
+    .btn-primary:hover { background: var(--green-lt); transform: translateY(-2px); box-shadow: 0 12px 32px rgba(30,102,65,.35); }
+
+    .btn-ghost {
+      background: transparent; color: var(--dark);
+      border: 1.5px solid rgba(26,26,20,.18);
+      border-radius: 100px; padding: 14px 28px;
+      font-size: 1rem; font-weight: 400; cursor: pointer;
+      transition: all .2s; font-family: 'DM Sans', sans-serif;
+    }
+    .btn-ghost:hover { border-color: var(--green); color: var(--green); }
+
+    .hero-stats {
+      display: flex; gap: 28px; margin-top: 40px;
+    }
+    .stat { }
+    .stat-num {
+      font-family: 'Fraunces', serif;
+      font-size: 1.8rem; font-weight: 700; color: var(--green);
+      line-height: 1;
+    }
+    .stat-label { font-size: .78rem; color: var(--muted); margin-top: 3px; }
+
+    /* ── HERO VISUAL ── */
+    .hero-visual {
+      position: relative;
+      animation: fadeUp .8s .3s ease both;
+    }
+
+    .phone-wrap {
+      position: relative;
+      width: 280px; margin: 0 auto;
+    }
+
+    .phone {
+      background: var(--dark);
+      border-radius: 44px;
+      padding: 14px;
+      box-shadow: 0 40px 80px rgba(0,0,0,.22), 0 0 0 1px rgba(255,255,255,.05);
+      position: relative;
+    }
+    .phone-screen {
+      background: var(--cream);
+      border-radius: 32px;
+      overflow: hidden;
+      height: 560px;
+      display: flex; flex-direction: column;
+    }
+
+    .phone-status {
+      background: var(--green);
+      padding: 16px 20px 12px;
+      color: #fff;
+    }
+    .phone-status-top {
+      display: flex; justify-content: space-between;
+      font-size: .65rem; margin-bottom: 12px; opacity: .7;
+    }
+    .phone-location {
+      display: flex; align-items: center; gap: 6px;
+      font-size: .75rem; font-weight: 500;
+    }
+    .phone-location::before { content: '📍'; font-size: .85rem; }
+    .phone-greeting {
+      font-family: 'Fraunces', serif;
+      font-size: 1.15rem; font-weight: 700;
+      margin-top: 4px;
+    }
+
+    .phone-search {
+      margin: 14px 14px 0;
+      background: #fff;
+      border-radius: 14px;
+      padding: 10px 14px;
+      display: flex; align-items: center; gap: 8px;
+      font-size: .78rem; color: #bbb;
+      box-shadow: 0 2px 12px rgba(0,0,0,.06);
+    }
+    .phone-search::before { content: '🔍'; font-size: .9rem; }
+
+    .phone-tags {
+      display: flex; gap: 8px; padding: 12px 14px 0;
+      overflow: hidden;
+    }
+    .tag {
+      background: var(--warm); color: var(--green);
+      border-radius: 100px; padding: 5px 12px;
+      font-size: .68rem; font-weight: 500; white-space: nowrap;
+    }
+    .tag.active { background: #fde8e0; color: #c45e3e; }
+
+    .phone-section-label {
+      padding: 14px 14px 6px;
+      font-size: .7rem; font-weight: 500; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .08em;
+    }
+
+    .phone-cards { padding: 0 14px; display: flex; flex-direction: column; gap: 10px; }
+
+    .pcard {
+      background: #fff;
+      border-radius: 16px;
+      padding: 12px;
+      display: flex; gap: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.06);
+      animation: cardPop .5s ease both;
+    }
+    .pcard:nth-child(2) { animation-delay: .1s; }
+    .pcard:nth-child(3) { animation-delay: .2s; }
+    @keyframes cardPop { from { opacity:0; transform:scale(.96); } to { opacity:1; transform:scale(1); } }
+
+    .pcard-emoji {
+      width: 46px; height: 46px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.4rem; flex-shrink: 0;
+    }
+    .pcard-emoji.green { background: #e8f7ef; }
+    .pcard-emoji.yellow { background: #fef9e0; }
+    .pcard-emoji.orange { background: #fef0e8; }
+
+    .pcard-info { flex: 1; }
+    .pcard-name { font-size: .8rem; font-weight: 500; color: var(--dark); }
+    .pcard-meta { font-size: .68rem; color: var(--muted); margin-top: 2px; }
+    .pcard-stars { font-size: .65rem; color: #f5a623; margin-top: 3px; }
+
+    .pcard-dist {
+      font-size: .65rem; color: var(--green); font-weight: 500;
+      align-self: center;
+    }
+
+    /* floating elements */
+    .float-badge {
+      position: absolute;
+      background: #fff;
+      border-radius: 16px;
+      padding: 10px 14px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.12);
+      font-size: .75rem;
+      animation: floatBob 4s ease-in-out infinite;
+    }
+    @keyframes floatBob { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-8px); } }
+
+    .float-badge.top-right {
+      right: -50px; top: 40px;
+      display: flex; align-items: center; gap: 8px;
+      animation-delay: .5s;
+    }
+    .float-badge.bottom-left {
+      left: -50px; bottom: 100px;
+      display: flex; align-items: center; gap: 8px;
+      animation-delay: 1.2s;
+    }
+    .float-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .float-dot.green { background: var(--lime); }
+    .float-dot.peach { background: var(--rust); }
+
+    /* ── FEATURES ── */
+    .features {
+      padding: 100px 40px;
+      background: var(--warm);
+    }
+    .section-header {
+      text-align: center; margin-bottom: 60px;
+      animation: fadeUp .6s ease both;
+    }
+    .section-eyebrow {
+      font-size: .78rem; font-weight: 500; letter-spacing: .12em;
+      text-transform: uppercase; color: #e07a5f;
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2rem, 3.5vw, 3rem);
+      font-weight: 900; letter-spacing: -1.5px; line-height: 1.1;
+    }
+    .section-title em { color: var(--green); font-style: italic; }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      max-width: 960px; margin: 0 auto;
+    }
+
+    .feat-card {
+      background: var(--card-bg);
+      border-radius: 24px;
+      padding: 32px 28px;
+      transition: transform .25s, box-shadow .25s;
+      cursor: default;
+    }
+    .feat-card:hover { transform: translateY(-6px); box-shadow: 0 20px 50px rgba(0,0,0,.08); }
+
+    .feat-icon {
+      width: 52px; height: 52px; border-radius: 16px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; margin-bottom: 20px;
+    }
+    .feat-icon.g { background: #e8f7ef; }
+    .feat-icon.y { background: #fef9e0; }
+    .feat-icon.o { background: #fef0e8; }
+
+    .feat-title {
+      font-family: 'Fraunces', serif;
+      font-size: 1.25rem; font-weight: 700;
+      margin-bottom: 10px; letter-spacing: -.5px;
+    }
+    .feat-desc { font-size: .9rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── AI SECTION ── */
+    .ai-section {
+      padding: 100px 40px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px; align-items: center;
+      max-width: 1100px; margin: 0 auto;
+    }
+
+    .ai-chat {
+      background: var(--dark);
+      border-radius: 28px;
+      padding: 28px;
+      box-shadow: 0 30px 70px rgba(0,0,0,.18);
+    }
+    .chat-header {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid rgba(255,255,255,.08);
+    }
+    .chat-avatar {
+      width: 36px; height: 36px; border-radius: 50%;
+      background: #f4a68a;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1rem;
+    }
+    .chat-name { color: #fff; font-size: .9rem; font-weight: 500; }
+    .chat-status { color: #7eedb0; font-size: .72rem; margin-top: 2px; }
+
+    .chat-messages { display: flex; flex-direction: column; gap: 14px; }
+
+    .msg {
+      max-width: 82%; padding: 12px 16px;
+      border-radius: 18px; font-size: .85rem; line-height: 1.5;
+      animation: msgIn .4s ease both;
+    }
+    @keyframes msgIn { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+
+    .msg.user {
+      background: var(--green); color: #fff;
+      border-bottom-right-radius: 4px;
+      align-self: flex-end;
+    }
+    .msg.bot {
+      background: rgba(255,255,255,.08); color: #e8e8e0;
+      border-bottom-left-radius: 4px;
+      align-self: flex-start;
+    }
+    .msg.bot strong { color: var(--lime); }
+
+    .msg:nth-child(2) { animation-delay: .2s; }
+    .msg:nth-child(3) { animation-delay: .4s; }
+    .msg:nth-child(4) { animation-delay: .6s; }
+
+    .chat-input-row {
+      display: flex; gap: 10px; margin-top: 20px;
+      background: rgba(255,255,255,.06);
+      border-radius: 100px; padding: 8px 8px 8px 18px;
+      align-items: center;
+    }
+    .chat-input-row span { color: rgba(255,255,255,.3); font-size: .82rem; flex: 1; }
+    .chat-send {
+      width: 34px; height: 34px; border-radius: 50%;
+      background: #f4a68a; border: none;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: .9rem;
+    }
+
+    .ai-text .section-header { text-align: left; }
+    .ai-bullets { list-style: none; display: flex; flex-direction: column; gap: 14px; margin-top: 28px; }
+    .ai-bullets li {
+      display: flex; gap: 12px; align-items: flex-start;
+      font-size: .95rem; color: var(--muted); line-height: 1.5;
+    }
+    .ai-bullets li::before {
+      content: '✓';
+      width: 22px; height: 22px; border-radius: 50%;
+      background: #fde8e0; color: #e07a5f;
+      font-size: .7rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 2px;
+    }
+
+    /* ── SOCIAL PROOF ── */
+    .social-proof {
+      background: var(--green);
+      padding: 80px 40px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .social-proof::before {
+      content: '';
+      position: absolute; top: -60px; left: 50%; transform: translateX(-50%);
+      width: 500px; height: 200px;
+      background: radial-gradient(ellipse, rgba(200,240,75,.2) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .social-proof h2 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 900; color: #fff;
+      letter-spacing: -1.5px; margin-bottom: 12px;
+    }
+    .social-proof h2 em { color: var(--lime); font-style: italic; }
+    .social-proof p { color: rgba(255,255,255,.65); font-size: 1rem; margin-bottom: 40px; }
+
+    .testimonials {
+      display: grid; grid-template-columns: repeat(3,1fr);
+      gap: 20px; max-width: 900px; margin: 0 auto 40px;
+    }
+    .tcard {
+      background: rgba(255,255,255,.08);
+      border-radius: 20px; padding: 24px;
+      text-align: left;
+      border: 1px solid rgba(255,255,255,.1);
+      transition: background .2s;
+    }
+    .tcard:hover { background: rgba(255,255,255,.13); }
+    .tcard-quote { color: rgba(255,255,255,.85); font-size: .88rem; line-height: 1.6; margin-bottom: 16px; }
+    .tcard-author { display: flex; align-items: center; gap: 10px; }
+    .tcard-avatar { width: 34px; height: 34px; border-radius: 50%; font-size: 1rem; display:flex;align-items:center;justify-content:center; }
+    .av1 { background: #f7c59f; }
+    .av2 { background: #b5ead7; }
+    .av3 { background: #ffd6e0; }
+    .tcard-name { color: #fff; font-size: .8rem; font-weight: 500; }
+    .tcard-loc { color: rgba(255,255,255,.45); font-size: .72rem; }
+
+    .sp-cta {
+      background: #f4a68a; color: #fff;
+      border: none; border-radius: 100px;
+      padding: 16px 40px; font-size: 1rem; font-weight: 600;
+      cursor: pointer; transition: all .2s;
+      font-family: 'DM Sans', sans-serif;
+      box-shadow: 0 8px 28px rgba(0,0,0,.2);
+    }
+    .sp-cta:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 12px 36px rgba(0,0,0,.25); }
+
+    /* ── EMAIL CAPTURE ── */
+    .email-capture {
+      background: var(--cream);
+      padding: 100px 40px;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .email-capture::before {
+      content: '';
+      position: absolute; top: -100px; left: 50%; transform: translateX(-50%);
+      width: 700px; height: 400px;
+      background: radial-gradient(ellipse, rgba(26,158,92,.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .email-capture-inner {
+      max-width: 560px; margin: 0 auto;
+      position: relative; z-index: 1;
+    }
+    .email-capture-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #fde8e0; color: #c45e3e;
+      border-radius: 100px; padding: 6px 16px;
+      font-size: .78rem; font-weight: 500; letter-spacing: .04em;
+      text-transform: uppercase; margin-bottom: 24px;
+    }
+    .email-capture h2 {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 900; letter-spacing: -1.5px;
+      line-height: 1.1; margin-bottom: 16px;
+    }
+    .email-capture h2 em { color: var(--green); font-style: italic; }
+    .email-capture p {
+      color: var(--muted); font-size: 1rem;
+      line-height: 1.6; margin-bottom: 36px;
+    }
+    .waitlist-count {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #e8f7ef;
+      border-radius: 100px; padding: 8px 20px;
+      margin-bottom: 32px;
+    }
+    .waitlist-avatars { display: flex; }
+    .waitlist-avatar {
+      width: 28px; height: 28px; border-radius: 50%;
+      border: 2px solid #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .8rem; margin-left: -8px;
+    }
+    .waitlist-avatar:first-child { margin-left: 0; }
+    .wa1 { background: #f7c59f; }
+    .wa2 { background: #b5ead7; }
+    .wa3 { background: #ffd6e0; }
+    .wa4 { background: #c7b8f5; }
+    .waitlist-text { font-size: .82rem; color: var(--green); font-weight: 500; }
+
+    .email-form {
+      display: flex; gap: 10px;
+      background: #fff;
+      border: 1.5px solid rgba(26,26,24,.1);
+      border-radius: 100px;
+      padding: 6px 6px 6px 24px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.08);
+      transition: border-color .2s, box-shadow .2s;
+      margin-bottom: 16px;
+    }
+    .email-form:focus-within {
+      border-color: var(--green);
+      box-shadow: 0 8px 32px rgba(26,158,92,.15);
+    }
+    .email-form input {
+      flex: 1; border: none; outline: none;
+      font-family: 'DM Sans', sans-serif;
+      font-size: .95rem; color: var(--dark);
+      background: transparent; min-width: 0;
+    }
+    .email-form input::placeholder { color: #bbb; }
+    .email-form button {
+      background: var(--green); color: #fff;
+      border: none; border-radius: 100px;
+      padding: 12px 28px; font-size: .9rem; font-weight: 500;
+      cursor: pointer; transition: all .2s;
+      font-family: 'DM Sans', sans-serif;
+      white-space: nowrap; flex-shrink: 0;
+    }
+    .email-form button:hover { background: var(--green-lt); }
+    .email-form button.success {
+      background: #b8f5d0; color: var(--green);
+      pointer-events: none;
+    }
+    .email-meta {
+      display: flex; align-items: center; justify-content: center; gap: 20px;
+      flex-wrap: wrap;
+    }
+    .email-meta-item {
+      display: flex; align-items: center; gap: 6px;
+      font-size: .78rem; color: var(--muted);
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--dark);
+      padding: 50px 40px 30px;
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 20px;
+    }
+    .footer-logo {
+      font-family: 'Fraunces', serif;
+      font-size: 1.5rem; font-weight: 900;
+      color: #fff; letter-spacing: -1px;
+    }
+    .footer-logo span { color: #7eedb0; }
+    .footer-tagline { color: rgba(255,255,255,.3); font-size: .8rem; margin-top: 4px; }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { color: rgba(255,255,255,.4); text-decoration: none; font-size: .82rem; transition: color .2s; }
+    .footer-links a:hover { color: #7eedb0; }
+    .footer-copy { color: rgba(255,255,255,.2); font-size: .75rem; width: 100%; text-align: center; margin-top: 10px; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav { padding: 16px 20px; }
+      .nav-links { display: none; }
+      .hero { grid-template-columns: 1fr; padding: 100px 20px 60px; gap: 40px; text-align: center; }
+      .hero-stats { justify-content: center; }
+      .hero-actions { justify-content: center; }
+      .hero-sub { margin: 0 auto 36px; }
+      .phone-wrap { width: 240px; }
+      .float-badge.top-right { right: -20px; }
+      .float-badge.bottom-left { left: -20px; }
+      .features { padding: 70px 20px; }
+      .features-grid { grid-template-columns: 1fr; }
+      .ai-section { grid-template-columns: 1fr; padding: 70px 20px; gap: 40px; }
+      .testimonials { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; padding: 40px 20px 24px; }
+      .footer-links { flex-wrap: wrap; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Vee<span>Go</span></div>
+  <ul class="nav-links">
+    <li><a href="#">Discover</a></li>
+    <li><a href="#">Products</a></li>
+    <li><a href="#">Community</a></li>
+    <li><a href="#">About</a></li>
+  </ul>
+  <button class="nav-cta">Join Waitlist</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-text">
+    <div class="hero-badge">Launching 2026</div>
+    <h1>
+      Find vegan,<br>
+      <em>feel</em> <span class="underline-rust">amazing.</span>
+    </h1>
+    <p class="hero-sub">
+      VeeGo helps you discover the best vegan restaurants, scan products for hidden ingredients, and get AI-powered picks — wherever you are.
+    </p>
+    <div class="hero-actions">
+      <button class="btn-primary" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">Join the Waitlist 🌿</button>
+      <button class="btn-ghost" onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">See what's coming</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat">
+        <div class="stat-num">2026</div>
+        <div class="stat-label">Launch year</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">50+</div>
+        <div class="stat-label">Cities at launch</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num">Free</div>
+        <div class="stat-label">To join waitlist</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-visual">
+    <div class="phone-wrap">
+      <!-- floating badges -->
+      <div class="float-badge top-right">
+        <div class="float-dot green"></div>
+        <span style="font-size:.72rem;color:var(--green);font-weight:500;">Launching 2026 🌿</span>
+      </div>
+      <div class="float-badge bottom-left">
+        <div class="float-dot peach"></div>
+        <span style="font-size:.72rem;color:var(--muted);">0.4 mi away</span>
+      </div>
+
+      <div class="phone">
+        <div class="phone-screen">
+          <div class="phone-status">
+            <div class="phone-status-top">
+              <span>9:41</span>
+              <span>●●● ▋</span>
+            </div>
+            <div class="phone-location">Brooklyn, NY</div>
+            <div class="phone-greeting">Good morning, Maya 👋</div>
+          </div>
+
+          <div class="phone-search">Find a restaurant or product…</div>
+
+          <div class="phone-tags">
+            <div class="tag active">🥗 Near me</div>
+            <div class="tag">🍜 Ramen</div>
+            <div class="tag">🧁 Dessert</div>
+          </div>
+
+          <div class="phone-section-label">Top picks today</div>
+
+          <div class="phone-cards">
+            <div class="pcard">
+              <div class="pcard-emoji green">🌿</div>
+              <div class="pcard-info">
+                <div class="pcard-name">Greenleaf Kitchen</div>
+                <div class="pcard-meta">Café · Fully vegan</div>
+                <div class="pcard-stars">★★★★★</div>
+              </div>
+              <div class="pcard-dist">0.3 mi</div>
+            </div>
+            <div class="pcard">
+              <div class="pcard-emoji yellow">🍋</div>
+              <div class="pcard-info">
+                <div class="pcard-name">Sunroot Bowl Co.</div>
+                <div class="pcard-meta">Bowls · Plant-based</div>
+                <div class="pcard-stars">★★★★☆</div>
+              </div>
+              <div class="pcard-dist">0.6 mi</div>
+            </div>
+            <div class="pcard">
+              <div class="pcard-emoji orange">🌮</div>
+              <div class="pcard-info">
+                <div class="pcard-name">Alma Verde Tacos</div>
+                <div class="pcard-meta">Mexican · Vegan-friendly</div>
+                <div class="pcard-stars">★★★★★</div>
+              </div>
+              <div class="pcard-dist">1.1 mi</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="section-header">
+    <div class="section-eyebrow">What VeeGo does</div>
+    <h2 class="section-title">Everything you need,<br><em>nothing you don't</em></h2>
+  </div>
+  <div class="features-grid">
+    <div class="feat-card">
+      <div class="feat-icon g">📍</div>
+      <div class="feat-title">Find food near you</div>
+      <p class="feat-desc">GPS-powered search finds vegan restaurants, cafés, and markets in seconds. Filter by cuisine, distance, and what's open right now.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon y">🔍</div>
+      <div class="feat-title">Scan any product</div>
+      <p class="feat-desc">Point your camera at a barcode and instantly know if it's truly vegan. We catch hidden animal ingredients like casein, gelatin, and carmine.</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-icon o">✨</div>
+      <div class="feat-title">AI that gets you</div>
+      <p class="feat-desc">Ask VeeGo anything. "Spicy ramen near me," "Is this snack vegan?" — our smart assistant finds answers in plain language, fast.</p>
+    </div>
+  </div>
+</section>
+
+<!-- AI SECTION -->
+<section style="padding: 20px 0; background: var(--cream);">
+  <div class="ai-section">
+    <div class="ai-chat">
+      <div class="chat-header">
+        <div class="chat-avatar">🌿</div>
+        <div>
+          <div class="chat-name">VeeGo Assistant</div>
+          <div class="chat-status">● Online now</div>
+        </div>
+      </div>
+      <div class="chat-messages">
+        <div class="msg user">I'm near Times Square and craving something warm and filling 🍜</div>
+        <div class="msg bot">Found 3 great spots within 0.5 miles! <strong>Hangawi</strong> is your closest bet — upscale Korean vegan, incredible hot stone bibimbap. Open now, 8 min walk.</div>
+        <div class="msg user">Does Hangawi have gluten-free options?</div>
+        <div class="msg bot">Yes! About <strong>70% of their menu is gluten-free</strong>. The mushroom dumplings and miso soup are both safe. Want me to show directions?</div>
+      </div>
+      <div class="chat-input-row">
+        <span>Ask VeeGo anything…</span>
+        <button class="chat-send">↑</button>
+      </div>
+    </div>
+
+    <div class="ai-text">
+      <div class="section-header">
+        <div class="section-eyebrow">Powered by AI</div>
+        <h2 class="section-title">Your vegan<br><em>sidekick</em></h2>
+      </div>
+      <p style="color:var(--muted);font-size:.95rem;line-height:1.65;">VeeGo's AI assistant understands context, not just keywords. It knows the difference between vegan-friendly and fully vegan — and it'll tell you exactly what to order.</p>
+      <ul class="ai-bullets">
+        <li>Finds restaurants matching your exact mood and cravings</li>
+        <li>Checks menus for hidden animal ingredients</li>
+        <li>Answers follow-up questions naturally</li>
+        <li>Learns your preferences over time</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<section class="social-proof">
+  <h2>Built for the <em>plant-based</em> community</h2>
+  <p>Here's what VeeGo will do for you from day one</p>
+  <div class="testimonials">
+    <div class="tcard">
+      <div class="tcard-quote">🌿 Find fully vegan restaurants near you in seconds — filtered by cuisine, distance, and what's open right now.</div>
+      <div class="tcard-author">
+        <div class="tcard-avatar av1">📍</div>
+        <div>
+          <div class="tcard-name">Restaurant Finder</div>
+          <div class="tcard-loc">GPS-powered search</div>
+        </div>
+      </div>
+    </div>
+    <div class="tcard">
+      <div class="tcard-quote">🔍 Scan any product barcode and instantly know if it's truly vegan — we catch hidden ingredients like gelatin, casein, and carmine.</div>
+      <div class="tcard-author">
+        <div class="tcard-avatar av2">📱</div>
+        <div>
+          <div class="tcard-name">Product Scanner</div>
+          <div class="tcard-loc">Barcode powered</div>
+        </div>
+      </div>
+    </div>
+    <div class="tcard">
+      <div class="tcard-quote">🤖 Ask our AI anything — "spicy ramen near me", "is this snack vegan?" — and get answers in plain language, fast.</div>
+      <div class="tcard-author">
+        <div class="tcard-avatar av3">✨</div>
+        <div>
+          <div class="tcard-name">AI Assistant</div>
+          <div class="tcard-loc">Powered by Claude</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="sp-cta" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">Join the Waitlist — It's Free 🌿</button>
+</section>
+
+<!-- EMAIL CAPTURE -->
+<section class="email-capture" id="waitlist">
+  <div class="email-capture-inner">
+    <div class="email-capture-badge">🌿 Coming Soon</div>
+    <h2>Be the first to<br><em>eat well</em> with VeeGo</h2>
+    <p>VeeGo is launching soon. Join the waitlist and get early access, a free premium month, and exclusive launch discounts.</p>
+
+    <div class="waitlist-count">
+      <div class="waitlist-avatars">
+        <div class="waitlist-avatar wa1">😊</div>
+        <div class="waitlist-avatar wa2">🧑</div>
+        <div class="waitlist-avatar wa3">👩</div>
+        <div class="waitlist-avatar wa4">😄</div>
+      </div>
+      <div class="waitlist-text">2,847 people already on the list</div>
+    </div>
+
+    <form action="https://app.us18.list-manage.com/subscribe/post?u=60144987f52c4b10f2847926e&amp;id=2a1973e925&amp;f_id=008db2e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" onsubmit="handleFormSubmit(event)">
+      <div class="email-form">
+        <input type="email" name="EMAIL" id="emailInput" placeholder="Enter your email address…" required="">
+        <div aria-hidden="true" style="position:absolute;left:-5000px;">
+          <input type="text" name="b_60144987f52c4b10f2847926e_2a1973e925" tabindex="-1" value="">
+        </div>
+        <button type="submit" name="subscribe">Notify Me 🌿</button>
+      </div>
+    </form>
+
+    <div class="email-meta">
+      <span class="email-meta-item">🔒 No spam, ever</span>
+      <span class="email-meta-item">📬 One email at launch</span>
+      <span class="email-meta-item">🎁 Free month for early birds</span>
+    </div>
+    <p style="font-size:.75rem;color:var(--muted);margin-top:12px;">💡 Don't see our welcome email? Check your spam or promotions folder and mark it as "Not Spam"</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <div class="footer-logo">Vee<span>Go</span></div>
+    <div class="footer-tagline">Find vegan, feel amazing.</div>
+  </div>
+  <div class="footer-links">
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Contact</a>
+    <a href="#">Instagram</a>
+    <a href="#">TikTok</a>
+  </div>
+  <div class="footer-copy">© 2026 VeeGo. Made with 🌿 for the plant-based community.</div>
+</footer>
+
+
+<script>
+  function handleFormSubmit(e) {
+    const email = document.getElementById('emailInput').value;
+    if (email && email.includes('@')) {
+      setTimeout(() => {
+        window.location.href = 'https://veego.app/thankyou';
+      }, 500);
+    }
+  }
+
+  function handleSignup() {
+    const input = document.getElementById('emailInput');
+    const btn = document.querySelector('#emailForm button');
+    const email = input.value.trim();
+
+    if (!email || !email.includes('@')) {
+      input.style.borderBottom = '2px solid #f4a68a';
+      input.focus();
+      return;
+    }
+
+    // Success state
+    btn.textContent = '✓ You\'re on the list!';
+    btn.classList.add('success');
+    input.value = '';
+    input.placeholder = 'We\'ll be in touch soon 🌿';
+    input.disabled = true;
+
+    // Update count
+    const countEl = document.querySelector('.waitlist-text');
+    countEl.textContent = '2,848 people already on the list';
+  }
+
+  // Allow Enter key
+  document.getElementById('emailInput').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') handleSignup();
+  });
+
+  // Scroll nav CTA to waitlist
+  document.querySelector('.nav-cta').addEventListener('click', function() {
+    document.getElementById('waitlist').scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
+
+</body></html>

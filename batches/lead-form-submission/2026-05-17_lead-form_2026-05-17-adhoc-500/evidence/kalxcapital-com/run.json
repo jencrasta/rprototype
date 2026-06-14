@@ -1,0 +1,38 @@
+{
+  "url": "https://kalxcapital.com",
+  "email": "onb.rjs+kalxcapitalcom@gmail.com",
+  "domain": "kalxcapital.com",
+  "startedAt": "2026-05-18T02:08:40.054Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:09:00.414Z",
+      "fields": [
+        "Full Name",
+        "Email",
+        "Phone",
+        "Message"
+      ],
+      "cta": "Send",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:09:00.552Z",
+      "url": "https://kalxcapital.com/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:09:07.580Z",
+      "state": "inline",
+      "evidence": "Full Name Email Phone Message SEND Your submission was successful.",
+      "url": "https://kalxcapital.com/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:09:07.580Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

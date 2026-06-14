@@ -1,0 +1,19 @@
+{
+  "url": "https://unav.es",
+  "email": "onb.rjs+unaves@gmail.com",
+  "domain": "unav.es",
+  "startedAt": "2026-05-18T04:26:33.549Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:27:05.743Z",
+      "url": "https://www.unav.edu/",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:27:05.743Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

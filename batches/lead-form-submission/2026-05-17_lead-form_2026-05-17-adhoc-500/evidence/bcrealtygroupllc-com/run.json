@@ -1,0 +1,19 @@
+{
+  "url": "https://bcrealtygroupllc.com",
+  "email": "onb.rjs+bcrealtygroupllccom@gmail.com",
+  "domain": "bcrealtygroupllc.com",
+  "startedAt": "2026-05-18T00:51:31.554Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:51:58.336Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:51:58.336Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

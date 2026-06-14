@@ -1,0 +1,38 @@
+{
+  "url": "https://enfold.org.uk",
+  "email": "onb.rjs+enfoldorguk@gmail.com",
+  "domain": "org.uk",
+  "startedAt": "2026-05-18T00:52:35.012Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:52:50.920Z",
+      "fields": [
+        "Email Address *",
+        "First Name",
+        "Last Name",
+        "b_f226e7eca2bdbebf85af3f80d_128ee2905e"
+      ],
+      "cta": "Subscribe",
+      "placement": "Popup / Modal",
+      "formType": "Support"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:52:51.088Z",
+      "url": "https://enfold.org.uk/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:53:04.352Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://enfold.org.uk/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:53:04.352Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://kirwannutrition.com",
+  "email": "onb.rjs+kirwannutritioncom@gmail.com",
+  "domain": "kirwannutrition.com",
+  "startedAt": "2026-05-18T02:07:39.379Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:08:07.612Z",
+      "url": "https://kirwannutrition.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:08:07.612Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

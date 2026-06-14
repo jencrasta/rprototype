@@ -1,0 +1,19 @@
+{
+  "url": "https://ghfelectrical.com.au",
+  "email": "onb.rjs+ghfelectricalcomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-18T02:28:34.727Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:29:01.820Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:29:01.821Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

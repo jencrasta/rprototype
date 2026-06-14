@@ -1,0 +1,40 @@
+{
+  "url": "https://dealcater.fi",
+  "email": "onb.rjs+dealcaterfi@gmail.com",
+  "domain": "dealcater.fi",
+  "startedAt": "2026-05-18T00:41:12.764Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:41:25.396Z",
+      "fields": [
+        "Nimesi*",
+        "Sähköpostisi*",
+        "Puhelinnumerosi*",
+        "Yrityksen nimi",
+        "2+2 numerona? Roskapostin esto*",
+        "Kirjoita viesti"
+      ],
+      "cta": "Lähetä",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:41:25.558Z",
+      "url": "https://dealcater.fi/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:41:38.715Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://dealcater.fi/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:41:38.715Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

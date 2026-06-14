@@ -1,0 +1,42 @@
+{
+  "url": "https://junoadvisory.com.au",
+  "email": "onb.rjs+junoadvisorycomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-17T23:43:42.466Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:44:03.732Z",
+      "fields": [
+        "First Name(required)",
+        "Last Name(required)",
+        "Email(required)",
+        "Sign up for news and updates",
+        "text",
+        "How did you hear about us?",
+        "What's your biggest beef in business right now?(required)",
+        "message-yui_d0d6522f-60f2-4451-8bd4-ad0ab7530ac5-field"
+      ],
+      "cta": "SendSend",
+      "placement": "Popup / Modal",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:44:03.843Z",
+      "url": "https://www.junoadvisory.com.au/contact"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:44:10.966Z",
+      "state": "inline-error",
+      "evidence": "Form submission failed. ⏎ Review the following information: What's your biggest beef in business right now?. ⏎ (required) What's your biggest beef in business right now? ⏎ is required. ⏎ SEND",
+      "url": "https://www.junoadvisory.com.au/contact"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:44:10.966Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

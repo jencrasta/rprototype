@@ -1,0 +1,19 @@
+{
+  "url": "https://gws.intuit.com",
+  "email": "onb.rjs+gwsintuitcom@gmail.com",
+  "domain": "intuit.com",
+  "startedAt": "2026-05-18T02:22:59.783Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:23:27.270Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:23:27.270Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://anitakugler.at",
+  "email": "onb.rjs+anitakuglerat@gmail.com",
+  "domain": "anitakugler.at",
+  "startedAt": "2026-05-18T00:07:09.298Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:07:39.472Z",
+      "url": "https://anitakugler.at/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:07:39.472Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

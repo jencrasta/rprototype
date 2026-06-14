@@ -1,0 +1,38 @@
+{
+  "url": "https://rubylakeresort.com",
+  "email": "onb.rjs+rubylakeresortcom@gmail.com",
+  "domain": "rubylakeresort.com",
+  "startedAt": "2026-05-18T00:41:41.535Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:42:01.594Z",
+      "fields": [
+        "Name",
+        "Email",
+        "Phone",
+        "Message"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:42:01.754Z",
+      "url": "https://rubylakeresort.com/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:42:08.843Z",
+      "state": "inline",
+      "evidence": "Name Email Phone Message SUBMIT Your submission was successful.",
+      "url": "https://rubylakeresort.com/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:42:08.844Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

@@ -1,0 +1,8 @@
+{"type":"info","ts":1779073784151,"text":"%cDownload the React DevTools for a better development experience: https://fb.me/react-devtools font-weight:bold"}
+{"type":"log","ts":1779073784852,"text":"_loadSnowPlow snowplowAppId: customer-websites"}
+{"type":"log","ts":1779073802512,"text":"Impulse theme (8.0.0) by ARCHΞTYPE | Learn more at https://archetypethemes.co"}
+{"type":"startGroup","ts":1779073802571,"text":"%cGlobo Product Options display: inline-block;font-size: 14px;font-weight: 700;background-image: linear-gradient(90deg, #FF4081, #74243f 60%);color: #fff;padding: 6px 10px;border-radius: 4px"}
+{"type":"log","ts":1779073802571,"text":"%c\n🧩 Unlimited product options — enable product personalization with live preview.\n⚙️ Easy to use, no coding required, fully compatible with all Shopify themes.\n🏆 Trusted by 50,000+ Shopify merchants worldwide.\n⭐ Over 3,300 positive reviews and growing!\n\n🔗 Learn more at:\nhttps://apps.shopify.com/product-options-pro?utm_source=storefront-console&utm_medium=attribution&utm_campaign=option-banner&utm_content=learn-more&utm_term=shop.curatetapasbar.com font-size:13px;line-height: 1.5"}
+{"type":"endGroup","ts":1779073802571,"text":"console.groupEnd"}
+{"type":"debug","ts":1779073802634,"text":"[bugsnag] Loaded!"}
+{"type":"log","ts":1779073804217,"text":"recaptchacompat disabled"}

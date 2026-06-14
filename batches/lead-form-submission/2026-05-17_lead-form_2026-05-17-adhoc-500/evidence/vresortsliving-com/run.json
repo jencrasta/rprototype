@@ -1,0 +1,19 @@
+{
+  "url": "https://vresortsliving.com",
+  "email": "onb.rjs+vresortslivingcom@gmail.com",
+  "domain": "vresortsliving.com",
+  "startedAt": "2026-05-18T00:38:38.795Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:39:05.548Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:39:05.548Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

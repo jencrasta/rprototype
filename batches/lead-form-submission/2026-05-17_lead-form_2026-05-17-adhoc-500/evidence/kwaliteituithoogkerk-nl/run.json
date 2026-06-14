@@ -1,0 +1,19 @@
+{
+  "url": "https://kwaliteituithoogkerk.nl",
+  "email": "onb.rjs+kwaliteituithoogkerknl@gmail.com",
+  "domain": "kwaliteituithoogkerk.nl",
+  "startedAt": "2026-05-18T01:15:49.208Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:16:20.567Z",
+      "url": "https://kwaliteituithoogkerk.nl/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:16:20.567Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

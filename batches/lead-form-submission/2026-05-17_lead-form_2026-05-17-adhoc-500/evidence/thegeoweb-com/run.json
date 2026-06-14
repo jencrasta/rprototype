@@ -1,0 +1,19 @@
+{
+  "url": "https://thegeoweb.com",
+  "email": "onb.rjs+thegeowebcom@gmail.com",
+  "domain": "thegeoweb.com",
+  "startedAt": "2026-05-18T02:33:56.226Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:34:25.640Z",
+      "url": "https://thegeoweb.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:34:25.640Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

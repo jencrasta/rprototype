@@ -1,0 +1,74 @@
+{"type":"log","ts":1779073886986,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1779073888876,"text":"Failed to load resource: the server responded with a status of 401 ()"}
+{"type":"log","ts":1779073907942,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"warn","ts":1779073908121,"text":"[Cloudflare Turnstile] Unknown parameter passed to api.js: \"?ver=...\", ignoring."}
+{"type":"startGroupCollapsed","ts":1779073909539,"text":"Request for the Private Access Token challenge."}
+{"type":"log","ts":1779073909539,"text":"The next request for the Private Access Token challenge may return a 401 and show a warning in console."}
+{"type":"endGroup","ts":1779073909556,"text":"console.groupEnd"}
+{"type":"error","ts":1779073909714,"text":"Failed to load resource: the server responded with a status of 401 ()"}
+{"type":"error","ts":1779073909920,"text":"Failed to load resource: the server responded with a status of 404 ()"}
+{"type":"startGroupCollapsed","ts":1779073910054,"text":""}
+{"type":"debug","ts":1779073910054,"text":"Error"}
+{"type":"log","ts":1779073910056,"text":"[regexp RegExp]"}
+{"type":"log","ts":1779073910056,"text":"[regexp RegExp]"}
+{"type":"log","ts":1779073910056,"text":"[function Function]"}
+{"type":"log","ts":1779073910057,"text":"[function Function]"}
+{"type":"log","ts":1779073910057,"text":"[node HTMLAnchorElement]"}
+{"type":"log","ts":1779073910057,"text":"[node HTMLAnchorElement]"}
+{"type":"count","ts":1779073910057,"text":"\u0000: 1"}
+{"type":"count","ts":1779073910057,"text":"\u0000: 1"}
+{"type":"debug","ts":1779073910057,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"debug","ts":1779073910057,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"dir","ts":1779073910057,"text":" Error"}
+{"type":"dir","ts":1779073910057,"text":" Error"}
+{"type":"dirxml","ts":1779073910058,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"dirxml","ts":1779073910058,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"error","ts":1779073910058,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"error","ts":1779073910058,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"info","ts":1779073910058,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"info","ts":1779073910058,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"log","ts":1779073910058,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"log","ts":1779073910058,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"table","ts":1779073910058,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"table","ts":1779073910059,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"trace","ts":1779073910059,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"trace","ts":1779073910059,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"warn","ts":1779073910059,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"warn","ts":1779073910059,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"endGroup","ts":1779073910060,"text":"console.groupEnd"}
+{"type":"log","ts":1779073911210,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"warn","ts":1779073911296,"text":"[Cloudflare Turnstile] Unknown parameter passed to api.js: \"?ver=...\", ignoring."}
+{"type":"startGroupCollapsed","ts":1779073912276,"text":"Request for the Private Access Token challenge."}
+{"type":"log","ts":1779073912277,"text":"The next request for the Private Access Token challenge may return a 401 and show a warning in console."}
+{"type":"endGroup","ts":1779073912277,"text":"console.groupEnd"}
+{"type":"startGroupCollapsed","ts":1779073912718,"text":""}
+{"type":"debug","ts":1779073912719,"text":"Error"}
+{"type":"log","ts":1779073912721,"text":"[regexp RegExp]"}
+{"type":"log","ts":1779073912721,"text":"[regexp RegExp]"}
+{"type":"log","ts":1779073912721,"text":"[function Function]"}
+{"type":"log","ts":1779073912721,"text":"[function Function]"}
+{"type":"log","ts":1779073912722,"text":"[node HTMLAnchorElement]"}
+{"type":"log","ts":1779073912722,"text":"[node HTMLAnchorElement]"}
+{"type":"count","ts":1779073912722,"text":"\u0000: 1"}
+{"type":"count","ts":1779073912722,"text":"\u0000: 1"}
+{"type":"debug","ts":1779073912722,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"debug","ts":1779073912722,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"dir","ts":1779073912723,"text":" Error"}
+{"type":"dir","ts":1779073912723,"text":" Error"}
+{"type":"dirxml","ts":1779073912723,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"dirxml","ts":1779073912723,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"error","ts":1779073912724,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"error","ts":1779073912724,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"info","ts":1779073912724,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"info","ts":1779073912724,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"log","ts":1779073912724,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"log","ts":1779073912724,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"table","ts":1779073912725,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"table","ts":1779073912725,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"trace","ts":1779073912725,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"trace","ts":1779073912725,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"warn","ts":1779073912725,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"warn","ts":1779073912725,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"endGroup","ts":1779073912726,"text":"console.groupEnd"}
+{"type":"error","ts":1779073912829,"text":"Failed to load resource: the server responded with a status of 401 ()"}
+{"type":"error","ts":1779073913035,"text":"Failed to load resource: the server responded with a status of 404 ()"}

@@ -1,0 +1,19 @@
+{
+  "url": "https://darden.virginia.edu",
+  "email": "onb.rjs+dardenvirginiaedu@gmail.com",
+  "domain": "virginia.edu",
+  "startedAt": "2026-05-18T02:17:50.742Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:18:52.946Z",
+      "url": "https://www.darden.virginia.edu/about/contact-us",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:18:52.946Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

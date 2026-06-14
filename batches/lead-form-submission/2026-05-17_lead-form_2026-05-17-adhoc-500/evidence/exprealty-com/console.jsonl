@@ -1,0 +1,15 @@
+{"type":"warn","ts":1779060433998,"text":"Amplify has not been configured. Please call Amplify.configure() before using this service."}
+{"type":"debug","ts":1779060433999,"text":"[GrowthBook:Provider] Viewed Experiment [object Object]"}
+{"type":"debug","ts":1779060433999,"text":"[GrowthBook:Provider] Viewed Experiment [object Object]"}
+{"type":"debug","ts":1779060434037,"text":"[GrowthBook:Provider] Viewed Experiment [object Object]"}
+{"type":"debug","ts":1779060434037,"text":"[GrowthBook:Provider] Viewed Experiment [object Object]"}
+{"type":"error","ts":1779060434574,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"debug","ts":1779060434576,"text":"MapKit JS initialized and configured."}
+{"type":"log","ts":1779060436282,"text":"%c[IND]%c You are running %c MacOS %c Operating system, %c Chrome %c browser, version: %c 124 color: White; background: #17384c; font-weight: bold; padding: 3px; border-radius:3px 0 0 3px; color: Black; background: #50e590; font-weight: bold; padding: 3px color: White; background: #17384c; font-weight: bold; padding: 3px; color: Black; background: #50e590; font-weight: bold; padding: 3px color: White; background: #17384c; font-weight: bold; padding: 3px; color: Black; background: #50e590; font-weight: bold; padding: 3px color: White; background: #17384c; font-weight: bold; padding: 3px; border-radius:0 3px 3px 0"}
+{"type":"log","ts":1779060436282,"text":"%c[IND]%c Version %c4.6.12%c color: White; background: #17384c; font-weight: bold; padding: 3px; border-radius:3px 0 0 3px; color: Black; background: #50e590; font-weight: bold; padding: 3px color: White; background: #17384c; font-weight: bold; padding: 3px; border-radius:0 3px 3px 0 "}
+{"type":"warn","ts":1779060442438,"text":"The resource https://www.exprealty.com/favicon-exp.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}
+{"type":"error","ts":1779060444202,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"warn","ts":1779060444449,"text":"An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."}
+{"type":"warn","ts":1779060448380,"text":"The resource https://www.exprealty.com/favicon-exp.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}
+{"type":"warn","ts":1779060455721,"text":"The resource https://www.exprealty.com/favicon-exp.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}
+{"type":"warn","ts":1779060460455,"text":"The resource https://www.exprealty.com/favicon-exp.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}

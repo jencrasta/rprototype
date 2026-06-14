@@ -1,0 +1,5 @@
+{"type":"log","ts":1779068070778,"text":"EA • Spin Wheel Popups: https://apps.shopify.com/spin-wheel-email-popup-sms-discount?surface_type=jsConsole&surface_detail=jsConsole"}
+{"type":"debug","ts":1779068070898,"text":"[bugsnag] Loaded!"}
+{"type":"log","ts":1779068071790,"text":"No items detected."}
+{"type":"log","ts":1779068071796,"text":"*Ignor setBodyStyles AppProvider: --header-height: 82px; --header-group-height: 129px; --transparent-header-offset-boolean: 0;"}
+{"type":"log","ts":1779068082557,"text":"recaptchacompat disabled"}

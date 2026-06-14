@@ -1,0 +1,19 @@
+{
+  "url": "https://jhta.com.au",
+  "email": "onb.rjs+jhtacomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-18T03:29:37.364Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:30:12.374Z",
+      "url": "https://www.jhta.com.au/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:30:12.374Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,4 @@
+{"type":"log","ts":1778270599207,"text":"[node HTMLFormElement]"}
+{"type":"verbose","ts":1778270599291,"text":"[DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o"}
+{"type":"error","ts":1778270610893,"text":"An invalid form control with name='email' is not focusable."}
+{"type":"error","ts":1778270610893,"text":"An invalid form control with name='terms' is not focusable."}

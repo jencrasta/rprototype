@@ -1,0 +1,19 @@
+{
+  "url": "https://opusfinds.com",
+  "email": "onb.rjs+opusfindscom@gmail.com",
+  "domain": "opusfinds.com",
+  "startedAt": "2026-05-18T01:11:13.744Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:11:41.315Z",
+      "url": "https://opusfinds.com/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:11:41.315Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

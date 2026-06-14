@@ -1,0 +1,38 @@
+{
+  "url": "https://newlightproperty.co.uk",
+  "email": "onb.rjs+newlightpropertycouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-18T04:22:58.633Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T04:23:20.930Z",
+      "fields": [
+        "Name:",
+        "Email:",
+        "Phone:",
+        "Message:"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T04:23:21.081Z",
+      "url": "https://www.newlightproperty.co.uk/contact-new-light-property"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T04:23:28.105Z",
+      "state": "inline",
+      "evidence": "Forbidden",
+      "url": "https://www.newlightproperty.co.uk/contact-new-light-property"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:23:28.105Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

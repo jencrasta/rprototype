@@ -1,0 +1,19 @@
+{
+  "url": "https://arquiobras.es",
+  "email": "onb.rjs+arquiobrases@gmail.com",
+  "domain": "arquiobras.es",
+  "startedAt": "2026-05-18T02:24:01.324Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:24:34.028Z",
+      "url": "https://www.arquiobras.es/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:24:34.029Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

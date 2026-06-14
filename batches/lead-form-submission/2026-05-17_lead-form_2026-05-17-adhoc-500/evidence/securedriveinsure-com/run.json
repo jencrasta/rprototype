@@ -1,0 +1,35 @@
+{
+  "url": "https://securedriveinsure.com",
+  "email": "onb.rjs+securedriveinsurecom@gmail.com",
+  "domain": "securedriveinsure.com",
+  "startedAt": "2026-05-17T23:07:56.744Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:08:07.845Z",
+      "fields": [
+        "Enter Email Address"
+      ],
+      "cta": "Subscribe",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:08:08.008Z",
+      "url": "https://securedriveinsure.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:08:15.034Z",
+      "state": "redirect",
+      "evidence": "→ https://securedriveinsure.com/? (path doesn't look like a confirmation)",
+      "url": "https://securedriveinsure.com/?"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:08:15.034Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

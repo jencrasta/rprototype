@@ -1,0 +1,38 @@
+{
+  "url": "https://aliusaglob.com",
+  "email": "onb.rjs+aliusaglobcom@gmail.com",
+  "domain": "aliusaglob.com",
+  "startedAt": "2026-05-18T01:17:07.073Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:17:28.946Z",
+      "fields": [
+        "First",
+        "Last",
+        "Email *",
+        "Comment or Message"
+      ],
+      "cta": "Submit",
+      "placement": "Sidebar (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:17:28.983Z",
+      "url": "https://aliusaglob.com/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:17:36.014Z",
+      "state": "inline-error",
+      "evidence": "Email Email * Email Message Name Name * First This field is required. ⏎ Last This field is required. ⏎ Email * Comment or Message SUBMIT",
+      "url": "https://aliusaglob.com/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:17:36.014Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

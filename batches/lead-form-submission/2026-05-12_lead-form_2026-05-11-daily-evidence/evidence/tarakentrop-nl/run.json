@@ -1,0 +1,17 @@
+{
+  "url": "https://tarakentrop.nl",
+  "email": "onb.rjs+tarakentropnl@gmail.com",
+  "domain": "tarakentrop.nl",
+  "startedAt": "2026-05-12T21:51:35.363Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:52:10.054Z",
+      "url": "https://tarakentrop.nl/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:52:10.054Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

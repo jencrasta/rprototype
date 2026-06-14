@@ -1,0 +1,44 @@
+{
+  "url": "https://fidania.ch",
+  "email": "onb.rjs+fidaniach@gmail.com",
+  "domain": "fidania.ch",
+  "startedAt": "2026-05-18T00:23:51.133Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:24:03.872Z",
+      "fields": [
+        "Anrede",
+        "Vorname*",
+        "Name*",
+        "Strasse*",
+        "Ort*",
+        "Plz*",
+        "E-Mail Adresse*",
+        "Telefonnummer*",
+        "Nachricht",
+        "Ich stimme der Datenschutzerklärung und einer Kontaktaufnahme durch die FIDANIA AG per E-Mail oder Telefon für Rückfragen oder zu Informationszwecken zu."
+      ],
+      "cta": "Absenden",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:24:04.011Z",
+      "url": "https://fidania.ch/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:24:17.185Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://fidania.ch/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:24:17.185Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

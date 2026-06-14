@@ -1,0 +1,8 @@
+{"type":"request","ts":1779063896656,"method":"GET","url":"https://cortexadvisory.co.rs/","resourceType":"document"}
+{"type":"response","ts":1779063897609,"status":200,"url":"https://cortexadvisory.co.rs/"}
+{"type":"request","ts":1779063897622,"method":"GET","url":"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap","resourceType":"stylesheet"}
+{"type":"response","ts":1779063897717,"status":200,"url":"https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"}
+{"type":"request","ts":1779063897731,"method":"GET","url":"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2","resourceType":"font"}
+{"type":"request","ts":1779063897731,"method":"GET","url":"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2","resourceType":"font"}
+{"type":"response","ts":1779063897792,"status":200,"url":"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2"}
+{"type":"response","ts":1779063897797,"status":200,"url":"https://fonts.gstatic.com/s/opensans/v44/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2"}

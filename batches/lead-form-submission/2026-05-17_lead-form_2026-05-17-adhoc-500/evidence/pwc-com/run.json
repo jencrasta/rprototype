@@ -1,0 +1,19 @@
+{
+  "url": "https://pwc.com",
+  "email": "onb.rjs+pwccom@gmail.com",
+  "domain": "pwc.com",
+  "startedAt": "2026-05-17T23:39:32.304Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:40:01.636Z",
+      "url": "https://www.pwc.com/us/en.html",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:40:01.637Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

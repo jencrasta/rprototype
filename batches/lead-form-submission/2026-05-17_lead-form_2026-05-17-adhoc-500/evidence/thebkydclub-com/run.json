@@ -1,0 +1,36 @@
+{
+  "url": "https://thebkydclub.com",
+  "email": "onb.rjs+thebkydclubcom@gmail.com",
+  "domain": "thebkydclub.com",
+  "startedAt": "2026-05-18T03:35:35.212Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:35:46.616Z",
+      "fields": [
+        "Full Name",
+        "Email Address"
+      ],
+      "cta": "Notify Me When Founding Members Open",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:35:46.812Z",
+      "url": "https://www.thebkydclub.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:35:59.943Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.thebkydclub.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:35:59.943Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

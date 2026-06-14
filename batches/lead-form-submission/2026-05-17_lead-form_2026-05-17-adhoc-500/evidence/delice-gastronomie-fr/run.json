@@ -1,0 +1,19 @@
+{
+  "url": "https://delice-gastronomie.fr",
+  "email": "onb.rjs+delicegastronomiefr@gmail.com",
+  "domain": "delice-gastronomie.fr",
+  "startedAt": "2026-05-18T03:03:00.525Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:03:30.263Z",
+      "url": "https://delice-gastronomie.fr/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:03:30.264Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

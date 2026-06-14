@@ -1,0 +1,19 @@
+{
+  "url": "https://bu.edu",
+  "email": "onb.rjs+buedu@gmail.com",
+  "domain": "bu.edu",
+  "startedAt": "2026-05-18T03:38:10.810Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:38:39.592Z",
+      "url": "https://www.bu.edu/policies/boston-university-notice-of-nondiscrimination/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:38:39.593Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

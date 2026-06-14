@@ -1,0 +1,19 @@
+{
+  "url": "https://hoffman.com",
+  "email": "onb.rjs+hoffmancom@gmail.com",
+  "domain": "hoffman.com",
+  "startedAt": "2026-05-18T04:07:10.839Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:07:40.732Z",
+      "url": "https://www.hoffman.com/pr-agency-jobs/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:07:40.733Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

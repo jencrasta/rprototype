@@ -1,0 +1,41 @@
+{
+  "url": "https://normecgroup.com",
+  "email": "onb.rjs+normecgroupcom@gmail.com",
+  "domain": "normecgroup.com",
+  "startedAt": "2026-05-12T21:56:32.146Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:56:49.152Z",
+      "fields": [
+        "first-name",
+        "last-name",
+        "company-name",
+        "country",
+        "e-mail-address",
+        "phone-number",
+        "message"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:56:49.271Z",
+      "url": "https://normecgroup.com/contact/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:56:56.350Z",
+      "state": "inline-error",
+      "evidence": "First Name* Last Name* Company name* Country* This field is required E-mail Address* Phone Number* Subject* This field is required Message* This field is required Accept Terms & Conditions* Submit…",
+      "url": "https://normecgroup.com/contact/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:56:56.350Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

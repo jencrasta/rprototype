@@ -1,0 +1,19 @@
+{
+  "url": "https://hospitality-concepts.de",
+  "email": "onb.rjs+hospitalityconceptsde@gmail.com",
+  "domain": "hospitality-concepts.de",
+  "startedAt": "2026-05-18T03:20:55.022Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:21:22.427Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:21:22.428Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

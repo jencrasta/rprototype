@@ -1,0 +1,19 @@
+{
+  "url": "https://roses-healing-garden.org",
+  "email": "onb.rjs+roseshealinggardenorg@gmail.com",
+  "domain": "roses-healing-garden.org",
+  "startedAt": "2026-05-18T00:00:53.886Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:01:21.445Z",
+      "url": "https://roses-healing-garden.org/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:01:21.445Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

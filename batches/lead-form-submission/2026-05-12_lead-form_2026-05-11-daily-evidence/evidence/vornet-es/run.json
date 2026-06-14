@@ -1,0 +1,39 @@
+{
+  "url": "https://vornet.es",
+  "email": "onb.rjs+vornetes@gmail.com",
+  "domain": "vornet.es",
+  "startedAt": "2026-05-12T21:13:05.550Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:13:18.316Z",
+      "fields": [
+        "Nombre(obligatorio)",
+        "Apellido(obligatorio)",
+        "Correo electrónico(obligatorio)",
+        "Mensaje(obligatorio)",
+        "message-yui_14d7c492-739e-41ae-9668-3aa169ac4ccd-field"
+      ],
+      "cta": "Enviar consultaEnviar consulta",
+      "placement": "Popup / Modal",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:13:18.375Z",
+      "url": "https://www.vornet.es/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:13:31.514Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.vornet.es/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:13:31.514Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://iarbafrica.com",
+  "email": "onb.rjs+iarbafricacom@gmail.com",
+  "domain": "iarbafrica.com",
+  "startedAt": "2026-05-18T03:25:05.912Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:25:32.988Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:25:32.988Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://bodypharm.com.au",
+  "email": "onb.rjs+bodypharmcomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-17T23:49:46.413Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:50:13.315Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:50:13.316Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

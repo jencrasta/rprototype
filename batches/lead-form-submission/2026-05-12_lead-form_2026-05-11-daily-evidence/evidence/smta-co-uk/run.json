@@ -1,0 +1,17 @@
+{
+  "url": "https://smta.co.uk",
+  "email": "onb.rjs+smtacouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-12T21:53:01.004Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:53:31.036Z",
+      "url": "https://www.smta.co.uk/smta-membership/joining-the-smta/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:53:31.036Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

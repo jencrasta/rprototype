@@ -1,0 +1,20 @@
+{"type":"error","ts":1779069969287,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969287,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969287,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969287,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969360,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969360,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969360,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069969360,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069970376,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"warn","ts":1779069970565,"text":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
+{"type":"warn","ts":1779069970570,"text":"As of March 1st, 2025, google.maps.places.AutocompleteService is not available to new customers. Please use google.maps.places.AutocompleteSuggestion instead. At this time, google.maps.places.AutocompleteService is not scheduled to be discontinued, but google.maps.places.AutocompleteSuggestion is recommended over google.maps.places.AutocompleteService. While google.maps.places.AutocompleteService will continue to receive bug fixes for any major regressions, existing bugs in google.maps.places.AutocompleteService will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/legacy for additional details and https://developers.google.com/maps/documentation/javascript/places-migration-overview for the migration guide."}
+{"type":"warn","ts":1779069971441,"text":"[GSI_LOGGER]: Message ignored due to invalid source."}
+{"type":"warn","ts":1779069971444,"text":"[GSI_LOGGER]: Your client application may not display Google One Tap when FedCM becomes mandatory. Opt-in to FedCM to test that you have the proper cross-origin permission policy set up. Ignore this message if One Tap is displayed after opt-in to FedCM. Learn more: (https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#cross_origin)"}
+{"type":"error","ts":1779069971445,"text":"[GSI_LOGGER]: FedCM get() rejects with TypeError: Failed to execute 'get' on 'CredentialsContainer': Failed to read the 'identity' property from 'CredentialRequestOptions': Failed to read the 'mode' property from 'IdentityCredentialRequestOptions': The provided value 'widget' is not a valid enum value of type IdentityCredentialRequestOptionsMode."}
+{"type":"warn","ts":1779069971445,"text":"[GSI_LOGGER]: Message ignored due to invalid source."}
+{"type":"warn","ts":1779069971445,"text":"[GSI_LOGGER]: Message ignored due to invalid source."}
+{"type":"error","ts":1779069982347,"text":"Pattern attribute value [a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)+ is not a valid regular expression: Uncaught SyntaxError: Failed to execute 'click' on 'HTMLElement': Invalid regular expression: /[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)+/v: Invalid character in character class"}
+{"type":"error","ts":1779069982815,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069982815,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069982815,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

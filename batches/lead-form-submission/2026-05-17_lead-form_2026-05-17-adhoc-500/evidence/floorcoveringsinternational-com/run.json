@@ -1,0 +1,19 @@
+{
+  "url": "https://floorcoveringsinternational.com",
+  "email": "onb.rjs+floorcoveringsinternationalcom@gmail.com",
+  "domain": "floorcoveringsinternational.com",
+  "startedAt": "2026-05-17T23:42:06.919Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:42:37.853Z",
+      "url": "https://www.google.com/maps/dir/40.8485888,-73.3380608/Floor+Coverings+International+Headquarters,+5390+Triangle+Pkwy+NW+%23125,+Peachtree+Corners,+GA+30092/@36.946025,-89.3791166,5z/data=!3m2!4b1!5s0x88f5a1abcc71ff9d:0xac8eda5cb691bcb0!4m9!4m8!1m1!4e1!1m5!1m1!1s0x88f5a1abcc78087f:0xa8e544edf20e91d7!2m2!1d-84.2242791!2d33.9760519?entry=ttu&g_ep=EgoyMDI2MDUxMy4wIKXMDSoASAFQAw%3D%3D",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:42:37.855Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

@@ -1,0 +1,6 @@
+{"type":"request","ts":1778622291184,"method":"GET","url":"https://showroom999.com/","resourceType":"document"}
+{"type":"response","ts":1778622293160,"status":301,"url":"https://showroom999.com/"}
+{"type":"request","ts":1778622293160,"method":"GET","url":"https://www.showroom999.com/","resourceType":"document"}
+{"type":"response","ts":1778622294020,"status":200,"url":"https://www.showroom999.com/"}
+{"type":"request","ts":1778622294055,"method":"GET","url":"https://www.showroom999.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1778622294159,"status":404,"url":"https://www.showroom999.com/favicon.ico"}

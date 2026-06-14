@@ -1,0 +1,55 @@
+{
+  "url": "https://pestandtermitecontrol.com.au",
+  "email": "onb.rjs+pestandtermitecontrolcomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-18T03:00:26.810Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:00:48.184Z",
+      "fields": [
+        "your-name",
+        "phone",
+        "your-email",
+        "contactmethod",
+        "contactmethod",
+        "contactmethod",
+        "address",
+        "Suburb",
+        "HouseSize",
+        "HouseSize",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "checkbox-893[]",
+        "Your Message\nTell us what your pest problem is and we will arrange a callback or email response within 24 hours"
+      ],
+      "cta": "Send",
+      "placement": "Popup / Modal",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:00:48.307Z",
+      "url": "https://pestandtermitecontrol.com.au/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:00:55.427Z",
+      "state": "inline-error",
+      "evidence": "Name* Phone* Email* Preferred contact method SMS Phone Email Due to our emails going to spam, we prefer to contact you via SMS or Phone Street Address* The field is required. ⏎ Suburb* The field…",
+      "url": "https://pestandtermitecontrol.com.au/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:00:55.427Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

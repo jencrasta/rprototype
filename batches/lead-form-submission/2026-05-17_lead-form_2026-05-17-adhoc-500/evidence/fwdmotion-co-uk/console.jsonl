@@ -1,0 +1,10 @@
+{"type":"warn","ts":1779063999453,"text":"[Termly] Your Termly CMP script is outdated. Please see %s for update instructions. https://support.termly.io/en/articles/8952694-termly-cmp-embed-script-versions"}
+{"type":"debug","ts":1779063999598,"text":"[Termly] Using standard GCM opt-out defaults"}
+{"type":"debug","ts":1779063999599,"text":"[Termly] Region %o has consent_mode set to %o us opt_out"}
+{"type":"debug","ts":1779063999614,"text":"[Termly] No GVL found for this website. TCFProvider is providing noop functions."}
+{"type":"debug","ts":1779064018434,"text":"Search endpoint requested!"}
+{"type":"warn","ts":1779064018439,"text":"[Termly] Your Termly CMP script is outdated. Please see %s for update instructions. https://support.termly.io/en/articles/8952694-termly-cmp-embed-script-versions"}
+{"type":"debug","ts":1779064018466,"text":"[Termly] Using standard GCM opt-out defaults"}
+{"type":"debug","ts":1779064018466,"text":"[Termly] Region %o has consent_mode set to %o us opt_out"}
+{"type":"debug","ts":1779064018467,"text":"[Termly] No GVL found for this website. TCFProvider is providing noop functions."}
+{"type":"debug","ts":1779064018881,"text":"Search endpoint requested!"}

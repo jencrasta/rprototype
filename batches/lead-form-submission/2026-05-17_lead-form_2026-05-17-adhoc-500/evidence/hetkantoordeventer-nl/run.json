@@ -1,0 +1,36 @@
+{
+  "url": "https://hetkantoordeventer.nl",
+  "email": "onb.rjs+hetkantoordeventernl@gmail.com",
+  "domain": "hetkantoordeventer.nl",
+  "startedAt": "2026-05-18T02:25:13.874Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:25:26.208Z",
+      "fields": [
+        "E-mailadres  *",
+        "b_7b4dd3f1d1f26a69b35420654_bd226132e7"
+      ],
+      "cta": "Inschrijven",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:25:26.467Z",
+      "url": "https://hetkantoordeventer.nl/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:25:39.673Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://hetkantoordeventer.nl/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:25:39.673Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

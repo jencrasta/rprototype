@@ -1,0 +1,35 @@
+{
+  "url": "https://foundrylighting.com",
+  "email": "onb.rjs+foundrylightingcom@gmail.com",
+  "domain": "foundrylighting.com",
+  "startedAt": "2026-05-18T00:11:45.067Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:11:57.890Z",
+      "fields": [
+        "E-mail"
+      ],
+      "cta": "Subscribe",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:11:58.046Z",
+      "url": "https://www.foundrylighting.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:12:05.110Z",
+      "state": "redirect",
+      "evidence": "→ https://www.foundrylighting.com/?customer_posted=true#newsletter-sections--15324462055472__newsletter-popup (path doesn't look like a confirmation)",
+      "url": "https://www.foundrylighting.com/?customer_posted=true#newsletter-sections--15324462055472__newsletter-popup"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:12:05.110Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

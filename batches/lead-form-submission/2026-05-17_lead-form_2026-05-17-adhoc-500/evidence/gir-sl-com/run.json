@@ -1,0 +1,19 @@
+{
+  "url": "https://gir-sl.com",
+  "email": "onb.rjs+girslcom@gmail.com",
+  "domain": "gir-sl.com",
+  "startedAt": "2026-05-18T03:06:14.973Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:06:43.455Z",
+      "url": "https://gir-sl.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:06:43.455Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

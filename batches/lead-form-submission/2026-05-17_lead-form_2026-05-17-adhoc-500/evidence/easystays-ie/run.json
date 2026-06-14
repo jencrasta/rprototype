@@ -1,0 +1,35 @@
+{
+  "url": "https://easystays.ie",
+  "email": "onb.rjs+easystaysie@gmail.com",
+  "domain": "easystays.ie",
+  "startedAt": "2026-05-18T01:25:24.758Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:25:37.327Z",
+      "fields": [
+        "Email"
+      ],
+      "cta": "Sign Up",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:25:37.499Z",
+      "url": "https://easystays.ie/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:25:44.530Z",
+      "state": "inline",
+      "evidence": "Email Sign Up Your submission was successful.",
+      "url": "https://easystays.ie/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:25:44.530Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

@@ -1,0 +1,23 @@
+{"type":"log","ts":1779071462724,"text":"Starting to fetch metadata for videos..."}
+{"type":"log","ts":1779071462724,"text":"Processing video card with ID: zLFHvEHr9j0"}
+{"type":"log","ts":1779071462724,"text":"Processing video card with ID: gZdXSSsng-A"}
+{"type":"log","ts":1779071462724,"text":"Processing video card with ID: ka0ZxAKWzwo"}
+{"type":"error","ts":1779071462913,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"log","ts":1779071462985,"text":"Fetching duration for: gZdXSSsng-A"}
+{"type":"log","ts":1779071462985,"text":"Proxy URL: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DgZdXSSsng-A"}
+{"type":"log","ts":1779071463001,"text":"Fetching duration for: zLFHvEHr9j0"}
+{"type":"log","ts":1779071463001,"text":"Proxy URL: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DzLFHvEHr9j0"}
+{"type":"log","ts":1779071463002,"text":"Fetching duration for: ka0ZxAKWzwo"}
+{"type":"log","ts":1779071463002,"text":"Proxy URL: https://api.allorigins.win/raw?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dka0ZxAKWzwo"}
+{"type":"warn","ts":1779071463476,"text":"<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"}
+{"type":"log","ts":1779071464126,"text":"i18next: languageChanged en"}
+{"type":"log","ts":1779071464126,"text":"i18next: initialized [object Object]"}
+{"type":"log","ts":1779071464127,"text":"i18next: languageChanged en-us"}
+{"type":"log","ts":1779071464295,"text":"i18next: languageChanged en-us"}
+{"type":"log","ts":1779071484419,"text":"Received HTML, length: 1010299"}
+{"type":"log","ts":1779071484419,"text":"Could not find duration in HTML for: ka0ZxAKWzwo"}
+{"type":"log","ts":1779071485155,"text":"Received HTML, length: 999291"}
+{"type":"log","ts":1779071485155,"text":"Could not find duration in HTML for: gZdXSSsng-A"}
+{"type":"log","ts":1779071485321,"text":"Received HTML, length: 1002190"}
+{"type":"log","ts":1779071485321,"text":"Could not find duration in HTML for: zLFHvEHr9j0"}
+{"type":"warn","ts":1779071502629,"text":"Only strings are valid in Speculation-Rules header value and inner lists are ignored."}

@@ -1,0 +1,19 @@
+{
+  "url": "https://praebeowealth.com",
+  "email": "onb.rjs+praebeowealthcom@gmail.com",
+  "domain": "praebeowealth.com",
+  "startedAt": "2026-05-18T00:54:20.331Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:54:50.023Z",
+      "url": "https://praebeowealth.com/#book",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:54:50.023Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

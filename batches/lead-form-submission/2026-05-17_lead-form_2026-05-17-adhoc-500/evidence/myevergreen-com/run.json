@@ -1,0 +1,35 @@
+{
+  "url": "https://myevergreen.com",
+  "email": "onb.rjs+myevergreencom@gmail.com",
+  "domain": "myevergreen.com",
+  "startedAt": "2026-05-18T04:09:37.591Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T04:09:51.976Z",
+      "fields": [
+        "Email"
+      ],
+      "cta": "Subscribe",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T04:09:52.140Z",
+      "url": "https://myevergreen.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T04:10:05.521Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://myevergreen.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:10:05.521Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

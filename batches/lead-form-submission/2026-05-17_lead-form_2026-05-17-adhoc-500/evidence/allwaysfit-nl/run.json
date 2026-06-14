@@ -1,0 +1,40 @@
+{
+  "url": "https://allwaysfit.nl",
+  "email": "onb.rjs+allwaysfitnl@gmail.com",
+  "domain": "allwaysfit.nl",
+  "startedAt": "2026-05-18T00:18:34.273Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:18:47.559Z",
+      "fields": [
+        "Naam(Vereist)",
+        "Telefoon(Vereist)",
+        "Email(Vereist)",
+        "Vestiging(Vereist)",
+        "Dienst(Vereist)",
+        "Bericht(Vereist)"
+      ],
+      "cta": "VERSTUREN",
+      "placement": "Footer (embedded)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:18:47.674Z",
+      "url": "https://allwaysfit.nl/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:19:01.007Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://allwaysfit.nl/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:19:01.007Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

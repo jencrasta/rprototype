@@ -1,0 +1,19 @@
+{
+  "url": "https://ibesmt.com",
+  "email": "onb.rjs+ibesmtcom@gmail.com",
+  "domain": "ibesmt.com",
+  "startedAt": "2026-05-18T02:39:32.821Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:39:59.695Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:39:59.696Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

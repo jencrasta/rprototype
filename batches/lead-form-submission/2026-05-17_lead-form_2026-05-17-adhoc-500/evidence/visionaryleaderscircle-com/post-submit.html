@@ -1,0 +1,432 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Global Founders Conference 2026 — Three Cities, One Vision</title>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&amp;family=Outfit:wght@300;400;500;600&amp;family=Cormorant+Upright:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<style>
+:root {
+  --ivory: #F7F3EC;
+  --ivory-dark: #EDE7DC;
+  --navy: #12213A;
+  --navy-soft: #1C2E4A;
+  --brass: #9E7C3C;
+  --brass-light: #C4A05A;
+  --brass-pale: #F0E8D5;
+  --ink: #1A1A18;
+  --slate: #4A5568;
+  --muted: #8A8878;
+  --border: rgba(158,124,60,0.2);
+  --border-navy: rgba(18,33,58,0.12);
+}
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:'Outfit',sans-serif; background:var(--ivory); color:var(--ink); overflow-x:hidden; }
+
+/* NAV */
+nav {
+  position:fixed; top:0; width:100%; z-index:200;
+  padding:18px 72px;
+  display:flex; justify-content:space-between; align-items:center;
+  background:rgba(247,243,236,0.96);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border-navy);
+}
+.logo { font-family:'Libre Baskerville',serif; font-size:1rem; color:var(--navy); letter-spacing:0.02em; }
+.logo em { font-style:italic; color:var(--brass); }
+.nl { display:flex; gap:30px; list-style:none; }
+.nl a { color:var(--slate); text-decoration:none; font-size:0.77rem; letter-spacing:0.08em; text-transform:uppercase; transition:color .3s; }
+.nl a:hover { color:var(--navy); }
+.n-btn { background:var(--navy); color:var(--ivory); padding:10px 24px; text-decoration:none; font-size:0.75rem; letter-spacing:0.1em; text-transform:uppercase; font-weight:500; transition:all .3s; }
+.n-btn:hover { background:var(--navy-soft); }
+
+/* HERO */
+.hero { min-height:100vh; display:grid; grid-template-columns:1fr 1fr; }
+.hero-left {
+  background:var(--navy);
+  padding:160px 72px 80px;
+  display:flex; flex-direction:column; justify-content:center;
+  position:relative; overflow:hidden;
+}
+.hero-left-bg {
+  position:absolute; inset:0;
+  background-image:url('https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=900&q=80');
+  background-size:cover; background-position:center;
+  opacity:0.15;
+}
+.hero-left-overlay { position:absolute; inset:0; background:linear-gradient(180deg,rgba(18,33,58,0.6) 0%,rgba(18,33,58,0.95) 100%); }
+.hero-left-inner { position:relative; z-index:2; }
+.hero-eyebrow { font-size:0.68rem; letter-spacing:0.28em; text-transform:uppercase; color:var(--brass-light); margin-bottom:28px; }
+.hero h1 { font-family:'Libre Baskerville',serif; font-size:clamp(2.8rem,5vw,4.5rem); line-height:1.1; color:#F7F3EC; margin-bottom:24px; }
+.hero h1 em { font-style:italic; color:var(--brass-light); }
+.hero-desc { font-family:'Cormorant Upright',serif; font-size:1.2rem; font-weight:300; color:rgba(247,243,236,0.72); line-height:1.85; max-width:420px; margin-bottom:44px; }
+.hero-badges { display:flex; flex-direction:column; gap:0; margin-bottom:48px; border:1px solid rgba(158,124,60,0.3); max-width:340px; }
+.hb { padding:14px 20px; border-bottom:1px solid rgba(158,124,60,0.2); display:flex; justify-content:space-between; align-items:center; }
+.hb:last-child { border-bottom:none; }
+.hb-city { font-size:0.8rem; color:var(--brass-light); letter-spacing:0.06em; }
+.hb-date { font-family:'Libre Baskerville',serif; font-size:0.85rem; color:#F7F3EC; font-style:italic; }
+.hero-cta { display:inline-block; background:var(--brass); color:var(--navy); padding:15px 34px; text-decoration:none; font-size:0.76rem; letter-spacing:0.12em; text-transform:uppercase; font-weight:600; transition:background .3s; }
+.hero-cta:hover { background:var(--brass-light); }
+
+.hero-right {
+  background:var(--ivory);
+  padding:140px 72px 80px;
+  display:flex; align-items:center; justify-content:center;
+  position:relative;
+}
+.hero-right-img {
+  width:100%; height:100%;
+  position:absolute; inset:0;
+  background-image:url('https://images.unsplash.com/photo-1543269865-cbf427effbad?w=900&q=80');
+  background-size:cover; background-position:center;
+  filter:saturate(0.5) brightness(0.9);
+}
+.hero-stat-panel {
+  position:relative; z-index:2;
+  background:rgba(247,243,236,0.95);
+  padding:48px 44px;
+  border:1px solid var(--border);
+  backdrop-filter:blur(8px);
+  max-width:340px;
+  width:100%;
+}
+.hsp-label { font-size:0.65rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--brass); margin-bottom:24px; }
+.hsp-stat { margin-bottom:20px; padding-bottom:20px; border-bottom:1px solid var(--border-navy); }
+.hsp-stat:last-child { margin-bottom:0; padding-bottom:0; border-bottom:none; }
+.hsp-num { font-family:'Libre Baskerville',serif; font-size:2.4rem; color:var(--navy); line-height:1; margin-bottom:4px; }
+.hsp-desc { font-size:0.78rem; color:var(--muted); letter-spacing:0.04em; }
+
+/* SECTIONS */
+.sec { padding:96px 72px; }
+.s-tag { font-size:0.67rem; letter-spacing:0.28em; text-transform:uppercase; color:var(--brass); margin-bottom:14px; }
+.s-title { font-family:'Libre Baskerville',serif; font-size:clamp(1.9rem,3.2vw,2.9rem); line-height:1.18; margin-bottom:22px; }
+.s-title em { font-style:italic; color:var(--brass); }
+
+/* ABOUT */
+.about-sec { background:var(--ivory-dark); }
+.about-inner { display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center; }
+.about-text p { font-family:'Cormorant Upright',serif; font-size:1.15rem; color:var(--slate); line-height:1.9; margin-bottom:18px; }
+.about-pull { background:var(--navy); padding:28px 32px; margin:28px 0; }
+.about-pull p { font-family:'Libre Baskerville',serif; font-style:italic; font-size:1.1rem; color:var(--brass-light); line-height:1.6; }
+.about-link { font-size:0.76rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--navy); text-decoration:none; border-bottom:1px solid var(--border); padding-bottom:2px; }
+.about-img-side { position:relative; }
+.about-img-side img { width:100%; height:480px; object-fit:cover; display:block; border:1px solid var(--border-navy); }
+.about-caption { position:absolute; bottom:-1px; left:0; right:0; background:var(--navy); padding:16px 20px; }
+.about-caption p { font-size:0.75rem; color:var(--brass-light); letter-spacing:0.1em; }
+
+/* PILLARS - horizontal scroll cards */
+.pillars-sec { background:var(--navy); overflow:hidden; }
+.pillars-sec .s-tag { color:var(--brass-light); }
+.pillars-sec .s-title { color:var(--ivory); }
+.p-scroll { display:grid; grid-template-columns:repeat(6,minmax(260px,1fr)); gap:1px; margin-top:56px; overflow-x:auto; background:rgba(158,124,60,0.15); }
+.p-card { background:var(--navy); padding:36px 28px; min-width:240px; transition:background .3s; }
+.p-card:hover { background:var(--navy-soft); }
+.pc-n { font-size:0.62rem; letter-spacing:0.22em; text-transform:uppercase; color:var(--brass-light); margin-bottom:16px; }
+.pc-t { font-family:'Libre Baskerville',serif; font-size:1.1rem; color:var(--ivory); margin-bottom:12px; line-height:1.35; }
+.pc-d { font-size:0.82rem; color:rgba(247,243,236,0.55); line-height:1.75; }
+
+/* AGENDA */
+.agenda-sec { background:var(--ivory); }
+.ag-tabs { display:flex; gap:4px; margin-bottom:36px; }
+.ag-t { padding:10px 26px; font-size:0.74rem; letter-spacing:0.1em; text-transform:uppercase; cursor:pointer; background:var(--ivory-dark); color:var(--muted); border:1px solid var(--border-navy); transition:all .3s; }
+.ag-t.on { background:var(--navy); color:var(--ivory); border-color:var(--navy); }
+.ag-day { display:none; }
+.ag-day.on { display:block; }
+.ag-row { display:grid; grid-template-columns:100px 1fr auto; gap:20px; align-items:start; padding:20px 0; border-bottom:1px solid var(--border-navy); }
+.ag-time { font-size:0.77rem; color:var(--brass); font-weight:600; padding-top:1px; }
+.ag-title { font-family:'Libre Baskerville',serif; font-size:0.97rem; color:var(--navy); margin-bottom:4px; }
+.ag-sub { font-size:0.79rem; color:var(--muted); }
+.ag-badge { font-size:0.6rem; letter-spacing:0.12em; text-transform:uppercase; background:var(--brass-pale); color:var(--brass); padding:4px 10px; border:1px solid var(--border); white-space:nowrap; }
+
+/* REG */
+.reg-sec {
+  background:var(--ivory-dark);
+  position:relative; overflow:hidden;
+}
+.reg-bg { position:absolute; inset:0; background-image:url('https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=1200&q=70'); background-size:cover; background-position:center; opacity:0.07; }
+.reg-inner { position:relative; z-index:2; display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:start; }
+.reg-left p { font-family:'Cormorant Upright',serif; font-size:1.1rem; color:var(--slate); line-height:1.85; margin-bottom:30px; }
+.reg-price-block { background:var(--navy); padding:36px; margin-bottom:0; }
+.rpb-p { font-family:'Libre Baskerville',serif; font-size:3.5rem; color:var(--brass-light); line-height:1; margin-bottom:6px; }
+.rpb-s { font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:rgba(247,243,236,0.5); margin-bottom:28px; }
+.rpb-list { list-style:none; }
+.rpb-list li { padding:10px 0; border-bottom:1px solid rgba(158,124,60,0.18); font-size:0.85rem; color:rgba(247,243,236,0.78); display:flex; gap:10px; align-items:center; }
+.rpb-list li::before { content:'→'; color:var(--brass-light); font-size:0.7rem; }
+.rpb-cta { display:block; margin-top:28px; background:var(--brass); color:var(--navy); padding:15px; text-align:center; text-decoration:none; font-size:0.76rem; letter-spacing:0.12em; text-transform:uppercase; font-weight:600; transition:background .3s; }
+.rpb-cta:hover { background:var(--brass-light); }
+.reg-right-title { font-family:'Libre Baskerville',serif; font-size:1.6rem; color:var(--navy); margin-bottom:8px; }
+.reg-venues { margin-top:4px; }
+.rv { border:1px solid var(--border-navy); margin-bottom:-1px; display:grid; grid-template-columns:auto 1fr auto; gap:20px; align-items:center; padding:20px 24px; background:var(--ivory); transition:background .3s; }
+.rv:hover { background:var(--brass-pale); }
+.rv-n { font-size:0.7rem; letter-spacing:0.18em; text-transform:uppercase; color:var(--brass); font-weight:600; }
+.rv-city { font-family:'Libre Baskerville',serif; font-size:1.1rem; color:var(--navy); }
+.rv-info { font-size:0.78rem; color:var(--muted); }
+.rv-date { font-size:0.78rem; color:var(--brass); white-space:nowrap; font-style:italic; font-family:'Libre Baskerville',serif; }
+
+/* CONTACT */
+.contact-sec { background:var(--navy); }
+.contact-sec .s-tag { color:var(--brass-light); }
+.contact-sec .s-title { color:var(--ivory); }
+.c-grid { display:grid; grid-template-columns:1fr 1.4fr; gap:72px; }
+.c-left p { font-size:0.9rem; color:rgba(247,243,236,0.65); line-height:1.8; margin-bottom:24px; }
+.c-detail { display:flex; align-items:center; gap:10px; margin-bottom:12px; font-size:0.83rem; color:rgba(247,243,236,0.75); }
+.c-bar { width:3px; height:14px; background:var(--brass); }
+.c-note { font-size:0.77rem; color:rgba(247,243,236,0.4); border-left:1px solid rgba(158,124,60,0.3); padding-left:14px; margin-top:24px; line-height:1.7; }
+label { display:block; font-size:0.68rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--brass-light); margin-bottom:7px; }
+.fg { margin-bottom:16px; }
+.frow { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+input[type=text],input[type=email],input[type=tel],input[type=number],select,textarea {
+  width:100%; background:rgba(247,243,236,0.07); border:1px solid rgba(158,124,60,0.2);
+  color:var(--ivory); padding:11px 14px; font-family:'Outfit',sans-serif; font-size:0.86rem;
+  outline:none; transition:border-color .3s;
+}
+input::placeholder,textarea::placeholder { color:rgba(247,243,236,0.22); }
+input:focus,select:focus,textarea:focus { border-color:var(--brass-light); }
+select option { background:var(--navy-soft); }
+textarea { height:90px; resize:vertical; }
+.hp-f { position:absolute; left:-9999px; opacity:0; height:0; pointer-events:none; }
+.captcha-row { background:rgba(247,243,236,0.06); border:1px solid rgba(158,124,60,0.2); padding:12px 14px; display:flex; align-items:center; gap:12px; margin-bottom:16px; flex-wrap:wrap; }
+.cap-text { font-size:0.83rem; color:var(--ivory); }
+.cap-input { width:66px !important; }
+.btn-submit { background:var(--brass); color:var(--navy); border:none; padding:13px 32px; font-family:'Outfit',sans-serif; font-size:0.75rem; letter-spacing:0.12em; text-transform:uppercase; font-weight:600; cursor:pointer; transition:background .3s; }
+.btn-submit:hover { background:var(--brass-light); }
+.fmsg { font-size:0.79rem; margin-top:12px; padding:10px 14px; display:none; }
+.fmsg.ok { background:rgba(158,124,60,0.18); color:var(--brass-light); display:block; }
+.fmsg.err { background:rgba(180,50,50,0.18); color:#e88; display:block; }
+
+footer { background:#0A1626; border-top:1px solid rgba(158,124,60,0.15); padding:32px 72px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; }
+.fl { font-family:'Libre Baskerville',serif; font-size:0.9rem; color:var(--brass-light); font-style:italic; }
+.flinks { display:flex; gap:22px; }
+.flinks a { font-size:0.7rem; text-transform:uppercase; letter-spacing:0.1em; color:rgba(247,243,236,0.4); text-decoration:none; transition:color .3s; }
+.flinks a:hover { color:var(--brass-light); }
+.fcopy { font-size:0.7rem; color:rgba(247,243,236,0.35); }
+
+@media(max-width:960px){
+  nav { padding:16px 24px; }
+  .nl { display:none; }
+  .sec { padding:70px 24px; }
+  .hero { grid-template-columns:1fr; }
+  .hero-left { padding:140px 24px 60px; }
+  .hero-right { display:none; }
+  .about-inner,.c-grid,.reg-inner { grid-template-columns:1fr; gap:40px; }
+  .p-scroll { grid-template-columns:repeat(2,1fr); overflow:visible; }
+  footer { padding:26px 24px; flex-direction:column; text-align:center; }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Global Founders <em>Conference</em></div>
+  <ul class="nl">
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#agenda">Agenda</a></li>
+    <li><a href="#register">Register</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#register" class="n-btn">Register Now</a>
+</nav>
+
+<!-- HERO: split layout -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-left-bg"></div>
+    <div class="hero-left-overlay"></div>
+    <div class="hero-left-inner">
+      <div class="hero-eyebrow">Global Founders Conference · 2026</div>
+      <h1>Where Founders<br>Dream <em>Boldly.</em></h1>
+      <p class="hero-desc">The premier conference for the world's most ambitious entrepreneurs — candid conversations, curated networks, and transformative clarity.</p>
+      <div class="hero-badges">
+        <div class="hb"><span class="hb-city">🇺🇸 Las Vegas, USA</span><span class="hb-date">Apr 7–9, 2026</span></div>
+        <div class="hb"><span class="hb-city">🇸🇬 Singapore</span><span class="hb-date">Dec 2–4, 2026</span></div>
+        <div class="hb"><span class="hb-city">🇦🇪 Dubai, UAE</span><span class="hb-date">Dec 8–10, 2026</span></div>
+      </div>
+      <a href="#register" class="hero-cta">Secure Your Pass — $3,000</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-right-img"></div>
+    <div class="hero-stat-panel">
+      <div class="hsp-label">Conference at a Glance</div>
+      <div class="hsp-stat"><div class="hsp-num">3</div><div class="hsp-desc">Global Cities: Las Vegas, Singapore, Dubai</div></div>
+      <div class="hsp-stat"><div class="hsp-num">9</div><div class="hsp-desc">Total Conference Days Across All Cities</div></div>
+      <div class="hsp-stat"><div class="hsp-num">500+</div><div class="hsp-desc">Founders, Investors &amp; Operators Per Event</div></div>
+      <div class="hsp-stat"><div class="hsp-num">$3K</div><div class="hsp-desc">All-Access 3-Day Pass Per City</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-sec sec" id="about">
+  <div class="about-inner">
+    <div class="about-text">
+      <div class="s-tag">About the Conference</div>
+      <h2 class="s-title">A Global Community Rewriting <em>Entrepreneurship</em></h2>
+      <p>The Global Founders Conference is the premier conference for the world's most ambitious entrepreneurs — built around candid conversations, curated networks, and the clarity that only comes from being in the right room.</p>
+      <p>Three cities. Nine days. One global community rewriting what it means to build a lasting venture.</p>
+      <div class="about-pull"><p>"A movement crafting the future of global entrepreneurship — one room at a time."</p></div>
+      <a href="#experience" class="about-link">Explore the full experience →</a>
+    </div>
+    <div class="about-img-side">
+      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&amp;q=80" alt="Conference">
+      <div class="about-caption"><p>Global Founders Conference · Las Vegas · Singapore · Dubai</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PILLARS -->
+<section class="pillars-sec sec" id="experience">
+  <div class="s-tag">The Experience</div>
+  <h2 class="s-title">Six Pillars of <em style="color:var(--brass-light)">Transformation</em></h2>
+  <div class="p-scroll">
+    <div class="p-card"><div class="pc-n">01 / Keynotes</div><div class="pc-t">World-Class Speakers &amp; Panels</div><div class="pc-d">Unfiltered insights from founders who've navigated funding winters, scaled globally, and built category-defining companies.</div></div>
+    <div class="p-card"><div class="pc-n">02 / Network</div><div class="pc-t">Curated Founder Networking</div><div class="pc-d">Investor roundtables, peer masterminds, and structured introductions designed to create relationships that compound.</div></div>
+    <div class="p-card"><div class="pc-n">03 / Exhibits</div><div class="pc-t">Innovation Showcase</div><div class="pc-d">Discover the tools, platforms, and technologies that forward-thinking operators deploy to outpace the competition.</div></div>
+    <div class="p-card"><div class="pc-n">04 / Awards</div><div class="pc-t">Entrepreneurial Excellence Awards</div><div class="pc-d">A stage to recognise those who aren't just building businesses but redefining what leadership looks like.</div></div>
+    <div class="p-card"><div class="pc-n">05 / Workshops</div><div class="pc-t">Hands-On Masterclasses</div><div class="pc-d">Deep-dive sessions on AI-driven growth, global expansion, investor storytelling, and resilient distributed teams.</div></div>
+    <div class="p-card"><div class="pc-n">06 / Community</div><div class="pc-t">A Network Across Three Continents</div><div class="pc-d">The GFC community continues after each event — through partnerships, co-investments, and lasting friendships.</div></div>
+  </div>
+</section>
+
+<!-- AGENDA -->
+<section class="agenda-sec sec" id="agenda">
+  <div class="s-tag">Sample Programme</div>
+  <h2 class="s-title">Three-Day <em>Agenda</em></h2>
+  <div class="ag-tabs">
+    <div class="ag-t on" onclick="sd(1,this)">Day One</div>
+    <div class="ag-t" onclick="sd(2,this)">Day Two</div>
+    <div class="ag-t" onclick="sd(3,this)">Day Three</div>
+  </div>
+  <div class="ag-day on" id="agd1">
+    <div class="ag-row"><div class="ag-time">8:00 am</div><div><div class="ag-title">Welcome &amp; Attendee Registration</div><div class="ag-sub">Check-in, badge collection, welcome breakfast</div></div><div class="ag-badge">Registration</div></div>
+    <div class="ag-row"><div class="ag-time">9:30 am</div><div><div class="ag-title">Opening Keynote — Building What's Next, Fearlessly</div><div class="ag-sub">Setting the tone for three transformative days</div></div><div class="ag-badge">Keynote</div></div>
+    <div class="ag-row"><div class="ag-time">11:00 am</div><div><div class="ag-title">Panel — Raising Capital in a High-Rate World</div><div class="ag-sub">Strategies from founders and investors across markets</div></div><div class="ag-badge">Panel</div></div>
+    <div class="ag-row"><div class="ag-time">1:00 pm</div><div><div class="ag-title">Curated Founder Roundtables &amp; Networking Luncheon</div><div class="ag-sub">Structured peer-to-peer sessions with sector leaders</div></div><div class="ag-badge">Networking</div></div>
+    <div class="ag-row"><div class="ag-time">3:00 pm</div><div><div class="ag-title">Workshop — AI-Driven Growth Strategies for 2026</div><div class="ag-sub">Hands-on exploration of AI reshaping modern business</div></div><div class="ag-badge">Workshop</div></div>
+    <div class="ag-row"><div class="ag-time">6:00 pm</div><div><div class="ag-title">Welcome Cocktail &amp; Founders Mixer</div><div class="ag-sub">Evening reception at the venue's signature space</div></div><div class="ag-badge">Evening</div></div>
+  </div>
+  <div class="ag-day" id="agd2">
+    <div class="ag-row"><div class="ag-time">9:00 am</div><div><div class="ag-title">Keynote — From Zero to Global: Scaling Without Compromise</div><div class="ag-sub">Lessons from founders who've built across continents</div></div><div class="ag-badge">Keynote</div></div>
+    <div class="ag-row"><div class="ag-time">10:30 am</div><div><div class="ag-title">Panel — Winning in Emerging Markets: Dubai, SE Asia &amp; Beyond</div><div class="ag-sub">Localisation, regulation, and cultural intelligence</div></div><div class="ag-badge">Panel</div></div>
+    <div class="ag-row"><div class="ag-time">12:00 pm</div><div><div class="ag-title">Innovation Showcase &amp; Investor Demos</div><div class="ag-sub">Exhibition floor open — 80+ technology exhibitors</div></div><div class="ag-badge">Exhibit</div></div>
+    <div class="ag-row"><div class="ag-time">2:00 pm</div><div><div class="ag-title">Workshop — Strategic Storytelling: Pitching to Global Investors</div><div class="ag-sub">Crafting narratives that move capital</div></div><div class="ag-badge">Workshop</div></div>
+    <div class="ag-row"><div class="ag-time">4:30 pm</div><div><div class="ag-title">Fireside Chat — Founder Resilience: The Unseen Edge</div><div class="ag-sub">Mental clarity and leadership under pressure</div></div><div class="ag-badge">Fireside</div></div>
+  </div>
+  <div class="ag-day" id="agd3">
+    <div class="ag-row"><div class="ag-time">9:00 am</div><div><div class="ag-title">Workshop — Building Culture in a Distributed Global Team</div><div class="ag-sub">Leadership frameworks for modern organisations</div></div><div class="ag-badge">Workshop</div></div>
+    <div class="ag-row"><div class="ag-time">11:00 am</div><div><div class="ag-title">Entrepreneurial Excellence Awards Ceremony</div><div class="ag-sub">Honouring achievement across all sectors globally</div></div><div class="ag-badge">Awards</div></div>
+    <div class="ag-row"><div class="ag-time">1:00 pm</div><div><div class="ag-title">Closing Keynote — The Future of Entrepreneurship</div><div class="ag-sub">A call to action for a new generation of builders</div></div><div class="ag-badge">Keynote</div></div>
+    <div class="ag-row"><div class="ag-time">3:00 pm</div><div><div class="ag-title">Farewell Networking &amp; Future Commitments</div><div class="ag-sub">Closing receptions and partnership announcements</div></div><div class="ag-badge">Networking</div></div>
+  </div>
+</section>
+
+<!-- REGISTRATION + VENUES -->
+<section class="reg-sec sec" id="register">
+  <div class="reg-bg"></div>
+  <div class="reg-inner">
+    <div class="reg-left">
+      <div class="s-tag">Registration · 2026</div>
+      <h2 class="s-title">Claim Your <em>Seat at the Table</em></h2>
+      <p>Three full days of programming, curated networking, and recognition events at your chosen city.</p>
+      <div class="reg-price-block">
+        <div class="rpb-p">$3,000</div>
+        <div class="rpb-s">Per City · + Applicable Taxes</div>
+        <ul class="rpb-list">
+          <li>Full 3-day access to keynotes, panels &amp; workshops</li>
+          <li>Innovation Exhibit Hall &amp; Investor Demos</li>
+          <li>Curated networking &amp; founder roundtables</li>
+          <li>Excellence Awards Ceremony invitation</li>
+          <li>Evening receptions &amp; exclusive social events</li>
+          <li>Post-event recordings &amp; resource library</li>
+        </ul>
+        <a href="#contact" class="rpb-cta">Register Now — Secure Your Place</a>
+      </div>
+    </div>
+    <div>
+      <div class="s-tag">Venue Details</div>
+      <div class="reg-right-title">Three Cities. <em style="font-style:italic;color:var(--brass)">Three Gatherings.</em></div>
+      <div class="reg-venues" style="margin-top:24px;">
+        <div class="rv"><div class="rv-n">01 · USA</div><div><div class="rv-city">Las Vegas, Nevada</div><div class="rv-info">Bellagio Hotel &amp; Casino · Tower Ballroom 6 &amp; 7</div></div><div class="rv-date">Apr 7–9</div></div>
+        <div class="rv"><div class="rv-n">02 · SG</div><div><div class="rv-city">Singapore</div><div class="rv-info">Marina Bay Sands Convention Centre</div></div><div class="rv-date">Dec 2–4</div></div>
+        <div class="rv"><div class="rv-n">03 · UAE</div><div><div class="rv-city">Dubai, UAE</div><div class="rv-info">InterContinental DFC, Dubai</div></div><div class="rv-date">Dec 8–10</div></div>
+      </div>
+      <p style="margin-top:24px;font-size:0.8rem;color:var(--muted);line-height:1.7;">Sponsorship &amp; Exhibitor enquiries welcome. Booth spaces are limited — flexible packages available.<br><strong style="color:var(--navy);">contact@globalfoundersconf.com</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact-sec sec" id="contact">
+  <div class="s-tag">Get in Touch</div>
+  <div class="c-grid">
+    <div class="c-left">
+      <h2 class="s-title" style="color:var(--ivory);">We'd Love to<br><em style="color:var(--brass-light);">Hear From You</em></h2>
+      <p>Whether you're looking to attend, sponsor, exhibit, or speak — our team is here to help you find your place within the Global Founders Conference community.</p>
+      <div class="c-detail"><div class="c-bar"></div>contact@globalfoundersconf.com</div>
+      <div class="c-detail"><div class="c-bar"></div>+1 (800) 000-0000</div>
+      <div class="c-detail"><div class="c-bar"></div>Las Vegas · Singapore · Dubai</div>
+      <p class="c-note">Sponsorship &amp; exhibitor packages are available. Booth spaces are in high demand — contact us early to secure your position.</p>
+    </div>
+    <form id="gfcForm2" onsubmit="doSend(event)" autocomplete="off" style="position:relative;">
+      <input type="text" name="_hp" class="hp-f" tabindex="-1" aria-hidden="true">
+      <input type="hidden" name="_t" id="ts2" value="1779074081187">
+      <div class="fg">
+        <label>Conference *</label>
+        <select name="conf" required="">
+          <option value="">Select a conference</option>
+          <option>USA — Las Vegas 2026</option>
+          <option>Singapore 2026</option>
+          <option>Dubai 2026</option>
+        </select>
+      </div>
+      <div class="frow">
+        <div class="fg"><label>First Name *</label><input type="text" name="fn" required="" placeholder="First name" maxlength="60"></div>
+        <div class="fg"><label>Last Name *</label><input type="text" name="ln" required="" placeholder="Last name" maxlength="60"></div>
+      </div>
+      <div class="fg"><label>Email *</label><input type="email" name="em" required="" placeholder="you@company.com" maxlength="100"></div>
+      <div class="fg"><label>Phone</label><input type="tel" name="ph" placeholder="+1 000 000 0000" maxlength="20"></div>
+      <div class="fg"><label>Message</label><textarea name="msg" placeholder="How can we help?" maxlength="800"></textarea></div>
+      <div class="captcha-row"><span class="cap-text" id="cq2">Security: 8 + 4 = ?</span><input type="number" class="cap-input" id="ca2" placeholder="?" required=""></div>
+      <button type="submit" class="btn-submit">Send Enquiry</button>
+      <div class="fmsg" id="fm2"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="fl">Global Founders Conference · 2026</div>
+  <div class="flinks"><a href="#">Privacy</a><a href="#">Terms</a><a href="#contact">Contact</a><a href="#">Sponsor</a></div>
+  <div class="fcopy">© 2026 Global Founders Conference. All rights reserved.</div>
+</footer>
+
+<script>
+function sd(n,el){document.querySelectorAll('.ag-day').forEach(d=>d.classList.remove('on'));document.querySelectorAll('.ag-t').forEach(t=>t.classList.remove('on'));document.getElementById('agd'+n).classList.add('on');el.classList.add('on');}
+let _c2=0;
+function gc2(){const a=Math.floor(Math.random()*9)+1,b=Math.floor(Math.random()*9)+1;_c2=a+b;document.getElementById('cq2').textContent=`Security: ${a} + ${b} = ?`;}
+gc2();document.getElementById('ts2').value=Date.now();
+let _at2=0,_ls2=0;
+const _blk=['mailinator','guerrillamail','tempmail','yopmail','trashmail','throwam','fakeinbox','maildrop','sharklasers','dispostable'];
+const _sw=['casino','lottery','winner','click here','free money','earn cash','make money fast','buy followers','cheap pills'];
+function showF(id,type,txt){const m=document.getElementById(id);m.textContent=txt;m.className='fmsg '+type;m.style.display='block';}
+function doSend(e){
+  e.preventDefault();const f=e.target,mi='fm2';
+  if(f._hp.value!=='')return;
+  if(Date.now()-parseInt(f._t.value)<3500)return showF(mi,'err','Please review the form before submitting.');
+  _at2++;
+  if(_at2>3||(Date.now()-_ls2<25000&&_at2>1))return showF(mi,'err','Too many attempts. Please wait and try again.');
+  if(parseInt(document.getElementById('ca2').value)!==_c2){gc2();document.getElementById('ca2').value='';return showF(mi,'err','Incorrect security answer. Please try again.');}
+  const em=f.em.value;
+  if(!/^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/.test(em))return showF(mi,'err','Please enter a valid email address.');
+  const dom=em.split('@')[1]?.toLowerCase()||'';
+  if(_blk.some(b=>dom.includes(b)))return showF(mi,'err','Please use a professional email address.');
+  const msgv=(f.msg.value||'').toLowerCase();
+  if(_sw.some(w=>msgv.includes(w)))return showF(mi,'err','Your message contains restricted content. Please revise.');
+  _ls2=Date.now();
+  showF(mi,'ok','✓ Thank you! Your enquiry has been received. We\'ll be in touch shortly.');
+  f.reset();gc2();
+}
+</script>
+<script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/v833ccba57c9e4d2798f2e76cebdd09a11778172276447" integrity="sha512-57MDmcccJXYtNnH+ZiBwzC4jb2rvgVCEokYN+L/nLlmO8rfYT/gIpW2A569iJ/3b+0UEasghjuZH/ma3wIs/EQ==" data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;e5a8ebe34b8d4461909c5738c97e39f9&quot;,&quot;r&quot;:1,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}" crossorigin="anonymous"></script>
+
+
+</body></html>

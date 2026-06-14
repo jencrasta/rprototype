@@ -1,0 +1,38 @@
+{
+  "url": "https://milliganemails.co.uk",
+  "email": "onb.rjs+milliganemailscouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-08T19:45:07.428Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-08T19:45:25.221Z",
+      "fields": [
+        "First Name",
+        "Last Name",
+        "Email(Required)",
+        "I would like to receive updates from Milligan"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-08T19:45:25.412Z",
+      "url": "https://milliganltd.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-08T19:45:32.449Z",
+      "state": "inline-error",
+      "evidence": "First Name Last Name Email(Required) Consent I would like to receive updates from Milligan CAPTCHA The reCAPTCHA was invalid. ⏎ Go back and try it again.",
+      "url": "https://milliganltd.com/"
+    }
+  ],
+  "finishedAt": "2026-05-08T19:45:32.449Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

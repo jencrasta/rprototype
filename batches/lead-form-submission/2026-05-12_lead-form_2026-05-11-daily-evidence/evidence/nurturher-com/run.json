@@ -1,0 +1,36 @@
+{
+  "url": "https://nurturher.com",
+  "email": "onb.rjs+nurturhercom@gmail.com",
+  "domain": "nurturher.com",
+  "startedAt": "2026-05-12T21:31:31.045Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:31:50.533Z",
+      "fields": [
+        "First name",
+        "Email address"
+      ],
+      "cta": "Join the waitlist",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:31:50.628Z",
+      "url": "https://www.nurturher.com/soft-reset"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:31:57.651Z",
+      "state": "redirect",
+      "evidence": "→ chrome-error://chromewebdata/ (path doesn't look like a confirmation)",
+      "url": "chrome-error://chromewebdata/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:31:57.651Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

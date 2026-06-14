@@ -1,0 +1,19 @@
+{
+  "url": "https://albacabrera.com",
+  "email": "onb.rjs+albacabreracom@gmail.com",
+  "domain": "albacabrera.com",
+  "startedAt": "2026-05-18T00:01:24.358Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:01:58.653Z",
+      "url": "https://albacabrera.com/en/inicio-english/?v=0b3b97fa6688",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:01:58.653Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

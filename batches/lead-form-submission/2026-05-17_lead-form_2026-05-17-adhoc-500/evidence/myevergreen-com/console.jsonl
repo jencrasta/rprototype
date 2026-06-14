@@ -1,0 +1,20 @@
+{"type":"debug","ts":1779077378857,"text":"[USI] Pixel initialized"}
+{"type":"info","ts":1779077378859,"text":"initial customer privacy [object Object]"}
+{"type":"log","ts":1779077378899,"text":"RAD Shopify app - page_viewed event. Logging enabled: false"}
+{"type":"info","ts":1779077378912,"text":"BOGOS track: cart-events [array Array] init-page"}
+{"type":"log","ts":1779077379380,"text":"200"}
+{"type":"error","ts":1779077379869,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779077379956,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"debug","ts":1779077379957,"text":" "}
+{"type":"error","ts":1779077380123,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779077380169,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779077380169,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"debug","ts":1779077380300,"text":"[USI] event received [object Object]"}
+{"type":"info","ts":1779077380982,"text":"[widget-page]:  RL build [date Date] [object Object]"}
+{"type":"info","ts":1779077381177,"text":"You are running Vue in development mode.\nMake sure to turn on production mode when deploying for production.\nSee more tips at https://vuejs.org/guide/deployment.html"}
+{"type":"warn","ts":1779077381361,"text":"Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"}
+{"type":"log","ts":1779077381655,"text":"Download the Vue Devtools for a better development experience:\nhttps://github.com/vuejs/vue-devtools"}
+{"type":"log","ts":1779077387766,"text":"recaptchacompat disabled"}
+{"type":"debug","ts":1779077388481,"text":"[bugsnag] Loaded!"}
+{"type":"warn","ts":1779077391942,"text":"[Smartlook] Smartlook not recording. Reason: Organization is blocked."}
+{"type":"log","ts":1779077392397,"text":"recaptchacompat disabled"}

@@ -1,0 +1,19 @@
+{
+  "url": "https://daytonasoft.com",
+  "email": "onb.rjs+daytonasoftcom@gmail.com",
+  "domain": "daytonasoft.com",
+  "startedAt": "2026-05-18T01:06:28.715Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:07:01.718Z",
+      "url": "https://daytonasoft.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:07:01.719Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

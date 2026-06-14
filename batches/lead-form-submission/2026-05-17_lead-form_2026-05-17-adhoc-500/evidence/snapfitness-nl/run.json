@@ -1,0 +1,42 @@
+{
+  "url": "https://snapfitness.nl",
+  "email": "onb.rjs+snapfitnessnl@gmail.com",
+  "domain": "snapfitness.nl",
+  "startedAt": "2026-05-18T00:05:00.756Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:05:13.075Z",
+      "fields": [
+        "Select Club Location",
+        "Voornaam *",
+        "Achternaam *",
+        "E-mail *",
+        "Telefoonnummer *",
+        "Contacteer mij via E-MAIL",
+        "Contacteer mij via SMS",
+        "Ik heb het Cookiesbeleid en het Privacybeleid van Lift Brands gelezen (inclusief de verwerking en openbaarmaking van mijn persoonlijke gegevens."
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:05:13.213Z",
+      "url": "https://www.snapfitness.com/nl"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:05:20.258Z",
+      "state": "inline-error",
+      "evidence": "Select Club Location --- Please Select --- Landgraaf Breda Den Bosch Oud Gastel Schijndel Tilburg Alkmaar Ijmuiden Terneuzen Den Haag Nesselande Rotterdam Scheveningen Wassenaar Ypenburg Required…",
+      "url": "https://www.snapfitness.com/nl"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:05:20.258Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

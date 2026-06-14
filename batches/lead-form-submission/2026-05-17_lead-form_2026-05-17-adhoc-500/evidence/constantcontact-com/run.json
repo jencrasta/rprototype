@@ -1,0 +1,35 @@
+{
+  "url": "https://constantcontact.com",
+  "email": "onb.rjs+constantcontactcom@gmail.com",
+  "domain": "constantcontact.com",
+  "startedAt": "2026-05-18T00:51:59.854Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:52:15.085Z",
+      "fields": [
+        "Email Address"
+      ],
+      "cta": "Start free trial",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:52:15.211Z",
+      "url": "https://www.constantcontact.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:52:22.455Z",
+      "state": "redirect",
+      "evidence": "→ https://www.constantcontact.com/trial/signup (path doesn't look like a confirmation)",
+      "url": "https://www.constantcontact.com/trial/signup"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:52:22.455Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

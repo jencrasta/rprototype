@@ -1,0 +1,41 @@
+{
+  "url": "https://mint-erp.com",
+  "email": "onb.rjs+minterpcom@gmail.com",
+  "domain": "mint-erp.com",
+  "startedAt": "2026-05-18T01:38:24.702Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:38:42.242Z",
+      "fields": [
+        "Your name",
+        "Mobile number",
+        "Email address",
+        "Company name",
+        "product",
+        "businessType",
+        "Tell us about your requirement"
+      ],
+      "cta": "Cancel",
+      "placement": "Popup / Modal",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:38:42.353Z",
+      "url": "https://mint-erp.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:38:49.372Z",
+      "state": "inline-error",
+      "evidence": "Could not send enquiry. ⏎ Please try again or call 9811945867.",
+      "url": "https://mint-erp.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:38:49.372Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

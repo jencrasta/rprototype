@@ -1,0 +1,33 @@
+{
+  "url": "https://nationalacademies.org",
+  "email": "onb.rjs+nationalacademiesorg@gmail.com",
+  "domain": "nationalacademies.org",
+  "startedAt": "2026-05-08T20:03:17.811Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-08T20:03:40.754Z",
+      "fields": [],
+      "cta": "",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-08T20:03:40.849Z",
+      "url": "https://www.nationalacademies.org/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-08T20:03:53.992Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.nationalacademies.org/"
+    }
+  ],
+  "finishedAt": "2026-05-08T20:03:53.992Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

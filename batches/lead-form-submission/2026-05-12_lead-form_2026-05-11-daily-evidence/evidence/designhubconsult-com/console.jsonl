@@ -1,0 +1,7 @@
+{"type":"log","ts":1778621676019,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1778621676520,"text":"Access to font at 'https://1seoindia.com/designhubconsult/wp-content/themes/designhubconsult/fonts/montserrat-regular.woff2' from origin 'https://designhubconsult.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."}
+{"type":"error","ts":1778621676520,"text":"Failed to load resource: net::ERR_FAILED"}
+{"type":"error","ts":1778621676657,"text":"Access to font at 'https://1seoindia.com/designhubconsult/wp-content/themes/designhubconsult/fonts/montserrat-regular.woff' from origin 'https://designhubconsult.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."}
+{"type":"error","ts":1778621676658,"text":"Failed to load resource: net::ERR_FAILED"}
+{"type":"log","ts":1778621696875,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"debug","ts":1778621697759,"text":"Search endpoint requested!"}

@@ -1,0 +1,19 @@
+{
+  "url": "https://strikeforcestaffing.net",
+  "email": "onb.rjs+strikeforcestaffingnet@gmail.com",
+  "domain": "strikeforcestaffing.net",
+  "startedAt": "2026-05-18T02:46:43.727Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:47:12.462Z",
+      "url": "https://www.strikeforcestaffing.net/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:47:12.463Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

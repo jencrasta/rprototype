@@ -1,0 +1,19 @@
+{
+  "url": "https://leukaemia.org.au",
+  "email": "onb.rjs+leukaemiaorgau@gmail.com",
+  "domain": "org.au",
+  "startedAt": "2026-05-18T01:29:37.258Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:30:07.484Z",
+      "url": "https://www.leukaemia.org.au/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:30:07.485Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

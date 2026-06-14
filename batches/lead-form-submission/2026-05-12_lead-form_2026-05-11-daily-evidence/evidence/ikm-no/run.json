@@ -1,0 +1,17 @@
+{
+  "url": "https://ikm.no",
+  "email": "onb.rjs+ikmno@gmail.com",
+  "domain": "ikm.no",
+  "startedAt": "2026-05-12T21:19:17.608Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:19:47.420Z",
+      "url": "https://www.metalsupply.no/announcement/view/923766/ikm_instrutek_blir_offisiell_leverandor_av_ohaus_i_norge"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:19:47.420Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

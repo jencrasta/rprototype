@@ -1,0 +1,39 @@
+{
+  "url": "https://workexperienceagency.com",
+  "email": "onb.rjs+workexperienceagencycom@gmail.com",
+  "domain": "workexperienceagency.com",
+  "startedAt": "2026-05-18T00:53:07.511Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:53:28.131Z",
+      "fields": [
+        "Name",
+        "Surname",
+        "Email",
+        "Phone",
+        "Write your message here..."
+      ],
+      "cta": "Send",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:53:28.188Z",
+      "url": "https://www.workexperienceagency.com/contact#dataItem-kn07y1hz"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:53:41.347Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.workexperienceagency.com/contact#dataItem-kn07y1hz"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:53:41.347Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

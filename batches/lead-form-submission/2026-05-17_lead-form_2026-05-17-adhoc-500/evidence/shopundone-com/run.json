@@ -1,0 +1,19 @@
+{
+  "url": "https://shopundone.com",
+  "email": "onb.rjs+shopundonecom@gmail.com",
+  "domain": "shopundone.com",
+  "startedAt": "2026-05-18T01:33:28.730Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:33:57.623Z",
+      "url": "https://www.shopundone.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:33:57.623Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

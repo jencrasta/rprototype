@@ -1,0 +1,9 @@
+{"type":"error","ts":1779071373065,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}
+{"type":"error","ts":1779071373089,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779071373089,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779071373237,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}
+{"type":"warn","ts":1779071373441,"text":"Error while trying to use the following icon from the Manifest: https://img1.wsimg.com/isteam/ip/c6f260a6-c701-4ca0-a950-da3b27ae80a8/fr2.png/:/rs=w:192,h:192,m (Resource size is not correct - typo in the Manifest?)"}
+{"type":"error","ts":1779071390359,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}
+{"type":"error","ts":1779071390432,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779071390432,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"warn","ts":1779071390438,"text":"Error while trying to use the following icon from the Manifest: https://img1.wsimg.com/isteam/ip/c6f260a6-c701-4ca0-a950-da3b27ae80a8/fr2.png/:/rs=w:192,h:192,m (Resource size is not correct - typo in the Manifest?)"}

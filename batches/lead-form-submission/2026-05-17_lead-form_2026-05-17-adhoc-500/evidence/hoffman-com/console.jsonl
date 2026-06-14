@@ -1,0 +1,16 @@
+{"type":"log","ts":1779077231914,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1779077232034,"text":"Failed to load resource: the server responded with a status of 403 ()"}
+{"type":"log","ts":1779077232774,"text":"opt-out"}
+{"type":"warn","ts":1779077232775,"text":"[Meta pixel] 2500755130184173 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."}
+{"type":"error","ts":1779077233056,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779077233094,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779077233391,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779077233392,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"log","ts":1779077250813,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1779077250820,"text":"Failed to load resource: the server responded with a status of 403 ()"}
+{"type":"log","ts":1779077251077,"text":"opt-out"}
+{"type":"warn","ts":1779077251145,"text":"[Meta pixel] 2500755130184173 is unavailable on this website due to it's traffic permission settings. Go to https://www.facebook.com/business/help/572690630080597 to learn more."}
+{"type":"error","ts":1779077251356,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779077251414,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779077251470,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779077251470,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

@@ -1,0 +1,19 @@
+{
+  "url": "https://bairdwarner.com",
+  "email": "onb.rjs+bairdwarnercom@gmail.com",
+  "domain": "bairdwarner.com",
+  "startedAt": "2026-05-18T04:08:57.110Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:09:28.616Z",
+      "url": "https://www.bairdwarner.com/sell-with-bw/get-your-home-ready/",
+      "noFormReason": "login_wall"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:09:28.617Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "login_wall"
+  }
+}

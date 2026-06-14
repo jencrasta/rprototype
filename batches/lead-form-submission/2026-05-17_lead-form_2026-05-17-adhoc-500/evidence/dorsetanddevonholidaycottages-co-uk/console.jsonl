@@ -1,0 +1,31 @@
+{"type":"error","ts":1779060873153,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779060873153,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"log","ts":1779060873165,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"log","ts":1779060873271,"text":"cache test"}
+{"type":"warn","ts":1779060873272,"text":"jQuery.Deferred exception: jQuery(...).slick is not a function TypeError: jQuery(...).slick is not a function\n    at HTMLDocument.<anonymous> (https://www.dorsetanddevonholidaycottages.co.uk/wp-content/plugins/creatomatic-sam/sc.js?ver=101:175:57)\n    at e (https://www.dorsetanddevonholidaycottages.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)\n    at t (https://www.dorsetanddevonholidaycottages.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) "}
+{"type":"error","ts":1779060873956,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060874035,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060874046,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060874047,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060891444,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060891444,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"log","ts":1779060891643,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"warn","ts":1779060891844,"text":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
+{"type":"log","ts":1779060891919,"text":"Hello World! (from create-block-example-dynamic block)"}
+{"type":"log","ts":1779060891935,"text":"cache test"}
+{"type":"warn","ts":1779060891935,"text":"jQuery.Deferred exception: jQuery(...).slick is not a function TypeError: jQuery(...).slick is not a function\n    at HTMLDocument.<anonymous> (https://www.dorsetanddevonholidaycottages.co.uk/wp-content/plugins/creatomatic-sam/sc.js?ver=101:175:57)\n    at e (https://www.dorsetanddevonholidaycottages.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)\n    at t (https://www.dorsetanddevonholidaycottages.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) "}
+{"type":"error","ts":1779060892008,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060892094,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060892114,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060892114,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060893610,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060893614,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"log","ts":1779060893614,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"warn","ts":1779060893750,"text":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
+{"type":"log","ts":1779060893756,"text":"Hello World! (from create-block-example-dynamic block)"}
+{"type":"log","ts":1779060893774,"text":"cache test"}
+{"type":"warn","ts":1779060893775,"text":"jQuery.Deferred exception: jQuery(...).slick is not a function TypeError: jQuery(...).slick is not a function\n    at HTMLDocument.<anonymous> (https://www.dorsetanddevonholidaycottages.co.uk/wp-content/plugins/creatomatic-sam/sc.js?ver=101:175:57)\n    at e (https://www.dorsetanddevonholidaycottages.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)\n    at t (https://www.dorsetanddevonholidaycottages.co.uk/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) "}
+{"type":"error","ts":1779060893856,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060893898,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060893942,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779060893942,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

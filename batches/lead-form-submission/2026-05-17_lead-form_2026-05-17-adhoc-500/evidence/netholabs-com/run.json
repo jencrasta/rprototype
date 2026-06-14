@@ -1,0 +1,35 @@
+{
+  "url": "https://netholabs.com",
+  "email": "onb.rjs+netholabscom@gmail.com",
+  "domain": "netholabs.com",
+  "startedAt": "2026-05-18T04:27:50.922Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T04:28:01.810Z",
+      "fields": [
+        "Your Email Here"
+      ],
+      "cta": "Stay in touch",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T04:28:02.055Z",
+      "url": "https://netholabs.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T04:28:15.163Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://netholabs.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:28:15.163Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://savacafe.ca",
+  "email": "onb.rjs+savacafeca@gmail.com",
+  "domain": "savacafe.ca",
+  "startedAt": "2026-05-18T01:08:45.741Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:08:58.413Z",
+      "fields": [
+        "Enter your email here"
+      ],
+      "cta": "Sign Up",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:08:58.561Z",
+      "url": "https://www.savacafe.ca/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:09:05.606Z",
+      "state": "redirect",
+      "evidence": "→ https://www.savacafe.ca/?email=onb.rjs%2Bsavacafeca%40gmail.com (path doesn't look like a confirmation)",
+      "url": "https://www.savacafe.ca/?email=onb.rjs%2Bsavacafeca%40gmail.com"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:09:05.607Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

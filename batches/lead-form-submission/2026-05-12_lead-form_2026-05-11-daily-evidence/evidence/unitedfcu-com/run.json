@@ -1,0 +1,17 @@
+{
+  "url": "https://unitedfcu.com",
+  "email": "onb.rjs+unitedfcucom@gmail.com",
+  "domain": "unitedfcu.com",
+  "startedAt": "2026-05-12T22:11:23.813Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:11:53.593Z",
+      "url": "https://unitedfcu.com/contact-us"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:11:53.593Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

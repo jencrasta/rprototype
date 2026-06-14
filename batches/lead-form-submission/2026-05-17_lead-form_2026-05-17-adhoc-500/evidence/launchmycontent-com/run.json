@@ -1,0 +1,44 @@
+{
+  "url": "https://launchmycontent.com",
+  "email": "onb.rjs+launchmycontentcom@gmail.com",
+  "domain": "launchmycontent.com",
+  "startedAt": "2026-05-18T03:13:32.151Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:13:43.689Z",
+      "fields": [
+        "Name",
+        "Business",
+        "Email",
+        "Phone",
+        "What do you need us to launch?",
+        "Professional Writing",
+        "Social Media Management",
+        "Facebook Ad Management",
+        "Package Multiple Services",
+        "Notes"
+      ],
+      "cta": "SUBMIT",
+      "placement": "Inline (page body)",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:13:43.756Z",
+      "url": "https://www.launchmycontent.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:13:50.785Z",
+      "state": "inline",
+      "evidence": "Forbidden",
+      "url": "https://www.launchmycontent.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:13:50.785Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

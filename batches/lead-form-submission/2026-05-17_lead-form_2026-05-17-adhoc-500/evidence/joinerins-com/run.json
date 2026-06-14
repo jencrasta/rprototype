@@ -1,0 +1,19 @@
+{
+  "url": "https://joinerins.com",
+  "email": "onb.rjs+joinerinscom@gmail.com",
+  "domain": "joinerins.com",
+  "startedAt": "2026-05-18T00:46:48.189Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:47:18.319Z",
+      "url": "https://www.joinerins.com/",
+      "noFormReason": "needs_scroll"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:47:18.320Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "needs_scroll"
+  }
+}

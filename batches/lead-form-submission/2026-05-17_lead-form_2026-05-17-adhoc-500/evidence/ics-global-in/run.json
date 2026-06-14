@@ -1,0 +1,40 @@
+{
+  "url": "https://ics-global.in",
+  "email": "onb.rjs+icsglobalin@gmail.com",
+  "domain": "ics-global.in",
+  "startedAt": "2026-05-18T03:03:36.292Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:03:48.894Z",
+      "fields": [
+        "Full Name *",
+        "Email *",
+        "Company Name *",
+        "Phone Number*",
+        "Select your interest",
+        "Message"
+      ],
+      "cta": "Submit",
+      "placement": "Footer (embedded)",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:03:49.099Z",
+      "url": "https://theintechgroup.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:03:56.221Z",
+      "state": "inline-error",
+      "evidence": "Full Name * Email * Company Name * Phone Number* India +91 Select your interest Select your interest Digital Transformation AI / ML ERP Services Data Science Managed Services Other Message The…",
+      "url": "https://theintechgroup.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:03:56.221Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

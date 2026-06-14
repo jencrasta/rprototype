@@ -1,0 +1,36 @@
+{
+  "url": "https://fawnalore.com",
+  "email": "onb.rjs+fawnalorecom@gmail.com",
+  "domain": "fawnalore.com",
+  "startedAt": "2026-05-18T03:50:02.528Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:50:14.216Z",
+      "fields": [
+        "your first name",
+        "your email address"
+      ],
+      "cta": "Follow The Journey",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:50:14.462Z",
+      "url": "https://www.fawnalore.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:50:21.487Z",
+      "state": "inline",
+      "evidence": "DONE! ⏎ You're in. ⏎ The universe is waiting.",
+      "url": "https://www.fawnalore.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:50:21.487Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://flex-sol.com",
+  "email": "onb.rjs+flexsolcom@gmail.com",
+  "domain": "flex-sol.com",
+  "startedAt": "2026-05-12T22:10:03.317Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:10:36.161Z",
+      "url": "https://flex-sol.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:10:36.161Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://deltatax.org",
+  "email": "onb.rjs+deltataxorg@gmail.com",
+  "domain": "deltatax.org",
+  "startedAt": "2026-05-12T22:13:53.297Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:14:20.636Z",
+      "url": "chrome-error://chromewebdata/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:14:20.636Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

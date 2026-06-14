@@ -1,0 +1,7 @@
+{"type":"error","ts":1779071429144,"text":"Failed to load resource: net::ERR_NAME_NOT_RESOLVED"}
+{"type":"warn","ts":1779071429499,"text":"yui: NOT loaded: squarespace-visitor_site_error_reporter"}
+{"type":"warn","ts":1779071429499,"text":"yui: NOT loaded: squarespace-cldr_resource_pack"}
+{"type":"warn","ts":1779071429499,"text":"yui: NOT loaded: squarespace-common_vendors_stable"}
+{"type":"warn","ts":1779071429499,"text":"yui: NOT loaded: squarespace-common_vendors"}
+{"type":"warn","ts":1779071429501,"text":"yui: NOT loaded: squarespace-performance"}
+{"type":"log","ts":1779071429937,"text":"[Visitor Sentry] Initialized and sending events"}

@@ -1,0 +1,17 @@
+{
+  "url": "https://tobeluxe.es",
+  "email": "onb.rjs+tobeluxees@gmail.com",
+  "domain": "tobeluxe.es",
+  "startedAt": "2026-05-12T21:17:25.721Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:17:59.389Z",
+      "url": "https://tobeluxe.es/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:17:59.389Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

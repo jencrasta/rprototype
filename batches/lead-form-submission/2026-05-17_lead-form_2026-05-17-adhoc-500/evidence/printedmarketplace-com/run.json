@@ -1,0 +1,39 @@
+{
+  "url": "https://printedmarketplace.com",
+  "email": "onb.rjs+printedmarketplacecom@gmail.com",
+  "domain": "printedmarketplace.com",
+  "startedAt": "2026-05-18T02:24:38.557Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:25:01.905Z",
+      "fields": [
+        "First Name *",
+        "Last Name *",
+        "Email Address *",
+        "Phone Number",
+        "Your Message *"
+      ],
+      "cta": "",
+      "placement": "Popup / Modal",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:25:01.982Z",
+      "url": "https://printedmarketplace.com/Printed_Marketplace_LLC/shop/home"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:25:09.044Z",
+      "state": "inline",
+      "evidence": "Your custom apparel shop! ⏎ Your custom apparel shop! ⏎ Home Stores Products DTF Transfers Premade Products Designer About Us Contact Carhartt Ogio Apparel More Sign In 0 ⏎ Home Stores Products…",
+      "url": "https://printedmarketplace.com/Printed_Marketplace_LLC/shop/home"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:25:09.044Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

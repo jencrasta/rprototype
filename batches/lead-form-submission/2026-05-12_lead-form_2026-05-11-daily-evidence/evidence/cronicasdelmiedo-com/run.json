@@ -1,0 +1,35 @@
+{
+  "url": "https://cronicasdelmiedo.com",
+  "email": "onb.rjs+cronicasdelmiedocom@gmail.com",
+  "domain": "cronicasdelmiedo.com",
+  "startedAt": "2026-05-12T21:49:55.465Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:50:06.162Z",
+      "fields": [
+        "Tu correo, peregrino…"
+      ],
+      "cta": "Suscribirme",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:50:06.290Z",
+      "url": "https://cronicasdelmiedo.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:50:19.404Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://cronicasdelmiedo.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:50:19.404Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

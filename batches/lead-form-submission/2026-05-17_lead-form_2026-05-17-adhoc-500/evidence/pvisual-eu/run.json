@@ -1,0 +1,19 @@
+{
+  "url": "https://pvisual.eu",
+  "email": "onb.rjs+pvisualeu@gmail.com",
+  "domain": "pvisual.eu",
+  "startedAt": "2026-05-18T01:30:25.439Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:30:52.924Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:30:52.924Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

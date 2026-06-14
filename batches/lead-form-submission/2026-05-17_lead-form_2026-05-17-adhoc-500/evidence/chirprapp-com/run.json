@@ -1,0 +1,40 @@
+{
+  "url": "https://chirprapp.com",
+  "email": "onb.rjs+chirprappcom@gmail.com",
+  "domain": "chirprapp.com",
+  "startedAt": "2026-05-18T02:36:05.667Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:36:25.124Z",
+      "fields": [
+        "Name *",
+        "Work email *",
+        "Company *",
+        "Event type *",
+        "Expected attendance *",
+        "Target timeline *"
+      ],
+      "cta": "Request a demo",
+      "placement": "Inline (page body)",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:36:25.208Z",
+      "url": "https://chirprapp.com/demo.php"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:36:38.379Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://chirprapp.com/demo.php"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:36:38.379Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

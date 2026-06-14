@@ -1,0 +1,41 @@
+{
+  "url": "https://laengsel.com",
+  "email": "onb.rjs+laengselcom@gmail.com",
+  "domain": "laengsel.com",
+  "startedAt": "2026-05-08T19:45:58.910Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-08T19:46:12.244Z",
+      "fields": [
+        "Name(required)",
+        "E-mail(required)",
+        "Phone(required)",
+        "City(required)",
+        "Country(required)",
+        "Talk with us",
+        "message-yui_741676bb-2b9d-4492-b9ca-76771e91d7ed-field"
+      ],
+      "cta": "SendSend",
+      "placement": "Popup / Modal",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-08T19:46:12.429Z",
+      "url": "https://www.laengsel.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-08T19:46:19.547Z",
+      "state": "inline-error",
+      "evidence": "Form submission failed. ⏎ Review the following information: Phone, City, and Country. ⏎ Name (required) E-mail (required) Phone (required) Phone is required. ⏎ City (required) City is required. ⏎…",
+      "url": "https://www.laengsel.com/"
+    }
+  ],
+  "finishedAt": "2026-05-08T19:46:19.547Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

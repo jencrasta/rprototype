@@ -1,0 +1,19 @@
+{
+  "url": "https://cr8fconclave.com",
+  "email": "onb.rjs+cr8fconclavecom@gmail.com",
+  "domain": "cr8fconclave.com",
+  "startedAt": "2026-05-18T00:28:30.635Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:28:58.812Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:28:58.812Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

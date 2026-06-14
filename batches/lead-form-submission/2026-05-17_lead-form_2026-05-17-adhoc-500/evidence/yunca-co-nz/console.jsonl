@@ -1,0 +1,4 @@
+{"type":"error","ts":1779069687242,"text":"Failed to find a valid digest in the 'integrity' attribute for resource 'https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-tooltip@1.1.0/dist/tooltip.min.js' with computed SHA-384 integrity '9Yb1St09KtQ9k69KwCTnx+/fMzPQDk1dmu/cp5o+Zo4nezOTc5fH1/pEyF+THO5a'. The resource has been blocked."}
+{"type":"error","ts":1779069687436,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779069699107,"text":"Failed to find a valid digest in the 'integrity' attribute for resource 'https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-tooltip@1.1.0/dist/tooltip.min.js' with computed SHA-384 integrity '9Yb1St09KtQ9k69KwCTnx+/fMzPQDk1dmu/cp5o+Zo4nezOTc5fH1/pEyF+THO5a'. The resource has been blocked."}
+{"type":"error","ts":1779069699144,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

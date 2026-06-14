@@ -1,0 +1,21 @@
+{"type":"debug","ts":1779061981719,"text":"Munchkin.init(\"%s\") options: 722-DFC-631 [object Object]"}
+{"type":"log","ts":1779061981841,"text":"JQMIGRATE: Migrate is installed with logging active, version 3.4.1"}
+{"type":"warn","ts":1779061981851,"text":"JQMIGRATE: jQuery.type is deprecated"}
+{"type":"trace","ts":1779061981851,"text":"console.trace"}
+{"type":"warn","ts":1779061981858,"text":"JQMIGRATE: 'ready' event is deprecated"}
+{"type":"trace","ts":1779061981858,"text":"console.trace"}
+{"type":"warn","ts":1779061981877,"text":"JQMIGRATE: jQuery.isFunction() is deprecated"}
+{"type":"trace","ts":1779061981877,"text":"console.trace"}
+{"type":"warn","ts":1779061991689,"text":"[TikTok Pixel] - Missing 'content_id' paramter\nIssue: The 'content_id' parameter isn't being received. This is required for Video Shopping Ads (VSA).\nSuggestion: Include the 'content_id' parameter in your source code. This is required for Video Shopping Ads (VSA). See https://ads.tiktok.com/help/article/standard-events-parameters?redirected=2 for more information."}
+{"type":"debug","ts":1779062000157,"text":"Munchkin.init(\"%s\") options: 722-DFC-631 [object Object]"}
+{"type":"warn","ts":1779062000208,"text":"[TikTok Pixel] - Missing 'content_id' paramter\nIssue: The 'content_id' parameter isn't being received. This is required for Video Shopping Ads (VSA).\nSuggestion: Include the 'content_id' parameter in your source code. This is required for Video Shopping Ads (VSA). See https://ads.tiktok.com/help/article/standard-events-parameters?redirected=2 for more information."}
+{"type":"log","ts":1779062000264,"text":"JQMIGRATE: Migrate is installed with logging active, version 3.4.1"}
+{"type":"log","ts":1779062000272,"text":"SimpleDTO: Unifying domains www.aut.ac.nz, aut.ac.nz"}
+{"type":"warn","ts":1779062000272,"text":"document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."}
+{"type":"warn","ts":1779062000516,"text":"JQMIGRATE: jQuery.isArray is deprecated; use Array.isArray"}
+{"type":"trace","ts":1779062000516,"text":"console.trace"}
+{"type":"warn","ts":1779062000516,"text":"JQMIGRATE: jQuery.isFunction() is deprecated"}
+{"type":"trace","ts":1779062000516,"text":"console.trace"}
+{"type":"log","ts":1779062002953,"text":"SimpleDTO: Unifying domains info.aut.ac.nz, aut.ac.nz"}
+{"type":"warn","ts":1779062002953,"text":"document.domain mutation is ignored because the surrounding agent cluster is origin-keyed."}
+{"type":"log","ts":1779062002956,"text":"SimpleDTO: running callback"}

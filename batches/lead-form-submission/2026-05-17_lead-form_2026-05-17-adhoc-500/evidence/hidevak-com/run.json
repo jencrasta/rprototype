@@ -1,0 +1,19 @@
+{
+  "url": "https://hidevak.com",
+  "email": "onb.rjs+hidevakcom@gmail.com",
+  "domain": "hidevak.com",
+  "startedAt": "2026-05-17T23:24:45.776Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:25:12.620Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:25:12.620Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

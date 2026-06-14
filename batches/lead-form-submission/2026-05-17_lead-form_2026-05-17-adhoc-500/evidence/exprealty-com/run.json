@@ -1,0 +1,19 @@
+{
+  "url": "https://exprealty.com",
+  "email": "onb.rjs+exprealtycom@gmail.com",
+  "domain": "exprealty.com",
+  "startedAt": "2026-05-17T23:27:12.651Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:27:42.809Z",
+      "url": "https://www.exprealty.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:27:42.809Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

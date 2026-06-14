@@ -1,0 +1,33 @@
+{
+  "url": "https://www.nothingbundtcakes.com/find-a-bakery",
+  "email": "onb.rjs+nothingbundtcakescom@gmail.com",
+  "domain": "nothingbundtcakes.com",
+  "startedAt": "2026-05-14T15:37:50.617Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-14T15:38:02.714Z",
+      "fields": [
+        "Enter your email to receive special offers"
+      ],
+      "cta": "Submit",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-14T15:38:02.871Z",
+      "url": "https://www.nothingbundtcakes.com/find-a-bakery/"
+    },
+    {
+      "name": "error",
+      "ts": "2026-05-14T15:38:02.899Z",
+      "message": "Execution context was destroyed, most likely because of a navigation."
+    }
+  ],
+  "finishedAt": "2026-05-14T15:38:02.899Z",
+  "outcome": {
+    "status": "error",
+    "error": "Execution context was destroyed, most likely because of a navigation."
+  }
+}

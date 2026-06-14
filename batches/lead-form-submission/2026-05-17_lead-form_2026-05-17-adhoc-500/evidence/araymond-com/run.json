@@ -1,0 +1,19 @@
+{
+  "url": "https://araymond.com",
+  "email": "onb.rjs+araymondcom@gmail.com",
+  "domain": "araymond.com",
+  "startedAt": "2026-05-18T04:15:58.768Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:16:32.957Z",
+      "url": "https://www.araymond.com/en",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:16:32.957Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://stkieranarts.org",
+  "email": "onb.rjs+stkieranartsorg@gmail.com",
+  "domain": "stkieranarts.org",
+  "startedAt": "2026-05-18T00:03:50.132Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:04:18.323Z",
+      "url": "https://stkieranarts.org/membership.html",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:04:18.324Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

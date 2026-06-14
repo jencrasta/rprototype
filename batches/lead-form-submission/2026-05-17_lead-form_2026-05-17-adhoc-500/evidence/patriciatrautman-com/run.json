@@ -1,0 +1,19 @@
+{
+  "url": "https://patriciatrautman.com",
+  "email": "onb.rjs+patriciatrautmancom@gmail.com",
+  "domain": "patriciatrautman.com",
+  "startedAt": "2026-05-18T02:53:06.544Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:53:33.454Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:53:33.454Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

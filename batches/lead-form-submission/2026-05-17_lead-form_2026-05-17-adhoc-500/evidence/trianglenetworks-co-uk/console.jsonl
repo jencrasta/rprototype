@@ -1,0 +1,29 @@
+{"type":"log","ts":1779068801115,"text":"No classes config found in window"}
+{"type":"warn","ts":1779068801196,"text":"yui: NOT loaded: squarespace-visitor_site_error_reporter"}
+{"type":"warn","ts":1779068801196,"text":"yui: NOT loaded: squarespace-cldr_resource_pack"}
+{"type":"warn","ts":1779068801196,"text":"yui: NOT loaded: squarespace-common_vendors_stable"}
+{"type":"warn","ts":1779068801196,"text":"yui: NOT loaded: squarespace-common_vendors"}
+{"type":"warn","ts":1779068801197,"text":"yui: NOT loaded: squarespace-performance"}
+{"type":"log","ts":1779068801218,"text":"0.6688366502785794"}
+{"type":"log","ts":1779068801218,"text":"2"}
+{"type":"log","ts":1779068801218,"text":"0.8039208083428923"}
+{"type":"log","ts":1779068801218,"text":"1"}
+{"type":"log","ts":1779068801218,"text":"0.5453484622117938"}
+{"type":"log","ts":1779068801218,"text":"2"}
+{"type":"log","ts":1779068801218,"text":"0.16933814404611547"}
+{"type":"log","ts":1779068801219,"text":"4"}
+{"type":"log","ts":1779068801219,"text":"0.12020650394372334"}
+{"type":"log","ts":1779068801219,"text":"4"}
+{"type":"log","ts":1779068801219,"text":"0.9253562738390921"}
+{"type":"log","ts":1779068801219,"text":"0"}
+{"type":"log","ts":1779068801219,"text":"0.07388113312858924"}
+{"type":"log","ts":1779068801219,"text":"5"}
+{"type":"log","ts":1779068801219,"text":"0.9675335601182675"}
+{"type":"log","ts":1779068801219,"text":"0"}
+{"type":"log","ts":1779068801219,"text":"0.6728034615718471"}
+{"type":"log","ts":1779068801219,"text":"2"}
+{"type":"log","ts":1779068801219,"text":"0.7939226046235108"}
+{"type":"log","ts":1779068801219,"text":"1"}
+{"type":"warn","ts":1779068801219,"text":"Rellax: The elements you're trying to select don't exist."}
+{"type":"log","ts":1779068801220,"text":"Lazy Summaries started."}
+{"type":"error","ts":1779068812276,"text":"Failed to load resource: the server responded with a status of 400 ()"}

@@ -1,0 +1,17 @@
+{
+  "url": "https://raminthethicket.com",
+  "email": "onb.rjs+raminthethicketcom@gmail.com",
+  "domain": "raminthethicket.com",
+  "startedAt": "2026-05-12T21:33:50.524Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:34:19.382Z",
+      "url": "https://raminthethicket.ecrater.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:34:19.382Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

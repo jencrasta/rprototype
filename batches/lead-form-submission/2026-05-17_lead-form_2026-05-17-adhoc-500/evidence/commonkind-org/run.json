@@ -1,0 +1,19 @@
+{
+  "url": "https://commonkind.org",
+  "email": "onb.rjs+commonkindorg@gmail.com",
+  "domain": "commonkind.org",
+  "startedAt": "2026-05-18T02:15:42.364Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:16:11.603Z",
+      "url": "https://commonkind.org/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:16:11.604Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

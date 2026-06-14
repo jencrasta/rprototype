@@ -1,0 +1,19 @@
+{
+  "url": "https://delictipublishing.com",
+  "email": "onb.rjs+delictipublishingcom@gmail.com",
+  "domain": "delictipublishing.com",
+  "startedAt": "2026-05-18T02:09:11.445Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:09:38.286Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:09:38.287Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://aliciatherealtor.com",
+  "email": "onb.rjs+aliciatherealtorcom@gmail.com",
+  "domain": "aliciatherealtor.com",
+  "startedAt": "2026-05-18T03:23:11.644Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:23:41.903Z",
+      "url": "https://www.godaddy.com/domainsearch/find?key=parkweb&utm_source=godaddy&utm_medium=parkedpages&utm_campaign=x_dom-broker_parkedpages_x_x_invest_0_001&tmskey=dpp_dbs&domainToCheck=aliciatherealtor.com&isc=GPPTCOM&itc=parkedpage_landers",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:23:41.903Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

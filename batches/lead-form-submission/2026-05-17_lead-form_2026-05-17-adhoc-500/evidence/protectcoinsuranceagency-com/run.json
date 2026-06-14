@@ -1,0 +1,19 @@
+{
+  "url": "https://protectcoinsuranceagency.com",
+  "email": "onb.rjs+protectcoinsuranceagencycom@gmail.com",
+  "domain": "protectcoinsuranceagency.com",
+  "startedAt": "2026-05-18T02:27:33.409Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:28:01.357Z",
+      "url": "https://protectcoinsuranceagency.com/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:28:01.358Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

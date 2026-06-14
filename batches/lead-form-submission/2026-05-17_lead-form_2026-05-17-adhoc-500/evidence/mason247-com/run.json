@@ -1,0 +1,36 @@
+{
+  "url": "https://mason247.com",
+  "email": "onb.rjs+mason247com@gmail.com",
+  "domain": "mason247.com",
+  "startedAt": "2026-05-18T02:04:04.220Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:04:16.524Z",
+      "fields": [
+        "Email",
+        "Yes, subscribe me to your newsletter."
+      ],
+      "cta": "Submit",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:04:16.623Z",
+      "url": "https://www.mason247.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:04:23.713Z",
+      "state": "inline",
+      "evidence": "Subscribe Enter an email address like example@mysite.com. ⏎ Submit Yes, subscribe me to your newsletter. ⏎ Thanks for subscribing!",
+      "url": "https://www.mason247.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:04:23.714Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

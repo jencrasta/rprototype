@@ -1,0 +1,39 @@
+{
+  "url": "https://asiliinitiative.com",
+  "email": "onb.rjs+asiliinitiativecom@gmail.com",
+  "domain": "asiliinitiative.com",
+  "startedAt": "2026-05-18T00:56:19.413Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:56:40.039Z",
+      "fields": [
+        "First name*",
+        "Last name*",
+        "Email*",
+        "Title*",
+        "Message"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:56:40.156Z",
+      "url": "https://www.asiliinitiative.com/contact"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:56:53.311Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.asiliinitiative.com/contact"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:56:53.311Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

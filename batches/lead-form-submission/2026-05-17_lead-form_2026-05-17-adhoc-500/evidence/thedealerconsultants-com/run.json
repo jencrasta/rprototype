@@ -1,0 +1,39 @@
+{
+  "url": "https://thedealerconsultants.com",
+  "email": "onb.rjs+thedealerconsultantscom@gmail.com",
+  "domain": "thedealerconsultants.com",
+  "startedAt": "2026-05-18T01:50:02.347Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:50:14.258Z",
+      "fields": [
+        "Full Name *",
+        "Email Address *",
+        "Phone Number",
+        "select-one",
+        "Tell us about your licensing needs..."
+      ],
+      "cta": "When are you hoping to be licensed by?",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:50:14.428Z",
+      "url": "https://thedealerconsultants.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:50:27.733Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://thedealerconsultants.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:50:27.733Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

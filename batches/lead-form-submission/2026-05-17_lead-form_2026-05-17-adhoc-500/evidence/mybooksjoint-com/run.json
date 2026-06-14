@@ -1,0 +1,19 @@
+{
+  "url": "https://mybooksjoint.com",
+  "email": "onb.rjs+mybooksjointcom@gmail.com",
+  "domain": "mybooksjoint.com",
+  "startedAt": "2026-05-18T04:16:40.271Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:17:12.116Z",
+      "url": "https://mybooksjoint.com/",
+      "noFormReason": "login_wall"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:17:12.117Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "login_wall"
+  }
+}

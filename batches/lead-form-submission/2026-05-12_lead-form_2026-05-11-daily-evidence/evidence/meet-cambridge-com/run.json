@@ -1,0 +1,17 @@
+{
+  "url": "https://meet-cambridge.com",
+  "email": "onb.rjs+meetcambridgecom@gmail.com",
+  "domain": "meet-cambridge.com",
+  "startedAt": "2026-05-12T22:01:38.387Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:02:08.724Z",
+      "url": "https://www.meet-cambridge.com/why-cambridge/about-cambridge/filming-photography-in-cambridge/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:02:08.724Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

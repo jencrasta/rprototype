@@ -1,0 +1,36 @@
+{
+  "url": "https://thepactcardco.com",
+  "email": "onb.rjs+thepactcardcocom@gmail.com",
+  "domain": "thepactcardco.com",
+  "startedAt": "2026-05-12T21:33:14.589Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:33:27.671Z",
+      "fields": [
+        "your@email.com",
+        "b_861cb75c36c4fd638a38182fe_b40f8ab7e2"
+      ],
+      "cta": "Notify Me",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:33:27.964Z",
+      "url": "https://thepactcardco.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:33:41.192Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://thepactcardco.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:33:41.192Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

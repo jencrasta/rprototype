@@ -1,0 +1,19 @@
+{
+  "url": "https://nottinghamsailing.club",
+  "email": "onb.rjs+nottinghamsailingclub@gmail.com",
+  "domain": "nottinghamsailing.club",
+  "startedAt": "2026-05-18T03:17:30.828Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:18:00.058Z",
+      "url": "https://nottinghamsailing.club/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:18:00.059Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

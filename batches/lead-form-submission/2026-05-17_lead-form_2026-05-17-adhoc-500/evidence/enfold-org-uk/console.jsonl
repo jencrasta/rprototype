@@ -1,0 +1,5 @@
+{"type":"error","ts":1779065559428,"text":"Mixed Content: The page at 'https://enfold.org.uk/' was loaded over HTTPS, but requested an insecure font 'http://enfold.org.uk/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.woff'. This request has been blocked; the content must be served over HTTPS."}
+{"type":"error","ts":1779065559428,"text":"Mixed Content: The page at 'https://enfold.org.uk/' was loaded over HTTPS, but requested an insecure font 'http://enfold.org.uk/wp-content/themes/Avada/includes/lib/assets/fonts/icomoon/awb-icons.ttf'. This request has been blocked; the content must be served over HTTPS."}
+{"type":"error","ts":1779065559559,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779065559559,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779065559566,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}

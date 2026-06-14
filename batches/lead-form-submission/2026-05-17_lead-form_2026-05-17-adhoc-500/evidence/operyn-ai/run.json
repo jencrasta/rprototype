@@ -1,0 +1,46 @@
+{
+  "url": "https://operyn.ai",
+  "email": "onb.rjs+operynai@gmail.com",
+  "domain": "operyn.ai",
+  "startedAt": "2026-05-17T23:52:36.302Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:52:48.558Z",
+      "fields": [
+        "Enter your email",
+        "website",
+        "company",
+        "message",
+        "subject",
+        "title",
+        "description",
+        "feedback",
+        "notes",
+        "details",
+        "remarks",
+        "comments"
+      ],
+      "cta": "Subscribe",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:52:48.673Z",
+      "url": "https://www.operyn.ai/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:52:55.709Z",
+      "state": "inline",
+      "evidence": "Thank you",
+      "url": "https://www.operyn.ai/"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:52:55.709Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://flowstop.fr",
+  "email": "onb.rjs+flowstopfr@gmail.com",
+  "domain": "flowstop.fr",
+  "startedAt": "2026-05-17T23:45:54.882Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:46:19.739Z",
+      "fields": [],
+      "cta": "",
+      "placement": "No form",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:46:19.788Z",
+      "url": "https://www.flowstop.co/en/contact-us"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:46:26.838Z",
+      "state": "inline-error",
+      "evidence": "Skip to main content ⏎ Get a quote Product Case studies Press FAQs Contact ⏎ Get a quote Product Case studies Press FAQs Contact ⏎ Get a quote ⏎ Get a quote ⏎ Get a quote ⏎ Get a quote ⏎ Get a…",
+      "url": "https://www.flowstop.co/en/contact-us"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:46:26.838Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

@@ -1,0 +1,10 @@
+{"type":"request","ts":1779074884465,"method":"GET","url":"https://zenith44.ro/","resourceType":"document"}
+{"type":"response","ts":1779074885973,"status":200,"url":"https://zenith44.ro/"}
+{"type":"request","ts":1779074886005,"method":"GET","url":"https://zenith44.ro/wp-content/uploads/2026/05/ChatGPT-Image-May-10-2026-at-03_12_23-PM.png","resourceType":"image"}
+{"type":"request","ts":1779074886007,"method":"GET","url":"blob:https://zenith44.ro/dc0dce90-b9d5-46f5-8245-89fad427754a","resourceType":"script"}
+{"type":"response","ts":1779074886009,"status":200,"url":"blob:https://zenith44.ro/dc0dce90-b9d5-46f5-8245-89fad427754a"}
+{"type":"request","ts":1779074886039,"method":"GET","url":"https://zenith44.ro/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4","resourceType":"script"}
+{"type":"response","ts":1779074886132,"status":200,"url":"https://zenith44.ro/wp-content/uploads/2026/05/ChatGPT-Image-May-10-2026-at-03_12_23-PM.png"}
+{"type":"response","ts":1779074886572,"status":200,"url":"https://zenith44.ro/wp-includes/js/wp-emoji-release.min.js?ver=6.9.4"}
+{"type":"request","ts":1779074887213,"method":"GET","url":"https://zenith44.ro/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779074887478,"status":200,"url":"https://zenith44.ro/favicon.ico"}

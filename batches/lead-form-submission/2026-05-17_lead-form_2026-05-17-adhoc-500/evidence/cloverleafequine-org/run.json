@@ -1,0 +1,19 @@
+{
+  "url": "https://cloverleafequine.org",
+  "email": "onb.rjs+cloverleafequineorg@gmail.com",
+  "domain": "cloverleafequine.org",
+  "startedAt": "2026-05-18T02:53:35.768Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:54:05.956Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:54:05.956Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

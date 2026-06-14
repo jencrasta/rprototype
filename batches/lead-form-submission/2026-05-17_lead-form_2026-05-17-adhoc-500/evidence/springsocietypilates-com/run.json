@@ -1,0 +1,35 @@
+{
+  "url": "https://springsocietypilates.com",
+  "email": "onb.rjs+springsocietypilatescom@gmail.com",
+  "domain": "springsocietypilates.com",
+  "startedAt": "2026-05-18T00:42:43.995Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:42:56.129Z",
+      "fields": [
+        "Email Address"
+      ],
+      "cta": "Sign Up",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:42:56.237Z",
+      "url": "https://springsocietypilates.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:43:03.270Z",
+      "state": "inline",
+      "evidence": "Thank you!",
+      "url": "https://springsocietypilates.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:43:03.270Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

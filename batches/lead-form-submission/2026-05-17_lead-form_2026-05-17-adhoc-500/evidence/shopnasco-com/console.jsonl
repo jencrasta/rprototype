@@ -1,0 +1,15 @@
+{"type":"error","ts":1779072595718,"text":"[shopify-account] <shopify-store> custom element is not registered. Ensure the storefront-components bundle is loaded so <shopify-account> can fetch data."}
+{"type":"verbose","ts":1779072595970,"text":"Rendering was performed in a subtree hidden by content-visibility."}
+{"type":"error","ts":1779072596291,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779072596543,"text":"Failed to load resource: the server responded with a status of 404 ()"}
+{"type":"log","ts":1779072596621,"text":"EmailWiz loaded."}
+{"type":"verbose","ts":1779072596645,"text":"Rendering was performed in a subtree hidden by content-visibility."}
+{"type":"verbose","ts":1779072596819,"text":"Rendering was performed in a subtree hidden by content-visibility."}
+{"type":"debug","ts":1779072597180,"text":"[bugsnag] Loaded!"}
+{"type":"verbose","ts":1779072597262,"text":"Rendering was performed in a subtree hidden by content-visibility."}
+{"type":"log","ts":1779072599453,"text":"recaptchacompat disabled"}
+{"type":"debug","ts":1779072600267,"text":"[bugsnag] Loaded!"}
+{"type":"log","ts":1779072608452,"text":"recaptchacompat disabled"}
+{"type":"error","ts":1779072608771,"text":"[Lightbox] AJAX failed: error "}
+{"type":"error","ts":1779072608771,"text":"[Lightbox] Batch loading failed: error: "}
+{"type":"error","ts":1779072608771,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

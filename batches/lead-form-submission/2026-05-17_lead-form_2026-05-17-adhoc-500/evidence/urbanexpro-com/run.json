@@ -1,0 +1,41 @@
+{
+  "url": "https://urbanexpro.com",
+  "email": "onb.rjs+urbanexprocom@gmail.com",
+  "domain": "urbanexpro.com",
+  "startedAt": "2026-05-17T23:44:12.615Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:44:25.888Z",
+      "fields": [
+        "First Name",
+        "Last Name",
+        "Phone",
+        "Email",
+        "Address",
+        "Are you a new customer?",
+        "How can we help you?"
+      ],
+      "cta": "Send Message",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:44:26.007Z",
+      "url": "https://www.urbanexpro.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:44:33.104Z",
+      "state": "redirect",
+      "evidence": "→ https://www.urbanexpro.com/site-search/?C= (path doesn't look like a confirmation)",
+      "url": "https://www.urbanexpro.com/site-search/?C="
+    }
+  ],
+  "finishedAt": "2026-05-17T23:44:33.104Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

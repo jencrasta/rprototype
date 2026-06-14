@@ -1,0 +1,32 @@
+{
+  "id": "2026-05-08_role-inference_leadcapture-role-inference",
+  "kind": "role-inference",
+  "name": "leadcapture-role-inference",
+  "startedAt": "2026-05-08T13:32:18.211Z",
+  "finishedAt": "2026-05-08T13:32:50.674Z",
+  "durationMin": 0.5,
+  "inputCount": 5,
+  "resolved": 2,
+  "resolvedPct": 40,
+  "tsvRelativePath": "role-inference/2026-05-08_role-inference_leadcapture-role-inference.tsv",
+  "columns": [
+    "email",
+    "title",
+    "category",
+    "source",
+    "profileUrl",
+    "companyName",
+    "parsedFirst",
+    "parsedLast",
+    "durationMs",
+    "finishedAt"
+  ],
+  "inputEmails": [
+    "secretary@tmo.org.au",
+    "contact@visuraflow.com",
+    "hd.harrydevonshire@gmail.com",
+    "Clint@theiadoctor.com",
+    "k.paschke@massstab.org"
+  ],
+  "notes": ""
+}

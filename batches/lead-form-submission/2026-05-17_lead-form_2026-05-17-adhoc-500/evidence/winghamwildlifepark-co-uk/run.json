@@ -1,0 +1,38 @@
+{
+  "url": "https://winghamwildlifepark.co.uk",
+  "email": "onb.rjs+winghamwildlifeparkcouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-18T01:10:37.564Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:10:58.854Z",
+      "fields": [
+        "Name",
+        "email",
+        "SubjectDropDown",
+        "Message"
+      ],
+      "cta": "Send",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:10:58.931Z",
+      "url": "https://winghamwildlifepark.co.uk/visitor-information/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:11:05.968Z",
+      "state": "inline-error",
+      "evidence": "Your Name * Your Email * Subject * I have a general question I have a question about School Visits I'd like to enquire about Volunteering I'd like to enquire about Job Openings Your Message…",
+      "url": "https://winghamwildlifepark.co.uk/visitor-information/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:11:05.968Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

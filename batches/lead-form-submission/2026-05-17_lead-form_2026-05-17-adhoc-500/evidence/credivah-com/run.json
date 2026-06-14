@@ -1,0 +1,19 @@
+{
+  "url": "https://credivah.com",
+  "email": "onb.rjs+credivahcom@gmail.com",
+  "domain": "credivah.com",
+  "startedAt": "2026-05-17T23:36:27.685Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:36:54.535Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:36:54.535Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

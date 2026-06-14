@@ -1,0 +1,37 @@
+{
+  "url": "https://nm.com",
+  "email": "onb.rjs+nmcom@gmail.com",
+  "domain": "nm.com",
+  "startedAt": "2026-05-18T03:17:07.941Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:17:20.600Z",
+      "fields": [
+        "First name*",
+        "Last name*",
+        "Email*"
+      ],
+      "cta": "Sign me up",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:17:20.824Z",
+      "url": "https://www.northwesternmutual.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:17:27.922Z",
+      "state": "inline-error",
+      "evidence": "First name* Enter valid name. ⏎ Last name* Email* Enter email Sign me up",
+      "url": "https://www.northwesternmutual.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:17:27.922Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://c21trinity.com",
+  "email": "onb.rjs+c21trinitycom@gmail.com",
+  "domain": "c21trinity.com",
+  "startedAt": "2026-05-17T23:25:44.820Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:26:07.025Z",
+      "fields": [
+        "Name: *",
+        "Email Address: *",
+        "Phone Number",
+        "Message:"
+      ],
+      "cta": "Send",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:26:07.079Z",
+      "url": "https://www.c21trinity.com/contact-us"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:26:20.255Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.c21trinity.com/contact-us"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:26:20.255Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

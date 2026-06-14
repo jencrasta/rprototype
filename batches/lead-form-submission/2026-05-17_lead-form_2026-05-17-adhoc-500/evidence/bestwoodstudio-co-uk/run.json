@@ -1,0 +1,38 @@
+{
+  "url": "https://bestwoodstudio.co.uk",
+  "email": "onb.rjs+bestwoodstudiocouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-17T23:37:30.271Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:37:43.139Z",
+      "fields": [
+        "First",
+        "Last",
+        "Email *",
+        "Comment or Message"
+      ],
+      "cta": "Submit",
+      "placement": "Footer (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:37:43.313Z",
+      "url": "https://bestwoodstudio.co.uk/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:37:50.349Z",
+      "state": "inline-error",
+      "evidence": "Message * Name Name * First This field is required. ⏎ Last This field is required. ⏎ Email * Comment or Message SUBMIT",
+      "url": "https://bestwoodstudio.co.uk/"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:37:50.349Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2026-05-02_role-inference-mixed-432",
+  "kind": "role-inference",
+  "name": "432-email mixed batch (May 2)",
+  "startedAt": "2026-05-02T00:39:00Z",
+  "finishedAt": "2026-05-02T03:06:00Z",
+  "durationMin": 147.7,
+  "inputCount": 432,
+  "resolved": 45,
+  "resolvedPct": 10.4,
+  "tsvRelativePath": "role-inference/2026-05-02_mixed-432.tsv",
+  "columns": [
+    "email",
+    "title",
+    "category",
+    "source",
+    "profileUrl",
+    "companyName",
+    "parsedFirst",
+    "parsedLast",
+    "durationMs"
+  ],
+  "notes": "First batch persisted under batches/. Mix of named individuals and role addresses (info@, hello@, etc.)."
+}

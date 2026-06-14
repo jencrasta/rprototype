@@ -1,0 +1,19 @@
+{
+  "url": "https://mortonmortgagesni.co.uk",
+  "email": "onb.rjs+mortonmortgagesnicouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-18T00:27:16.967Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:28:28.584Z",
+      "url": "https://mortonmortgagesni.co.uk/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:28:28.584Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

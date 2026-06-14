@@ -1,0 +1,35 @@
+{
+  "url": "https://brauntrack.com",
+  "email": "onb.rjs+brauntrackcom@gmail.com",
+  "domain": "brauntrack.com",
+  "startedAt": "2026-05-12T21:15:34.804Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:15:53.209Z",
+      "fields": [
+        "Email *"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:15:53.306Z",
+      "url": "https://brauntrack.com/free-training"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:16:06.382Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://brauntrack.com/free-training"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:16:06.382Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

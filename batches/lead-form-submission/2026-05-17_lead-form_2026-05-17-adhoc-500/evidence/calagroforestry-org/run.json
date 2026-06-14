@@ -1,0 +1,39 @@
+{
+  "url": "https://calagroforestry.org",
+  "email": "onb.rjs+calagroforestryorg@gmail.com",
+  "domain": "calagroforestry.org",
+  "startedAt": "2026-05-18T01:39:30.003Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:39:47.627Z",
+      "fields": [
+        "First name*",
+        "Last name",
+        "Email*",
+        "Phone",
+        "Write a message"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:39:47.754Z",
+      "url": "https://www.calagroforestry.org/get-involved"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:40:00.987Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.calagroforestry.org/get-involved"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:40:00.987Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

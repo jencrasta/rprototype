@@ -1,0 +1,468 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venzitech Traders</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <style>
+    :root {
+        --bg: #0a0e17;
+        --card-bg: rgba(20, 25, 40, 0.65);
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --accent: #00d4ff;
+        --accent-dark: #00a0cc;
+        --glow: 0 0 25px rgba(0, 212, 255, 0.35);
+        --border: rgba(0, 212, 255, 0.18);
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+
+    .container { width:90%; max-width:1280px; margin:0 auto; }
+
+    .nav {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: rgba(10,14,23,0.92);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--border);
+    }
+    .nav-wrap {
+        display:flex; justify-content:space-between; align-items:center;
+        padding:1.2rem 0; flex-wrap:wrap; gap:1.5rem;
+    }
+    .logo {
+        display:flex; align-items:center; gap:0.8rem;
+        font-size:1.4rem; font-weight:700; color:white;
+    }
+    .logo img { height:42px; width:auto; }
+    .nav-links {
+        display:flex; flex-wrap:wrap; gap:1rem;
+        align-items:center;
+    }
+    .nav-links a {
+        color:var(--text-muted); text-decoration:none;
+        font-weight:500; transition:color .3s;
+    }
+    .nav-links a:hover { color:var(--accent); }
+
+    .hero {
+        padding:9rem 0 7rem;
+        text-align:center;
+        background: linear-gradient(135deg, #0f172a 0%, #0a0e17 100%);
+        opacity: 0;
+        transform: translateY(30px);
+        animation: heroFade 1s forwards 0.2s;
+    }
+    @keyframes heroFade {
+        to { opacity:1; transform:translateY(0); }
+    }
+    .hero h1 {
+        font-size: clamp(2.8rem, 8vw, 4.5rem);
+        font-weight:800;
+        margin-bottom:1.2rem;
+        background: linear-gradient(90deg, #e2e8f0, var(--accent));
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+    }
+    .hero p {
+        font-size:1.3rem; color:var(--text-muted);
+        max-width:680px; margin:0 auto 2.5rem;
+    }
+    .buttons {
+        display:flex; justify-content:center; flex-wrap:wrap; gap:1.2rem;
+    }
+    .btn {
+        padding:0.95rem 2.4rem;
+        background:var(--accent);
+        color:#000;
+        border:none;
+        border-radius:50px;
+        font-weight:700;
+        text-decoration:none;
+        transition:all .35s cubic-bezier(0.4, 0, 0.2, 1);
+        box-shadow:0 4px 15px rgba(0,212,255,0.3);
+        display:inline-block;
+        cursor:pointer;
+    }
+    .btn:hover {
+        transform: translateY(-4px) scale(1.04);
+        box-shadow:var(--glow);
+    }
+    .btn-outline {
+        background:transparent;
+        border:1.5px solid var(--accent);
+        color:var(--accent);
+    }
+    .btn-outline:hover {
+        background:rgba(0,212,255,0.12);
+    }
+
+    section { padding:6rem 0; }
+
+    h2 {
+        font-size:2.8rem;
+        text-align:center;
+        margin-bottom:3rem;
+        font-weight:700;
+        opacity:0;
+        transform:translateY(20px);
+        transition:all 0.8s ease;
+    }
+    h2.visible { opacity:1; transform:translateY(0); }
+
+    .card {
+        background:var(--card-bg);
+        backdrop-filter:blur(12px);
+        border:1px solid var(--border);
+        border-radius:16px;
+        padding:2rem;
+        opacity:0;
+        transform:translateY(40px);
+        transition:all 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
+        box-shadow:0 8px 32px rgba(0,0,0,0.35);
+    }
+    .card.visible {
+        opacity:1;
+        transform:translateY(0);
+    }
+    .card:hover {
+        transform:translateY(-10px);
+        box-shadow:var(--glow);
+        border-color:rgba(0,212,255,0.45);
+    }
+
+    .grid3, .grid2 {
+        display:grid;
+        gap:1.8rem;
+    }
+    .grid3 { grid-template-columns:repeat(auto-fit, minmax(320px, 1fr)); }
+    .grid2 { grid-template-columns:repeat(auto-fit, minmax(360px, 1fr)); }
+
+    input, textarea, select, button {
+        width:100%;
+        padding:0.95rem 1.2rem;
+        margin-bottom:1.1rem;
+        background:rgba(15,23,42,0.7);
+        border:1px solid rgba(148,163,184,0.25);
+        color:white;
+        border-radius:10px;
+        font-size:1rem;
+        transition:border-color .3s;
+    }
+    input:focus, textarea:focus, select:focus {
+        outline:none;
+        border-color:var(--accent);
+        box-shadow:0 0 0 3px rgba(0,212,255,0.15);
+    }
+    button {
+        background:var(--accent);
+        color:#000;
+        font-weight:700;
+        border:none;
+        cursor:pointer;
+        transition:all .3s;
+    }
+    button:hover { background:var(--accent-dark); transform:scale(1.02); }
+
+    .stars { color:#facc15; font-size:1.5rem; margin-bottom:0.8rem; letter-spacing:3px; }
+
+    .notice {
+        padding:1rem 1.4rem;
+        border-radius:10px;
+        margin-bottom:1.5rem;
+        font-weight:500;
+        opacity:0;
+        transform:translateY(10px);
+        animation:noticePop 0.5s forwards;
+    }
+    @keyframes noticePop {
+        to { opacity:1; transform:translateY(0); }
+    }
+    .notice.success { background:rgba(34,197,94,0.15); border:1px solid rgba(34,197,94,0.4); color:#86efac; }
+    .notice.error   { background:rgba(239,68,68,0.15); border:1px solid rgba(239,68,68,0.4); color:#fca5a5; }
+
+    video {
+        width:100%;
+        max-width:900px;
+        border-radius:16px;
+        margin:2rem auto 0;
+        display:block;
+        box-shadow:0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .footer {
+        border-top:1px solid var(--border);
+        padding:3rem 0 2rem;
+        text-align:center;
+        color:var(--text-muted);
+        font-size:0.95rem;
+    }
+
+    @media (max-width:768px) {
+        .hero { padding:6rem 0 4rem; }
+        .hero h1 { font-size:2.8rem; }
+    }
+    </style>
+<script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-2d0d2b7c.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-2d224aff.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-2d0aef27.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-3ea2c7ce.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-2d0da3af.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-4fe9d5dd.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-7941cc06.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-6289ff8e.js"></script><script charset="utf-8" src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-2d0c8092.js"></script><style type="text/css">#cg70qog62dig1778270032310 {outline:none !important;
+visibility:visible !important;
+resize:none !important;
+box-shadow:none !important;
+overflow:visible !important;
+background:none !important;
+opacity:1 !important;
+filter:alpha(opacity=100) !important;
+-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important;
+-mz-opacity:1 !important;
+-khtml-opacity:1 !important;
+top:auto !important;
+right:0px !important;
+bottom:0px !important;
+left:auto !important;
+position:fixed !important;
+border:0 !important;
+min-height:0px  !important;
+min-width:0px  !important;
+max-height:none  !important;
+max-width:none  !important;
+padding:0px !important;
+margin:0px !important;
+-moz-transition-property:none !important;
+-webkit-transition-property:none !important;
+-o-transition-property:none !important;
+transition-property:none !important;
+transform:none !important;
+-webkit-transform:none !important;
+-ms-transform:none !important;
+width:auto !important;
+height:auto  !important;
+display:none !important;
+z-index:2000000000 !important;
+background-color:transparent !important;
+cursor:none !important;
+float:none !important;
+border-radius:unset !important;
+pointer-events:auto !important;
+clip:auto !important;
+color-scheme:light !important;}</style><style type="text/css">.tawk-button-hover[data-v-2fc2d95d]:focus,.tawk-button-hover[data-v-2fc2d95d]:hover{background-color:hsla(0,0%,100%,.2)!important;border-radius:5px!important}</style><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#yfp17h3dv14o1778270032363.open{animation : tawkMaxOpen .25s ease!important;}@keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-moz-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-webkit-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}#yfp17h3dv14o1778270032363.closed{animation: tawkMaxClose .25s ease!important}</style><script src="https://cdn.jsdelivr.net/emojione/2.2.7/lib/js/emojione.min.js" type="text/javascript" async="" defer=""></script></head>
+<body>
+
+<div class="nav">
+    <div class="container nav-wrap">
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="Logo">
+            <strong>Venzitech Traders</strong>
+        </div>
+        <div class="nav-links">
+            <a href="#subscription">Subscription</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="#activation">Activation</a>
+            <a href="#contact">Contact</a>
+            <a href="/login.php">Client Portal</a>
+            <a href="/register.php">Create Account</a>
+            <a href="/cloud-trading.php">Cloud Trading</a>
+        </div>
+    </div>
+</div>
+
+<section class="hero">
+    <div class="container">
+        <h1>Trade with Structure and Confidence</h1>
+        <p>Venzitech Traders delivers powerful indicators, rule-based strategies, personalized coaching, and an active trading community.</p>
+
+        <div class="buttons">
+            <a class="btn" href="https://stan.store/venzitech/p/join-my-membership-3uzk89hr" target="_blank" rel="noopener noreferrer" style="opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);">Get Subscription</a>
+            <a class="btn btn-outline" href="https://stan.store/venzitech/p/coaching-gimc6bvu" target="_blank" rel="noopener noreferrer" style="opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);">Book Coaching</a>
+            <a class="btn btn-outline" href="https://discord.gg/b4PU6nYhSX" target="_blank" rel="noopener noreferrer" style="opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);">Join Discord</a>
+            <a class="btn btn-outline" href="/login.php" style="opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);">Client Portal</a>
+        </div>
+    </div>
+</section>
+
+<section id="video">
+    <div class="container">
+        <h2>Watch How It Works</h2>
+        <div class="card" style="padding:1.2rem; max-width:960px; margin:0 auto;">
+            <video controls="" muted="" playsinline="" preload="metadata">
+                <source src="/assets/videos/intro.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>Core Tools &amp; Support</h2>
+        <div class="grid2">
+            <div class="card"><h3>Precision Indicators</h3><p>Advanced chart tools that highlight entries, trends, TP/SL levels — designed to remove guesswork.</p></div>
+            <div class="card"><h3>Rule-Based Strategies</h3><p>Clear, repeatable frameworks — no emotional trading, just disciplined execution.</p></div>
+            <div class="card"><h3>1-on-1 Coaching</h3><p>Personal sessions focused on mindset, discipline, and refining your edge.</p></div>
+            <div class="card"><h3>Elite Community</h3><p>Active Discord with real-time setups, discussions, and peer support.</p></div>
+        </div>
+    </div>
+</section>
+
+<section id="subscription">
+    <div class="container">
+        <h2>Choose Your Path</h2>
+        <div class="grid3">
+            <div class="card">
+                <h3>Full Subscription</h3>
+                <p>Indicators + updates + Discord access</p>
+                <a class="btn" style="margin-top: 1.5rem; display: inline-block; opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);" href="https://stan.store/venzitech/p/join-my-membership-3uzk89hr" target="_blank" rel="noopener noreferrer">Subscribe Now</a>
+            </div>
+            <div class="card">
+                <h3>Personal Coaching</h3>
+                <p>Custom guidance to level up your trading</p>
+                <a class="btn" style="margin-top: 1.5rem; display: inline-block; opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);" href="https://stan.store/venzitech/p/coaching-gimc6bvu" target="_blank" rel="noopener noreferrer">Book Session</a>
+            </div>
+            <div class="card">
+                <h3>Discord Community</h3>
+                <p>Join serious traders sharing live ideas</p>
+                <a class="btn" style="margin-top: 1.5rem; display: inline-block; opacity: 1; transform: scale(1); transition: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);" href="https://discord.gg/b4PU6nYhSX" target="_blank" rel="noopener noreferrer">Join Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <div class="container">
+        <h2>Trader Feedback</h2>
+
+                
+        <div class="grid2">
+            <div>
+                                                            <div class="card" style="transition-delay: 0ms;">
+                            <div class="stars">
+                                ★★★★★                            </div>
+                            <p>Amazing trading experience</p>
+                            <strong style="color:var(--accent);">Gislene Ngoh</strong>
+                        </div>
+                                            <div class="card" style="transition-delay: 80ms;">
+                            <div class="stars">
+                                ★★★★★                            </div>
+                            <p>Joining this community was one of the best decisions I’ve made for my trading. The strategy and indicators provide clear direction, and the coaching gives you the confidence to execute trades properly.</p>
+                            <strong style="color:var(--accent);">Alexis Tebeck</strong>
+                        </div>
+                                            <div class="card" style="transition-delay: 160ms;">
+                            <div class="stars">
+                                ★★★★★                            </div>
+                            <p>This is honestly one of the most professional trading setups I’ve seen. The indicators are clean, the strategy logic is clear, and the guidance provided inside the community is incredibly helpful. It feels like trading with a real team instead of being on your own.</p>
+                            <strong style="color:var(--accent);">Daniel Neba</strong>
+                        </div>
+                                            <div class="card" style="transition-delay: 240ms;">
+                            <div class="stars">
+                                ★★★★★                            </div>
+                            <p>I’ve tried a lot of trading communities over the years, but nothing compares to what Venzitech Traders is doing. The strategies and indicators are extremely well built and actually make sense when you look at the charts. Since joining, my trading has become more disciplined and consistent. The support and coaching are also top tier. Highly recommended.</p>
+                            <strong style="color:var(--accent);">Michele R.</strong>
+                        </div>
+                                                </div>
+
+            <div class="card">
+                <h3>Share Your Experience</h3>
+                <form method="post">
+                    <input type="hidden" name="action" value="testimonial_submit">
+                    <input name="name" placeholder="Your Name" required="">
+                    <select name="rating" required="">
+                        <option value="5">★★★★★ (5)</option>
+                        <option value="4">★★★★☆ (4)</option>
+                        <option value="3">★★★☆☆ (3)</option>
+                        <option value="2">★★☆☆☆ (2)</option>
+                        <option value="1">★☆☆☆☆ (1)</option>
+                    </select>
+                    <textarea name="message" placeholder="Your Review Message" rows="5" required=""></textarea>
+                    <button type="submit">Submit Review</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="activation">
+    <div class="container">
+        <h2 class="visible">NinjaTrader Machine ID Activation</h2>
+        <div class="card visible" style="max-width:580px; margin:0 auto;">
+            <form method="post">
+                <input type="hidden" name="action" value="activation_submit">
+                <input name="user_name" type="text" placeholder="Your Name" required="">
+                <input name="email" type="email" placeholder="Your Email" required="">
+                <textarea name="machine_id" placeholder="Machine ID" rows="4" required=""></textarea>
+                <button type="submit">Submit Activation Request</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="card" style="text-align:center; max-width:600px; margin:0 auto;">
+            <p style="font-size:1.2rem; margin:1rem 0;">
+                Email: <strong style="color:var(--accent);">support@venzitechtraders.com</strong><br><br>
+                Discord: <a href="https://discord.gg/b4PU6nYhSX" style="color:var(--accent);">Join the Community</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <div class="container">
+        Venzitech Traders — Precision Trading Tools &amp; Community • Trading involves risk. Past performance is not indicative of future results.
+    </div>
+</div>
+
+<!--Start of Tawk.to Script-->
+<script src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-main.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-vendor.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-vendors.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-chunk-common.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-runtime.js" charset="UTF-8" crossorigin="*"></script><script src="https://embed.tawk.to/_s/v4/app/69e6f4c07ce/js/twk-app.js" charset="UTF-8" crossorigin="*"></script><script async="" src="https://embed.tawk.to/69e3f8ca08b1441c342cf37e/1jmh87mcs" charset="UTF-8" crossorigin="*"></script><script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/69e3f8ca08b1441c342cf37e/1jmh87mcs';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+<script>
+function animateOnScroll() {
+    const elements = document.querySelectorAll('h2, .card');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.15 });
+
+    elements.forEach(el => observer.observe(el));
+}
+
+window.addEventListener('load', () => {
+    animateOnScroll();
+
+    const buttons = document.querySelectorAll('.btn');
+    buttons.forEach((btn, i) => {
+        btn.style.opacity = '0';
+        btn.style.transform = 'scale(0.85)';
+        setTimeout(() => {
+            btn.style.transition = 'all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1)';
+            btn.style.opacity = '1';
+            btn.style.transform = 'scale(1)';
+        }, 300 + i * 120);
+    });
+});
+</script>
+
+
+<div id="cg70qog62dig1778270032310" style="display: block !important;"><iframe src="about:blank" frameborder="0" scrolling="no" width="64px" height="60px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:20px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:60px !important; min-width:64px !important; max-height:60px !important; max-width:64px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:64px !important; height:60px !important; display:block !important; z-index:1000003 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="bp4bb1l9ftms1778270032340" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe srcdoc="&lt;html&gt;&lt;/html&gt;" frameborder="0" scrolling="no" width="350px" height="520px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:98px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:520px !important; min-width:350px !important; max-height:520px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:520px !important; display:none !important; z-index:1000003 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:18px !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="yfp17h3dv14o1778270032363" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" height="30px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:30px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:45px !important; min-width:350px !important; max-height:45px !important; max-width:350px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:350px !important; height:45px !important; display:none !important; z-index:1000002 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="iduhk9g7vlfs1778270032356" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="360px" height="252px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:20px !important; bottom:90px; left:auto !important; position:fixed !important; border:0 !important; min-height:252px !important; min-width:360px !important; max-height:252px !important; max-width:360px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:360px !important; height:252px !important; display:block !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important;" id="zacgrdrr7b9g1778270032351" class="" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="about:blank" frameborder="0" scrolling="no" width="124px" height="95px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:0px !important; bottom:30px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:95px !important; min-width:124px !important; max-height:95px !important; max-width:124px !important; padding:0 !important; margin:0px 0 0 0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:rotate(0deg) translateZ(0); -webkit-transform:rotate(0deg) translateZ(0); -ms-transform:rotate(0deg) translateZ(0); width:124px !important; height:95px !important; display:none !important; z-index:1000004 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important; clip:auto !important; color-scheme:light !important; -moz-transform:rotate(0deg) translateZ(0); -o-transform:rotate(0deg) translateZ(0); transform-origin:0; -moz-transform-origin:0; -webkit-transform-origin:0; -o-transform-origin:0; -ms-transform-origin:0;" id="h1u5jijsttuk1778270032346" class="" referrerpolicy="no-referrer-when-downgrade"></iframe></div></body></html>

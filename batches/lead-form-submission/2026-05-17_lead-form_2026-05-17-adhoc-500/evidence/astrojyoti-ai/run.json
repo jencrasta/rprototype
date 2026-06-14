@@ -1,0 +1,19 @@
+{
+  "url": "https://astrojyoti.ai",
+  "email": "onb.rjs+astrojyotiai@gmail.com",
+  "domain": "astrojyoti.ai",
+  "startedAt": "2026-05-18T01:03:09.068Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:03:36.984Z",
+      "url": "https://astrojyoti.ai/",
+      "noFormReason": "needs_scroll"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:03:36.986Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "needs_scroll"
+  }
+}

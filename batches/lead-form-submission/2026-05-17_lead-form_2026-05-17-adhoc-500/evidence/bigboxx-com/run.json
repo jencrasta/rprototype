@@ -1,0 +1,35 @@
+{
+  "url": "https://bigboxx.com",
+  "email": "onb.rjs+bigboxxcom@gmail.com",
+  "domain": "bigboxx.com",
+  "startedAt": "2026-05-18T00:21:44.131Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:22:00.318Z",
+      "fields": [
+        "Input Email"
+      ],
+      "cta": "Subscribe",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:22:00.501Z",
+      "url": "https://www.bigboxx.com/main/en"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:22:13.643Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.bigboxx.com/main/en"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:22:13.643Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

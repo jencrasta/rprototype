@@ -1,0 +1,4 @@
+{"type":"request","ts":1779070059518,"method":"GET","url":"https://kirwannutrition.com/","resourceType":"document"}
+{"type":"response","ts":1779070060089,"status":404,"url":"https://kirwannutrition.com/"}
+{"type":"request","ts":1779070060109,"method":"GET","url":"https://kirwannutrition.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779070060399,"status":404,"url":"https://kirwannutrition.com/favicon.ico"}

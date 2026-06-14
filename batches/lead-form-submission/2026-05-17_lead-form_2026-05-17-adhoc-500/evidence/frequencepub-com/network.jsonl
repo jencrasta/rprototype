@@ -1,0 +1,16 @@
+{"type":"request","ts":1779073350730,"method":"GET","url":"https://frequencepub.com/","resourceType":"document"}
+{"type":"response","ts":1779073351216,"status":200,"url":"https://frequencepub.com/"}
+{"type":"request","ts":1779073351298,"method":"GET","url":"https://frequencepub.com/memo/index.html","resourceType":"document"}
+{"type":"request","ts":1779073351307,"method":"GET","url":"https://frequencepub.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779073351385,"status":200,"url":"https://frequencepub.com/memo/index.html"}
+{"type":"request","ts":1779073351390,"method":"GET","url":"https://frequencepub.com/memo/images/logo_ovh.jpg","resourceType":"image"}
+{"type":"request","ts":1779073351390,"method":"GET","url":"https://frequencepub.com/memo/images/question.gif","resourceType":"image"}
+{"type":"request","ts":1779073351390,"method":"GET","url":"https://frequencepub.com/memo/images/outils.gif","resourceType":"image"}
+{"type":"request","ts":1779073351391,"method":"GET","url":"https://www.netcraft.com/whats?host=www.frequencepub.com","resourceType":"image"}
+{"type":"request","ts":1779073351391,"method":"GET","url":"https://frequencepub.com/memo/powered.gif","resourceType":"image"}
+{"type":"response","ts":1779073351475,"status":200,"url":"https://frequencepub.com/memo/images/logo_ovh.jpg"}
+{"type":"response","ts":1779073351477,"status":200,"url":"https://frequencepub.com/memo/powered.gif"}
+{"type":"response","ts":1779073351562,"status":200,"url":"https://frequencepub.com/memo/images/question.gif"}
+{"type":"response","ts":1779073351562,"status":200,"url":"https://frequencepub.com/memo/images/outils.gif"}
+{"type":"request","ts":1779073351771,"method":"GET","url":"https://frequencepub.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779073351863,"status":404,"url":"https://frequencepub.com/favicon.ico"}

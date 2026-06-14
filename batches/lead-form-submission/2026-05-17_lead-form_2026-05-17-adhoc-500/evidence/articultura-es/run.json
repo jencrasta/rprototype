@@ -1,0 +1,38 @@
+{
+  "url": "https://articultura.es",
+  "email": "onb.rjs+articulturaes@gmail.com",
+  "domain": "articultura.es",
+  "startedAt": "2026-05-17T23:46:32.825Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:46:55.402Z",
+      "fields": [
+        "Nombre",
+        "Correo electrónico",
+        "Mensaje",
+        "He leído y acepto la política de privacidad"
+      ],
+      "cta": "Enviar",
+      "placement": "Footer (embedded)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:46:55.669Z",
+      "url": "https://www.articultura.es/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:47:08.831Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.articultura.es/"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:47:08.831Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://vu.ac.ug",
+  "email": "onb.rjs+vuacug@gmail.com",
+  "domain": "ac.ug",
+  "startedAt": "2026-05-18T04:23:32.381Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:24:03.507Z",
+      "url": "https://vu.ac.ug/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:24:03.508Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

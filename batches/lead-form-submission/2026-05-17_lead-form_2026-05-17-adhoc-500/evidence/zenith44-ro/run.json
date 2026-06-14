@@ -1,0 +1,19 @@
+{
+  "url": "https://zenith44.ro",
+  "email": "onb.rjs+zenith44ro@gmail.com",
+  "domain": "zenith44.ro",
+  "startedAt": "2026-05-18T03:28:04.330Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:28:33.062Z",
+      "url": "https://zenith44.ro/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:28:33.063Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

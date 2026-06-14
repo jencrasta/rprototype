@@ -1,0 +1,19 @@
+{
+  "url": "https://initialdesign.co.uk",
+  "email": "onb.rjs+initialdesigncouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-18T01:02:02.486Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:02:31.250Z",
+      "url": "https://initialdesign.co.uk/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:02:31.250Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

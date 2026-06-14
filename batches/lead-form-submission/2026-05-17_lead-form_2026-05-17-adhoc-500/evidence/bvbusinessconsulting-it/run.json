@@ -1,0 +1,19 @@
+{
+  "url": "https://bvbusinessconsulting.it",
+  "email": "onb.rjs+bvbusinessconsultingit@gmail.com",
+  "domain": "bvbusinessconsulting.it",
+  "startedAt": "2026-05-18T02:28:03.834Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:28:31.187Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:28:31.188Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

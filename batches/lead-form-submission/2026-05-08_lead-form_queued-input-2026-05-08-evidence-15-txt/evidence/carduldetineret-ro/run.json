@@ -1,0 +1,17 @@
+{
+  "url": "https://carduldetineret.ro",
+  "email": "onb.rjs+carduldetineretro@gmail.com",
+  "domain": "carduldetineret.ro",
+  "startedAt": "2026-05-08T19:50:51.219Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-08T19:51:21.656Z",
+      "url": "https://carduldetineret.ro/"
+    }
+  ],
+  "finishedAt": "2026-05-08T19:51:21.657Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

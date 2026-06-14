@@ -1,0 +1,19 @@
+{
+  "url": "https://dressforsuccessgl.org",
+  "email": "onb.rjs+dressforsuccessglorg@gmail.com",
+  "domain": "dressforsuccessgl.org",
+  "startedAt": "2026-05-18T02:07:06.059Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:07:35.732Z",
+      "url": "https://www.dressforsuccessgl.org/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:07:35.732Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

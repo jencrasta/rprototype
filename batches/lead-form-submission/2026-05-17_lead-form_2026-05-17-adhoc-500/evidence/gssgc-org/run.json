@@ -1,0 +1,19 @@
+{
+  "url": "https://gssgc.org",
+  "email": "onb.rjs+gssgcorg@gmail.com",
+  "domain": "gssgc.org",
+  "startedAt": "2026-05-18T04:21:59.661Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:22:27.995Z",
+      "url": "https://www.gssgc.org/en/get-involved/join.html",
+      "noFormReason": "needs_scroll"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:22:27.996Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "needs_scroll"
+  }
+}

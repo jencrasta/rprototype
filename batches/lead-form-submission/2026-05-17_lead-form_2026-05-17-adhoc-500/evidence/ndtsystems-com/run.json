@@ -1,0 +1,19 @@
+{
+  "url": "https://ndtsystems.com",
+  "email": "onb.rjs+ndtsystemscom@gmail.com",
+  "domain": "ndtsystems.com",
+  "startedAt": "2026-05-18T01:07:35.482Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:08:05.697Z",
+      "url": "https://www.ndtsystems.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:08:05.697Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

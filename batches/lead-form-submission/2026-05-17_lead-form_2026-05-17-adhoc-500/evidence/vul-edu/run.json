@@ -1,0 +1,19 @@
+{
+  "url": "https://vul.edu",
+  "email": "onb.rjs+vuledu@gmail.com",
+  "domain": "vul.edu",
+  "startedAt": "2026-05-17T23:41:00.364Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:41:29.088Z",
+      "url": "https://wp.vul.edu/newsletter/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:41:29.089Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

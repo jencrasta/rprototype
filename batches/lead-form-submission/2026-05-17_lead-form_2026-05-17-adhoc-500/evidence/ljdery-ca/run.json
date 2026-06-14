@@ -1,0 +1,19 @@
+{
+  "url": "https://ljdery.ca",
+  "email": "onb.rjs+ljderyca@gmail.com",
+  "domain": "ljdery.ca",
+  "startedAt": "2026-05-18T02:41:52.878Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:42:20.799Z",
+      "url": "https://ljdery.ca/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:42:20.799Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

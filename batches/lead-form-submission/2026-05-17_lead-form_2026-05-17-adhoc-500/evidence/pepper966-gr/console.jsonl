@@ -1,0 +1,10 @@
+{"type":"log","ts":1779068627194,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1779068627468,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779068627469,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"warn","ts":1779068627609,"text":"[GPT] PubAdsService.collapseEmptyDivs is deprecated, use googletag.setConfig({collapseDiv: ...}) instead.\nhttps://goo.gle/gpt-message#170"}
+{"type":"log","ts":1779068627674,"text":"[array Array]"}
+{"type":"warn","ts":1779068628254,"text":"jQuery.Deferred exception: jQuery is not a function TypeError: jQuery is not a function\n    at HTMLDocument.<anonymous> (https://www.pepper966.gr/wp-content/plugins/ajaxify-wordpress-site/js/ajaxify.js?ver=268324db7afeaaf9b0768482cf2d8e26:219:2)\n    at e (https://www.pepper966.gr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)\n    at t (https://www.pepper966.gr/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) "}
+{"type":"log","ts":1779068628452,"text":"Mozilla and flash not available"}
+{"type":"log","ts":1779068628452,"text":"Check for flash:false"}
+{"type":"log","ts":1779068629414,"text":"response  [object Object]"}
+{"type":"warn","ts":1779068629461,"text":"Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."}

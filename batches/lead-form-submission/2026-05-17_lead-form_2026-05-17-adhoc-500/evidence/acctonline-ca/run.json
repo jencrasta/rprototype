@@ -1,0 +1,38 @@
+{
+  "url": "https://acctonline.ca",
+  "email": "onb.rjs+acctonlineca@gmail.com",
+  "domain": "acctonline.ca",
+  "startedAt": "2026-05-18T01:09:07.787Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:09:28.662Z",
+      "fields": [
+        "Your Name",
+        "Your Email Address",
+        "Subject",
+        "Message"
+      ],
+      "cta": "Send",
+      "placement": "Sidebar (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:09:28.768Z",
+      "url": "https://acctonline.ca/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:09:35.826Z",
+      "state": "inline-error",
+      "evidence": "The field is required. The field is required. One or more fields have an error. Please check and try again.",
+      "url": "https://acctonline.ca/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:09:35.826Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

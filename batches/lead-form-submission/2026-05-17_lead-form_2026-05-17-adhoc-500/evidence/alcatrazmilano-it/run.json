@@ -1,0 +1,36 @@
+{
+  "url": "https://alcatrazmilano.it",
+  "email": "onb.rjs+alcatrazmilanoit@gmail.com",
+  "domain": "alcatrazmilano.it",
+  "startedAt": "2026-05-18T03:20:13.775Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:20:34.287Z",
+      "fields": [
+        "La tua email",
+        "Ho letto e accetto i termini e condizioni"
+      ],
+      "cta": "Iscriviti",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:20:34.370Z",
+      "url": "https://alcatrazmilano.it/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:20:47.628Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://alcatrazmilano.it/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:20:47.628Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

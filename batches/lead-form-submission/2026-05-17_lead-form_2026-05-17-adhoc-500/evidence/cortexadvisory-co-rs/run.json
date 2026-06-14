@@ -1,0 +1,19 @@
+{
+  "url": "https://cortexadvisory.co.rs",
+  "email": "onb.rjs+cortexadvisorycors@gmail.com",
+  "domain": "co.rs",
+  "startedAt": "2026-05-18T00:24:56.515Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:25:25.145Z",
+      "url": "https://cortexadvisory.co.rs/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:25:25.145Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

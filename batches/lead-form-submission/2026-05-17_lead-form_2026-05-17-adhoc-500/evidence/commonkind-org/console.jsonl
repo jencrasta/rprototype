@@ -1,0 +1,35 @@
+{"type":"log","ts":1779070543258,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"warn","ts":1779070543862,"text":"[Cloudflare Turnstile] Turnstile has already been rendered in this container. The render attempt was rejected."}
+{"type":"startGroupCollapsed","ts":1779070544415,"text":""}
+{"type":"debug","ts":1779070544415,"text":"Error"}
+{"type":"log","ts":1779070544417,"text":"[regexp RegExp]"}
+{"type":"log","ts":1779070544418,"text":"[regexp RegExp]"}
+{"type":"log","ts":1779070544418,"text":"[function Function]"}
+{"type":"log","ts":1779070544418,"text":"[function Function]"}
+{"type":"log","ts":1779070544419,"text":"[node HTMLAnchorElement]"}
+{"type":"log","ts":1779070544419,"text":"[node HTMLAnchorElement]"}
+{"type":"count","ts":1779070544420,"text":"\u0000: 1"}
+{"type":"count","ts":1779070544420,"text":"\u0000: 1"}
+{"type":"debug","ts":1779070544421,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"debug","ts":1779070544421,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"dir","ts":1779070544421,"text":" Error"}
+{"type":"dir","ts":1779070544421,"text":" Error"}
+{"type":"dirxml","ts":1779070544421,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"dirxml","ts":1779070544421,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"error","ts":1779070544421,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"error","ts":1779070544421,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"info","ts":1779070544422,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"info","ts":1779070544422,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"log","ts":1779070544422,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"log","ts":1779070544422,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"table","ts":1779070544422,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"table","ts":1779070544422,"text":"%c%d font-size:0;color:transparent Error"}
+{"type":"trace","ts":1779070544422,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"trace","ts":1779070544422,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"warn","ts":1779070544423,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"warn","ts":1779070544423,"text":"%c%d font-size:0;color:transparent NaN"}
+{"type":"endGroup","ts":1779070544424,"text":"console.groupEnd"}
+{"type":"startGroupCollapsed","ts":1779070544834,"text":"Request for the Private Access Token challenge."}
+{"type":"log","ts":1779070544834,"text":"The next request for the Private Access Token challenge may return a 401 and show a warning in console."}
+{"type":"endGroup","ts":1779070544853,"text":"console.groupEnd"}
+{"type":"warn","ts":1779070555314,"text":"Media type article is unrecognized"}

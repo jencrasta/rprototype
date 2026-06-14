@@ -1,0 +1,17 @@
+{
+  "url": "https://stud.ase.ro",
+  "email": "onb.rjs+studasero@gmail.com",
+  "domain": "ase.ro",
+  "startedAt": "2026-05-12T22:30:40.089Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:31:06.901Z",
+      "url": "chrome-error://chromewebdata/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:31:06.901Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

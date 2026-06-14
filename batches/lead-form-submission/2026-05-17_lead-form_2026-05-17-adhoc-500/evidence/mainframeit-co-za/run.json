@@ -1,0 +1,19 @@
+{
+  "url": "https://mainframeit.co.za",
+  "email": "onb.rjs+mainframeitcoza@gmail.com",
+  "domain": "co.za",
+  "startedAt": "2026-05-18T01:03:40.787Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:04:11.053Z",
+      "url": "https://mainframeit.co.za/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:04:11.055Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

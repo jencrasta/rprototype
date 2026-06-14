@@ -1,0 +1,36 @@
+{
+  "url": "https://yunca.co.nz",
+  "email": "onb.rjs+yuncaconz@gmail.com",
+  "domain": "co.nz",
+  "startedAt": "2026-05-18T02:01:25.424Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:01:38.260Z",
+      "fields": [
+        "Your Email",
+        "Your Message"
+      ],
+      "cta": "Learn More",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:01:38.296Z",
+      "url": "https://www.yunca.co.nz/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:01:45.334Z",
+      "state": "redirect",
+      "evidence": "→ https://www.yunca.co.nz/?email-2=onb.rjs%2Byuncaconz%40gmail.com&field= (path doesn't look like a confirmation)",
+      "url": "https://www.yunca.co.nz/?email-2=onb.rjs%2Byuncaconz%40gmail.com&field="
+    }
+  ],
+  "finishedAt": "2026-05-18T02:01:45.334Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

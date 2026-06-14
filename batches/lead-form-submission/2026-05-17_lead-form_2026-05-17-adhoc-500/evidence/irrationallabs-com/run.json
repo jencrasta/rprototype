@@ -1,0 +1,36 @@
+{
+  "url": "https://irrationallabs.com",
+  "email": "onb.rjs+irrationallabscom@gmail.com",
+  "domain": "irrationallabs.com",
+  "startedAt": "2026-05-18T01:20:49.725Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:21:02.006Z",
+      "fields": [
+        "First",
+        "Email(Required)"
+      ],
+      "cta": "Get Updates",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:21:02.132Z",
+      "url": "https://irrationallabs.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:21:09.233Z",
+      "state": "redirect",
+      "evidence": "→ https://irrationallabs.com/thank-you-newsletter-footer/?email=onb.rjs%2Birrationallabscom%40gmail.com&url=https%3A%2F%2Firrationallabs.com%2F",
+      "url": "https://irrationallabs.com/thank-you-newsletter-footer/?email=onb.rjs%2Birrationallabscom%40gmail.com&url=https%3A%2F%2Firrationallabs.com%2F"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:21:09.233Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

@@ -1,0 +1,4 @@
+{"type":"warn","ts":1779062189395,"text":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
+{"type":"error","ts":1779062190305,"text":"Failed to load resource: net::ERR_CERT_DATE_INVALID"}
+{"type":"error","ts":1779062190306,"text":"Failed to load resource: net::ERR_CERT_DATE_INVALID"}
+{"type":"debug","ts":1779062207310,"text":"Search endpoint requested!"}

@@ -1,0 +1,35 @@
+{
+  "url": "https://moravia.com",
+  "email": "onb.rjs+moraviacom@gmail.com",
+  "domain": "moravia.com",
+  "startedAt": "2026-05-18T01:50:34.555Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:50:51.181Z",
+      "fields": [
+        "Email*"
+      ],
+      "cta": "Get Started",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:50:51.297Z",
+      "url": "https://www.rws.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:51:04.505Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.rws.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:51:04.505Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

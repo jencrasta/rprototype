@@ -1,0 +1,35 @@
+{
+  "url": "https://asp.wroc.pl",
+  "email": "onb.rjs+aspwrocpl@gmail.com",
+  "domain": "wroc.pl",
+  "startedAt": "2026-05-18T00:03:26.192Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:03:41.227Z",
+      "fields": [
+        "Adres e-mail"
+      ],
+      "cta": "Zapisz",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:03:41.308Z",
+      "url": "https://www.asp.wroc.pl/pl"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:03:48.352Z",
+      "state": "inline",
+      "evidence": "Menu w nagłówku wersja polska Student Kandydat Pracownik EN Zwiększ kontrast Szukaj Połącz z tłumaczem języka migowego Otwórz nawigację ⏎ Menu w nagłówku wersja polska Student Kandydat Pracownik…",
+      "url": "https://www.asp.wroc.pl/pl"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:03:48.352Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

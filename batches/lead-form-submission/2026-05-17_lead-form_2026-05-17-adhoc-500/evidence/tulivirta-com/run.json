@@ -1,0 +1,19 @@
+{
+  "url": "https://tulivirta.com",
+  "email": "onb.rjs+tulivirtacom@gmail.com",
+  "domain": "tulivirta.com",
+  "startedAt": "2026-05-18T03:55:27.905Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:55:55.833Z",
+      "url": "https://www.tulivirta.com/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:55:55.833Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://ourrestorationhouse.org",
+  "email": "onb.rjs+ourrestorationhouseorg@gmail.com",
+  "domain": "ourrestorationhouse.org",
+  "startedAt": "2026-05-18T02:39:05.187Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:39:17.440Z",
+      "fields": [
+        "YOUR NAME",
+        "YOUR EMAIL",
+        "PHONE NUMBER",
+        "MESSAGE"
+      ],
+      "cta": "SUBMIT NOW",
+      "placement": "Footer (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:39:17.618Z",
+      "url": "https://ourrestorationhouse.org/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:39:24.650Z",
+      "state": "inline-error",
+      "evidence": "This field is required.",
+      "url": "https://ourrestorationhouse.org/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:39:24.650Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

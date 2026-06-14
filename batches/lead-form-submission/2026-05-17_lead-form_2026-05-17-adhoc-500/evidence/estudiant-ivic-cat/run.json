@@ -1,0 +1,19 @@
+{
+  "url": "https://estudiant.ivic.cat",
+  "email": "onb.rjs+estudiantiviccat@gmail.com",
+  "domain": "ivic.cat",
+  "startedAt": "2026-05-18T00:00:25.670Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:00:52.462Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:00:52.463Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

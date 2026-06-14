@@ -1,0 +1,36 @@
+{
+  "url": "https://elevatedmedicine.ai",
+  "email": "onb.rjs+elevatedmedicineai@gmail.com",
+  "domain": "elevatedmedicine.ai",
+  "startedAt": "2026-05-18T03:57:19.593Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:57:32.780Z",
+      "fields": [
+        "you@domain.com",
+        "Yes, I'd like updates from Elevated Medicine on preventive and longevity medicine. Unsubscribe anytime."
+      ],
+      "cta": "Subscribe",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:57:33.028Z",
+      "url": "https://www.elevatedmedicine.ai/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:57:40.043Z",
+      "state": "inline",
+      "evidence": "Lifestyle Prevention Longevity Insights ⏎ Lifestyle Prevention Longevity Insights ⏎ Elevate your understanding of modern medicine. Longevity and lifestyle medicine decoded WHAT'S INSIDE Lifestyle…",
+      "url": "https://www.elevatedmedicine.ai/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:57:40.043Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

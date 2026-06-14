@@ -1,0 +1,35 @@
+{
+  "url": "https://alignaestheticlounge.com",
+  "email": "onb.rjs+alignaestheticloungecom@gmail.com",
+  "domain": "alignaestheticlounge.com",
+  "startedAt": "2026-05-12T22:12:47.631Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:12:59.868Z",
+      "fields": [
+        "Email Address"
+      ],
+      "cta": "Subscribe",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:13:00.015Z",
+      "url": "https://www.alignaestheticlounge.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:13:07.032Z",
+      "state": "inline",
+      "evidence": "We respect your privacy. ⏎ Thank you!",
+      "url": "https://www.alignaestheticlounge.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:13:07.032Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

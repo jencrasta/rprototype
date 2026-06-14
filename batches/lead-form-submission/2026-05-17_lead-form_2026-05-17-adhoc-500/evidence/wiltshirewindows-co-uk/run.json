@@ -1,0 +1,41 @@
+{
+  "url": "https://wiltshirewindows.co.uk",
+  "email": "onb.rjs+wiltshirewindowscouk@gmail.com",
+  "domain": "co.uk",
+  "startedAt": "2026-05-18T03:15:07.659Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:15:30.429Z",
+      "fields": [
+        "First Name*",
+        "Last Name*",
+        "Email Address*",
+        "Phone Number*",
+        "Postcode*",
+        "timeline",
+        "Message"
+      ],
+      "cta": "Send Message",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:15:30.477Z",
+      "url": "https://www.wiltshirewindows.co.uk/contact/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:15:37.503Z",
+      "state": "inline-error",
+      "evidence": "The phone field must be a valid phone number. ⏎ Please enter a valid postcode.",
+      "url": "https://www.wiltshirewindows.co.uk/contact/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:15:37.503Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

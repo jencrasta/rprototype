@@ -1,0 +1,19 @@
+{
+  "url": "https://worldpack.eu",
+  "email": "onb.rjs+worldpackeu@gmail.com",
+  "domain": "worldpack.eu",
+  "startedAt": "2026-05-18T03:04:38.214Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:05:07.792Z",
+      "url": "https://www.worldpack.eu/en/home",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:05:07.793Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://propkee.com",
+  "email": "onb.rjs+propkeecom@gmail.com",
+  "domain": "propkee.com",
+  "startedAt": "2026-05-18T01:14:08.317Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:14:39.640Z",
+      "url": "https://propkee.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:14:39.640Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

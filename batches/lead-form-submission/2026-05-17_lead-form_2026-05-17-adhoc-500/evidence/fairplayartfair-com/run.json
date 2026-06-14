@@ -1,0 +1,35 @@
+{
+  "url": "https://fairplayartfair.com",
+  "email": "onb.rjs+fairplayartfaircom@gmail.com",
+  "domain": "fairplayartfair.com",
+  "startedAt": "2026-05-18T02:30:02.126Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:30:13.473Z",
+      "fields": [
+        "Enter your email address"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:30:13.516Z",
+      "url": "https://fairplayartfair.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:30:26.649Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://fairplayartfair.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:30:26.649Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

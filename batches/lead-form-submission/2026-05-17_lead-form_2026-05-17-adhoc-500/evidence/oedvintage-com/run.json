@@ -1,0 +1,35 @@
+{
+  "url": "https://oedvintage.com",
+  "email": "onb.rjs+oedvintagecom@gmail.com",
+  "domain": "oedvintage.com",
+  "startedAt": "2026-05-18T01:24:10.514Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:24:30.254Z",
+      "fields": [
+        "your-email"
+      ],
+      "cta": "ISCRIVIMI",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:24:30.424Z",
+      "url": "https://www.oedvintage.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:24:37.722Z",
+      "state": "inline",
+      "evidence": "Grazie per esserti iscritto alla newsletter.",
+      "url": "https://www.oedvintage.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:24:37.722Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

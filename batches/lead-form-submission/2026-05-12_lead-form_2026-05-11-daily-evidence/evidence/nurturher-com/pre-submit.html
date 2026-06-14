@@ -1,0 +1,797 @@
+<!DOCTYPE html><html lang="en-GB"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soft Reset · A NurturHer Book by Pearl Uzokwe</title>
+    <meta name="description" content="Soft Reset by Pearl Uzokwe. A guided return to yourself, rooted in African wisdom. Join the waitlist.">
+
+    <!--
+    NurturHer · Soft Reset landing page
+    Reference build for web designer
+
+    Brand tokens are defined as CSS variables in :root.
+    Replace the form action on line ~XXX with the live Mailchimp or ConvertKit endpoint.
+    Author photo placeholder lives in the "Written by" section.
+-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
+
+    <style>
+      :root {
+        /* NurturHer confirmed palette */
+        --blush-petal: #f6d6dc;
+        --rose-quartz: #eec6cf;
+        --nude-pink: #f9edee;
+        --ivory-cream: #fff8f6;
+        --warm-sand: #eadfd9;
+        --champagne-gold: #d8bfa3;
+        --dusty-rose: #d8a7b1;
+        --cocoa-blush: #8c6a6a;
+
+        /* Typographic tokens */
+        --serif: "Cormorant Garamond", Garamond, serif;
+        --sans: "Jost", sans-serif;
+
+        /* Layout */
+        --max-width: 720px;
+        --gutter: 1.75rem;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        background: var(--ivory-cream);
+        color: var(--cocoa-blush);
+        font-family: var(--sans);
+        font-weight: 300;
+        line-height: 1.7;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* ============================================
+       NAVIGATION
+       ============================================ */
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem var(--gutter);
+        max-width: 1200px;
+        margin: 0 auto;
+        border-bottom: 1px solid var(--warm-sand);
+      }
+
+      .logo {
+        font-family: var(--serif);
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.18em;
+        color: var(--cocoa-blush);
+        text-decoration: none;
+      }
+
+      .logo .her {
+        color: var(--dusty-rose);
+      }
+
+      .nav-cta {
+        font-family: var(--sans);
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: var(--cocoa-blush);
+        text-decoration: none;
+        padding: 0.85rem 1.6rem;
+        border: 1px solid var(--cocoa-blush);
+        border-radius: 999px;
+        transition:
+          background 0.4s ease,
+          color 0.4s ease;
+      }
+
+      .nav-cta:hover {
+        background: var(--cocoa-blush);
+        color: var(--ivory-cream);
+      }
+
+      /* ============================================
+       HERO
+       ============================================ */
+      .hero {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 5rem var(--gutter) 4rem;
+        text-align: center;
+        position: relative;
+      }
+
+      .kicker {
+        font-family: var(--sans);
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--dusty-rose);
+        margin-bottom: 2.5rem;
+      }
+
+      .hero-title {
+        font-family: var(--serif);
+        font-weight: 300;
+        font-size: clamp(4rem, 12vw, 6.5rem);
+        line-height: 0.95;
+        color: var(--cocoa-blush);
+        position: relative;
+        display: inline-block;
+      }
+
+      .hero-title em {
+        display: block;
+        font-style: italic;
+        color: var(--rose-quartz);
+        margin-top: 0.2em;
+      }
+
+      /* Decorative lotus circle, top right of hero title */
+      .hero-circle {
+        position: absolute;
+        top: 0;
+        right: -10%;
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        border: 1px solid var(--champagne-gold);
+        opacity: 0.7;
+      }
+
+      .tagline {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 1.5rem;
+        color: var(--cocoa-blush);
+        margin-top: 1.5rem;
+        letter-spacing: 0.08em;
+        opacity: 0.75;
+      }
+
+      .hero-blurb {
+        font-family: var(--sans);
+        font-size: 1.05rem;
+        font-weight: 300;
+        line-height: 1.8;
+        color: var(--cocoa-blush);
+        max-width: 520px;
+        margin: 3rem auto 0;
+      }
+
+      /* ============================================
+       WAITLIST FORM
+       ============================================ */
+      .waitlist-form {
+        max-width: 500px;
+        margin: 3.5rem auto 0;
+      }
+
+      .form-input {
+        width: 100%;
+        padding: 1.2rem 1.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid var(--warm-sand);
+        background: transparent;
+        font-family: var(--sans);
+        font-size: 0.95rem;
+        font-weight: 300;
+        color: var(--cocoa-blush);
+        letter-spacing: 0.04em;
+        border-radius: 4px;
+        transition: border-color 0.3s ease;
+      }
+
+      .form-input::placeholder {
+        color: var(--dusty-rose);
+        opacity: 0.7;
+      }
+
+      .form-input:focus {
+        outline: none;
+        border-color: var(--dusty-rose);
+      }
+
+      .form-submit {
+        width: 100%;
+        padding: 1.2rem;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid var(--cocoa-blush);
+        font-family: var(--sans);
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--cocoa-blush);
+        cursor: pointer;
+        transition:
+          color 0.3s ease,
+          letter-spacing 0.4s ease;
+        margin-top: 0.5rem;
+      }
+
+      .form-submit:hover {
+        color: var(--dusty-rose);
+        letter-spacing: 0.4em;
+      }
+
+      .form-note {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 0.95rem;
+        color: var(--cocoa-blush);
+        opacity: 0.7;
+        margin-top: 2rem;
+        text-align: center;
+      }
+
+      /* ============================================
+       BOOK COVER FEATURE
+       ============================================ */
+      .book-feature {
+        padding: 6rem var(--gutter) 5rem;
+        text-align: center;
+        max-width: var(--max-width);
+        margin: 0 auto;
+      }
+
+      .book-cover {
+        width: 240px;
+        height: 340px;
+        background: var(--ivory-cream);
+        margin: 0 auto;
+        box-shadow:
+          0 30px 60px rgba(140, 106, 106, 0.18),
+          0 10px 20px rgba(140, 106, 106, 0.08);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(-3deg);
+        border-left: 8px solid var(--nude-pink);
+        padding: 2rem;
+      }
+
+      .book-cover-lotus {
+        width: 32px;
+        height: auto;
+        margin-bottom: 5rem;
+        opacity: 0.6;
+      }
+
+      .book-cover-title {
+        font-family: var(--serif);
+        font-weight: 300;
+        color: var(--cocoa-blush);
+        opacity: 0.6;
+        text-align: center;
+      }
+
+      .book-cover-title .soft {
+        font-size: 2rem;
+        display: block;
+        line-height: 1;
+      }
+
+      .book-cover-title .reset {
+        font-size: 1.6rem;
+        font-style: italic;
+        display: block;
+        margin-top: 0.2rem;
+      }
+
+      .book-cover-author {
+        font-family: var(--sans);
+        font-size: 0.6rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--cocoa-blush);
+        opacity: 0.5;
+        margin-top: 5rem;
+      }
+
+      .book-cover-author::before,
+      .book-cover-author::after {
+        content: "·";
+        margin: 0 0.5em;
+      }
+
+      .invitation-label {
+        font-family: var(--sans);
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--dusty-rose);
+        margin: 5rem 0 2rem;
+      }
+
+      .invitation-quote {
+        font-family: var(--serif);
+        font-weight: 300;
+        font-size: clamp(1.8rem, 5vw, 2.6rem);
+        line-height: 1.3;
+        color: var(--cocoa-blush);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .invitation-quote em {
+        font-style: italic;
+        color: var(--rose-quartz);
+      }
+
+      .book-tagline {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 1.2rem;
+        color: var(--cocoa-blush);
+        opacity: 0.7;
+        margin: 3rem 0 1.5rem;
+      }
+
+      /* ============================================
+       PILLARS
+       ============================================ */
+      .pillars {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 4rem var(--gutter);
+      }
+
+      .pillar {
+        padding: 3rem 0;
+        border-top: 1px solid var(--warm-sand);
+      }
+
+      .pillar:last-of-type {
+        border-bottom: 1px solid var(--warm-sand);
+      }
+
+      .pillar-numeral {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 2.5rem;
+        color: var(--rose-quartz);
+        margin-bottom: 1.5rem;
+        line-height: 1;
+      }
+
+      .pillar h3 {
+        font-family: var(--serif);
+        font-weight: 400;
+        font-size: 1.8rem;
+        color: var(--cocoa-blush);
+        margin-bottom: 1.2rem;
+        line-height: 1.2;
+      }
+
+      .pillar p {
+        font-family: var(--sans);
+        font-size: 0.95rem;
+        font-weight: 300;
+        line-height: 1.85;
+        color: var(--cocoa-blush);
+      }
+
+      .pillar-quote {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: clamp(1.4rem, 4vw, 1.9rem);
+        line-height: 1.5;
+        color: var(--cocoa-blush);
+        opacity: 0.85;
+        text-align: center;
+        max-width: 600px;
+        margin: 4rem auto;
+      }
+
+      /* ============================================
+       AUTHOR
+       ============================================ */
+      .author-section {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 4rem var(--gutter);
+        text-align: center;
+      }
+
+      .author-label {
+        font-family: var(--sans);
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+        color: var(--dusty-rose);
+        margin-bottom: 3rem;
+      }
+
+      .author-quote-mark {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 5rem;
+        color: var(--rose-quartz);
+        line-height: 0.7;
+        margin-bottom: 2rem;
+      }
+
+      .author-photo-frame {
+        width: 200px;
+        height: 260px;
+        margin: 0 auto 2rem;
+        background: var(--ivory-cream);
+        border: 1px solid var(--warm-sand);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 30px rgba(140, 106, 106, 0.08);
+
+        /*
+            Designer note: replace this placeholder with Pearl's author image.
+            Suggested: <img src="pearl-uzokwe.jpg" alt="Pearl Uzokwe">
+        */
+      }
+
+      .author-photo-initials {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 4rem;
+        color: var(--warm-sand);
+        line-height: 1;
+      }
+
+      .author-photo-label {
+        font-family: var(--sans);
+        font-size: 0.6rem;
+        font-weight: 400;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--cocoa-blush);
+        opacity: 0.4;
+        margin-top: 1.5rem;
+      }
+
+      .author-name {
+        font-family: var(--serif);
+        font-weight: 300;
+        font-size: 2.2rem;
+        color: var(--cocoa-blush);
+        margin-bottom: 2rem;
+        line-height: 1.2;
+      }
+
+      .author-name em {
+        font-style: italic;
+        color: var(--dusty-rose);
+      }
+
+      .author-bio {
+        font-family: var(--sans);
+        font-size: 0.95rem;
+        font-weight: 300;
+        line-height: 1.85;
+        color: var(--cocoa-blush);
+        max-width: 540px;
+        margin: 0 auto 1.5rem;
+        text-align: left;
+      }
+
+      .author-roles {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 0.95rem;
+        color: var(--cocoa-blush);
+        opacity: 0.75;
+        max-width: 540px;
+        margin: 2rem auto 0;
+        padding-left: 1.5rem;
+        border-left: 2px solid var(--warm-sand);
+        text-align: left;
+      }
+
+      /* ============================================
+       FINAL CTA
+       ============================================ */
+      .final-cta {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 6rem var(--gutter) 5rem;
+        text-align: center;
+      }
+
+      .final-headline {
+        font-family: var(--serif);
+        font-weight: 300;
+        font-size: clamp(2.2rem, 6vw, 3.2rem);
+        line-height: 1.2;
+        color: var(--cocoa-blush);
+        margin-bottom: 1.5rem;
+      }
+
+      .final-headline em {
+        font-style: italic;
+        color: var(--dusty-rose);
+      }
+
+      .final-sub {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 1.05rem;
+        color: var(--cocoa-blush);
+        opacity: 0.8;
+        max-width: 480px;
+        margin: 0 auto 3rem;
+        line-height: 1.6;
+      }
+
+      /* ============================================
+       FOOTER
+       ============================================ */
+      footer {
+        border-top: 1px solid var(--warm-sand);
+        padding: 4rem var(--gutter) 3rem;
+        text-align: center;
+        margin-top: 3rem;
+      }
+
+      .footer-logo {
+        font-family: var(--serif);
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 0.22em;
+        color: var(--cocoa-blush);
+        margin-bottom: 0.8rem;
+      }
+
+      .footer-logo .her {
+        color: var(--dusty-rose);
+      }
+
+      .footer-tagline {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 300;
+        font-size: 1rem;
+        color: var(--cocoa-blush);
+        opacity: 0.7;
+        margin-bottom: 2rem;
+        letter-spacing: 0.06em;
+      }
+
+      .footer-copy {
+        font-family: var(--sans);
+        font-size: 0.7rem;
+        font-weight: 400;
+        letter-spacing: 0.28em;
+        text-transform: uppercase;
+        color: var(--cocoa-blush);
+        opacity: 0.5;
+      }
+
+      /* ============================================
+       RESPONSIVE
+       ============================================ */
+      @media (max-width: 600px) {
+        nav {
+          padding: 1.5rem var(--gutter);
+        }
+
+        .nav-cta {
+          font-size: 0.6rem;
+          padding: 0.7rem 1.2rem;
+        }
+
+        .hero {
+          padding: 3.5rem var(--gutter) 3rem;
+        }
+
+        .hero-circle {
+          width: 70px;
+          height: 70px;
+          right: -5%;
+        }
+
+        .book-cover {
+          width: 200px;
+          height: 280px;
+        }
+
+        .author-photo-frame {
+          width: 160px;
+          height: 210px;
+        }
+      }
+
+      /* ============================================
+       GENTLE REVEAL ANIMATION
+       ============================================ */
+      @keyframes softFadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .reveal {
+        animation: softFadeIn 1.2s ease-out both;
+      }
+
+      .reveal-delay-1 {
+        animation-delay: 0.2s;
+      }
+      .reveal-delay-2 {
+        animation-delay: 0.4s;
+      }
+      .reveal-delay-3 {
+        animation-delay: 0.6s;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ============================================
+     NAVIGATION
+     ============================================ -->
+    <nav>
+      <a href="/" class="logo">NURTUR<span class="her">HER</span></a>
+      <a href="#waitlist" class="nav-cta">Join the waitlist</a>
+    </nav>
+
+    <!-- ============================================
+     HERO
+     ============================================ -->
+    <section class="hero">
+      <div class="kicker reveal">A NurturHer Book · Coming Soon</div>
+
+      <h1 class="hero-title reveal reveal-delay-1">
+        Soft
+        <em>Reset</em>
+        <span class="hero-circle"></span>
+      </h1>
+
+      <div class="tagline reveal reveal-delay-2">breathe · reset · thrive</div>
+
+      <p class="hero-blurb reveal reveal-delay-3">For the woman who has been holding everything together and quietly coming undone. A guided return to yourself, rooted in African wisdom, written for every woman who is ready to stop weaponising her own struggle.</p>
+
+      <!--
+        WAITLIST FORM
+        Replace `action` with the live Mailchimp or ConvertKit endpoint.
+        Mailchimp expects fields named EMAIL and FNAME by default.
+    -->
+      <form class="waitlist-form reveal reveal-delay-3" id="waitlist" action="#" method="post">
+        <input type="text" name="FNAME" class="form-input" placeholder="First name" required="">
+        <input type="email" name="EMAIL" class="form-input" placeholder="Email address" required="">
+        <button type="submit" class="form-submit">Join the waitlist</button>
+        <p class="form-note">Be the first to read. Founding readers receive early access and a bonus chapter.</p>
+      </form>
+    </section>
+
+    <!-- ============================================
+     BOOK COVER + INVITATION
+     ============================================ -->
+    <section class="book-feature">
+      <div class="book-cover">
+        <!-- Inline lotus mark, kept as SVG so it scales cleanly -->
+        <svg class="book-cover-lotus" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+          <g fill="#D8A7B1" opacity="0.7">
+            <ellipse cx="30" cy="35" rx="6" ry="14" transform="rotate(-30 30 35)"></ellipse>
+            <ellipse cx="30" cy="35" rx="6" ry="14" transform="rotate(30 30 35)"></ellipse>
+            <ellipse cx="30" cy="32" rx="5" ry="13"></ellipse>
+          </g>
+        </svg>
+        <div class="book-cover-title">
+          <span class="soft">Soft</span>
+          <span class="reset">Reset</span>
+        </div>
+        <div class="book-cover-author">Pearl Uzokwe</div>
+      </div>
+
+      <div class="invitation-label">The Invitation</div>
+
+      <h2 class="invitation-quote">Rest is not a reward. It is the <em>infrastructure</em> of everything you are trying to build.</h2>
+
+      <p class="book-tagline">Soft Reset is the book she needed. The one that does not ask her to do more, become more or fix herself, but to come home.</p>
+    </section>
+
+    <!-- ============================================
+     PILLARS
+     ============================================ -->
+    <section class="pillars">
+      <div class="pillar">
+        <div class="pillar-numeral">i</div>
+        <h3>Unlearn the performance</h3>
+        <p>The Good Girl. The First Daughter. The Woman Who Holds It All. Soft Reset names the roles you have been carrying and gives you permission to set them down.</p>
+      </div>
+
+      <div class="pillar">
+        <div class="pillar-numeral">ii</div>
+        <h3>Return to the body</h3>
+        <p>Practical, gentle invitations to nurture the body, mind and spirit, drawn from African wisdom and lived experience rather than the wellness-industrial complex.</p>
+      </div>
+
+      <div class="pillar">
+        <div class="pillar-numeral">iii</div>
+        <h3>Rebuild from rest</h3>
+        <p>A new architecture for the life you actually want. Not a hustle plan dressed in softer language, but a true return to what is yours.</p>
+      </div>
+
+      <p class="pillar-quote">Stop weaponising struggle. Stop wearing the wound as if it were strength.</p>
+    </section>
+
+    <!-- ============================================
+     AUTHOR
+     ============================================ -->
+    <section class="author-section">
+      <div class="author-label">From the pages of Soft Reset</div>
+
+      <div class="author-quote-mark">"</div>
+
+      <!-- Replace this placeholder with the supplied author photo -->
+      <div class="author-photo-frame">
+        <div class="author-photo-initials">PU</div>
+        <div class="author-photo-label">Author photo</div>
+      </div>
+
+      <h2 class="author-name">Written by <em>Pearl Uzokwe</em></h2>
+
+      <p class="author-bio">Pearl is the Founder of NurturHer, a sanctuary for women navigating the cost of holding everything together. She is a governance leader with two decades of experience across international development, philanthropy and social impact, and she writes from the place where her professional life and her own quiet undoing finally met.</p>
+
+      <p class="author-bio">Soft Reset is her first book. It was written in the rooms where she stopped pretending.</p>
+
+      <p class="author-roles">Founder and Creative Director, NurturHer · Programme Director, Africa Forward · Governance Committee Chair, Malala Fund</p>
+    </section>
+
+    <!-- ============================================
+     FINAL CTA
+     ============================================ -->
+    <section class="final-cta">
+      <h2 class="final-headline">Have you <em>nurtured her</em> today?</h2>
+      <p class="final-sub">Join the waitlist and be among the first to receive Soft Reset. A bonus chapter for founding readers.</p>
+
+      <form class="waitlist-form" action="#" method="post">
+        <input type="text" name="FNAME" class="form-input" placeholder="First name" required="">
+        <input type="email" name="EMAIL" class="form-input" placeholder="Email address" required="">
+        <button type="submit" class="form-submit">Reserve my copy</button>
+      </form>
+    </section>
+
+    <!-- ============================================
+     FOOTER
+     ============================================ -->
+    <footer>
+      <div class="footer-logo">NURTUR<span class="her">HER</span></div>
+      <div class="footer-tagline">breathe · reset · thrive</div>
+      <div class="footer-copy">© 2026 NurturHer · Lagos · London</div>
+    </footer>
+  
+
+</body></html>

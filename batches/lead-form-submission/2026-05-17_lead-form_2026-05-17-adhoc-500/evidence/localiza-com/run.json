@@ -1,0 +1,19 @@
+{
+  "url": "https://localiza.com",
+  "email": "onb.rjs+localizacom@gmail.com",
+  "domain": "localiza.com",
+  "startedAt": "2026-05-18T03:22:34.360Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:23:05.753Z",
+      "url": "https://www.localiza.com/brasil/pt-br",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:23:05.754Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

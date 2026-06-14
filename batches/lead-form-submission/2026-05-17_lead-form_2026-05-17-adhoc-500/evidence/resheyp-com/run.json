@@ -1,0 +1,19 @@
+{
+  "url": "https://resheyp.com",
+  "email": "onb.rjs+resheypcom@gmail.com",
+  "domain": "resheyp.com",
+  "startedAt": "2026-05-18T03:53:24.713Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:53:53.402Z",
+      "url": "https://www.resheyp.com/store",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:53:53.403Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

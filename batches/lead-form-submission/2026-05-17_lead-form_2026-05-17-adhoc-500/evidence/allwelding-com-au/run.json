@@ -1,0 +1,19 @@
+{
+  "url": "https://allwelding.com.au",
+  "email": "onb.rjs+allweldingcomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-18T04:27:11.214Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:27:43.171Z",
+      "url": "https://www.allwelding.com.au/contact/",
+      "noFormReason": "login_wall"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:27:43.171Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "login_wall"
+  }
+}

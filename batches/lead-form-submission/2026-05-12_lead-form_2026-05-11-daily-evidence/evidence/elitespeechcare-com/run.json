@@ -1,0 +1,17 @@
+{
+  "url": "https://elitespeechcare.com",
+  "email": "onb.rjs+elitespeechcarecom@gmail.com",
+  "domain": "elitespeechcare.com",
+  "startedAt": "2026-05-12T21:42:12.799Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:42:39.494Z",
+      "url": "chrome-error://chromewebdata/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:42:39.495Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://thesensorystationfoundation.org",
+  "email": "onb.rjs+thesensorystationfoundationorg@gmail.com",
+  "domain": "thesensorystationfoundation.org",
+  "startedAt": "2026-05-18T03:33:05.460Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:33:33.565Z",
+      "url": "https://thesensorystationfoundation.org/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:33:33.566Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

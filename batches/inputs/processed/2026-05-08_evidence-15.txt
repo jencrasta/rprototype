@@ -1,0 +1,18 @@
+# 15-site evidence batch — 2026-05-08
+# Skips info@/hello@ generic addresses — these are role-bearing emails
+corey@coreybrown.me
+cincin@ciccionyc.com
+kgoines@bondstreetloans.com
+franchise@prowaterblasting.co.nz
+enquiries@milliganemails.co.uk
+psi@laengsel.com
+isi.oboh@irokohealth.com
+rochelle.wong@p2c.com
+fernando.sanchez@drpromed.com.mx
+d.morris-seymour@barfoot.co.nz
+# Generic/info addresses below — included as requested but less likely to yield a person
+info@carduldetineret.ro
+Capacity@Nationalacademies.org
+hello@abbla.es
+contact@srobotics.org
+info@venzitechtraders.com

@@ -1,0 +1,19 @@
+{
+  "url": "https://thelittlenightlight.com",
+  "email": "onb.rjs+thelittlenightlightcom@gmail.com",
+  "domain": "thelittlenightlight.com",
+  "startedAt": "2026-05-18T02:08:09.177Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:08:37.541Z",
+      "url": "https://www.thelittlenightlight.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:08:37.541Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

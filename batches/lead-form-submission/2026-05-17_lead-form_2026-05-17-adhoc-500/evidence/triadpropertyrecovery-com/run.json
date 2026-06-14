@@ -1,0 +1,38 @@
+{
+  "url": "https://triadpropertyrecovery.com",
+  "email": "onb.rjs+triadpropertyrecoverycom@gmail.com",
+  "domain": "triadpropertyrecovery.com",
+  "startedAt": "2026-05-18T00:45:20.488Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:45:32.756Z",
+      "fields": [
+        "Name",
+        "Email Address",
+        "Phone Number",
+        "What service do you need?"
+      ],
+      "cta": "SUBMIT REQUEST",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:45:32.904Z",
+      "url": "https://www.triadpropertyrecovery.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:45:39.951Z",
+      "state": "inline",
+      "evidence": "Forbidden",
+      "url": "https://www.triadpropertyrecovery.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:45:39.951Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

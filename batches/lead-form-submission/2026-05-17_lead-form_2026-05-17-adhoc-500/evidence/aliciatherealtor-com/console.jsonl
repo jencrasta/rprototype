@@ -1,0 +1,7 @@
+{"type":"debug","ts":1779074593428,"text":"sendEvent [object Object]"}
+{"type":"debug","ts":1779074593428,"text":"googleCsa relatedsearch [object Object] [array Array]"}
+{"type":"debug","ts":1779074594335,"text":"sendEvent [object Object]"}
+{"type":"debug","ts":1779074594337,"text":"sendEvent [object Object]"}
+{"type":"error","ts":1779074594772,"text":"Failed to load resource: the server responded with a status of 404 ()"}
+{"type":"debug","ts":1779074608125,"text":"sendEvent [object Object]"}
+{"type":"error","ts":1779074608512,"text":"Failed to load resource: the server responded with a status of 403 ()"}

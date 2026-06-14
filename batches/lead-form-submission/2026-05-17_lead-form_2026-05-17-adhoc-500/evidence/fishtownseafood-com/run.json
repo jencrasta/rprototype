@@ -1,0 +1,19 @@
+{
+  "url": "https://fishtownseafood.com",
+  "email": "onb.rjs+fishtownseafoodcom@gmail.com",
+  "domain": "fishtownseafood.com",
+  "startedAt": "2026-05-18T03:39:26.464Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:39:55.517Z",
+      "url": "https://fishtownseafood.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:39:55.518Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

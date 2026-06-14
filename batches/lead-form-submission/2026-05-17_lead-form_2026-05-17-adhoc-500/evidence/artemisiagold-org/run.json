@@ -1,0 +1,19 @@
+{
+  "url": "https://artemisiagold.org",
+  "email": "onb.rjs+artemisiagoldorg@gmail.com",
+  "domain": "artemisiagold.org",
+  "startedAt": "2026-05-18T03:08:36.496Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:09:05.160Z",
+      "url": "https://artemisiagold.org/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:09:05.160Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

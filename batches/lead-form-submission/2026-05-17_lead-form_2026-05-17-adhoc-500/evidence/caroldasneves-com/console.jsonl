@@ -1,0 +1,7 @@
+{"type":"warn","ts":1779060263895,"text":"yui: NOT loaded: squarespace-visitor_site_error_reporter"}
+{"type":"warn","ts":1779060263895,"text":"yui: NOT loaded: squarespace-cldr_resource_pack"}
+{"type":"warn","ts":1779060263895,"text":"yui: NOT loaded: squarespace-common_vendors_stable"}
+{"type":"warn","ts":1779060263895,"text":"yui: NOT loaded: squarespace-common_vendors"}
+{"type":"warn","ts":1779060263898,"text":"yui: NOT loaded: squarespace-user_account_core"}
+{"type":"warn","ts":1779060263898,"text":"yui: NOT loaded: squarespace-performance"}
+{"type":"log","ts":1779060275331,"text":"[Visitor Sentry] Initialized and sending events"}

@@ -1,0 +1,37 @@
+{
+  "url": "https://firm1968.co",
+  "email": "onb.rjs+firm1968co@gmail.com",
+  "domain": "firm1968.co",
+  "startedAt": "2026-05-18T01:59:46.213Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:00:04.909Z",
+      "fields": [
+        "Name *",
+        "Email *",
+        "Message *"
+      ],
+      "cta": "Submit",
+      "placement": "Footer (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:00:05.041Z",
+      "url": "https://firm1968.co/contact/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:00:12.069Z",
+      "state": "inline-error",
+      "evidence": "Name * Email * Message * This is a required field. ⏎ Please correct errors before submitting this form.",
+      "url": "https://firm1968.co/contact/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:00:12.069Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

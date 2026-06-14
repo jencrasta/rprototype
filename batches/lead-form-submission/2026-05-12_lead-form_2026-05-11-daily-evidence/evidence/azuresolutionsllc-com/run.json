@@ -1,0 +1,17 @@
+{
+  "url": "https://azuresolutionsllc.com",
+  "email": "onb.rjs+azuresolutionsllccom@gmail.com",
+  "domain": "azuresolutionsllc.com",
+  "startedAt": "2026-05-12T22:08:53.245Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:09:21.297Z",
+      "url": "https://azuresolutionsllc.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:09:21.297Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

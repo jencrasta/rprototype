@@ -1,0 +1,14 @@
+{"type":"warn","ts":1779072036857,"text":"Allow attribute will take precedence over 'allowfullscreen'."}
+{"type":"log","ts":1779072037139,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"log","ts":1779072037811,"text":"SiteSearch360 14.1.467 initialized to #searchBox, form[role=\"search\"] input[name=\"s\"],.ss360-searchbox"}
+{"type":"error","ts":1779072038608,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779072038705,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"warn","ts":1779072038746,"text":"[quick-fetch] quickFetchScript was not included or running in Node.js environment. Falling back to stubbed implementation."}
+{"type":"error","ts":1779072038821,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779072038821,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"log","ts":1779072052900,"text":"request-info"}
+{"type":"warn","ts":1779072053348,"text":"[quick-fetch] quickFetchScript was not included or running in Node.js environment. Falling back to stubbed implementation."}
+{"type":"error","ts":1779072053513,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779072053552,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779072053592,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"error","ts":1779072053592,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

@@ -1,0 +1,36 @@
+{
+  "url": "https://anchorpoint.ie",
+  "email": "onb.rjs+anchorpointie@gmail.com",
+  "domain": "anchorpoint.ie",
+  "startedAt": "2026-05-18T00:18:02.229Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:18:14.339Z",
+      "fields": [
+        "Enter your email",
+        "b_162eded8bfb3eed7832a12b53_d5160a1ddf"
+      ],
+      "cta": "🌿  Join Waitlist",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:18:14.398Z",
+      "url": "https://www.anchorpoint.ie/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:18:27.629Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.anchorpoint.ie/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:18:27.629Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

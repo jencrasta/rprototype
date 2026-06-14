@@ -1,0 +1,19 @@
+{
+  "url": "https://autocas.com",
+  "email": "onb.rjs+autocascom@gmail.com",
+  "domain": "autocas.com",
+  "startedAt": "2026-05-18T03:44:24.136Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:45:43.052Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:45:43.052Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

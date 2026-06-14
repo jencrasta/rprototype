@@ -1,0 +1,19 @@
+{
+  "url": "https://piedcarre.org",
+  "email": "onb.rjs+piedcarreorg@gmail.com",
+  "domain": "piedcarre.org",
+  "startedAt": "2026-05-18T02:05:34.093Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:06:04.225Z",
+      "url": "https://www.piedcarre.org/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:06:04.225Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

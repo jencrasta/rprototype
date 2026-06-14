@@ -1,0 +1,39 @@
+{
+  "url": "https://nobili.com",
+  "email": "onb.rjs+nobilicom@gmail.com",
+  "domain": "nobili.com",
+  "startedAt": "2026-05-12T21:14:55.031Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:15:17.055Z",
+      "fields": [
+        "jm.nome",
+        "jm.cognome",
+        "jm.email",
+        "jm.azienda",
+        "jm.privacy"
+      ],
+      "cta": "Enter the Nobili world",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:15:17.094Z",
+      "url": "https://www.nobili.com/newsletter/s245c5130"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:15:24.116Z",
+      "state": "redirect",
+      "evidence": "→ https://www.nobili.com/cms/Form.action (path doesn't look like a confirmation)",
+      "url": "https://www.nobili.com/cms/Form.action"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:15:24.116Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://fizzyjuice.uk",
+  "email": "onb.rjs+fizzyjuiceuk@gmail.com",
+  "domain": "fizzyjuice.uk",
+  "startedAt": "2026-05-12T21:13:41.092Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:14:09.408Z",
+      "url": "https://www.fizzyjuice.uk/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:14:09.408Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

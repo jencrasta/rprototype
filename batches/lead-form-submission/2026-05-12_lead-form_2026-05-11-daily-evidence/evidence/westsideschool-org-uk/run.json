@@ -1,0 +1,17 @@
+{
+  "url": "https://westsideschool.org.uk",
+  "email": "onb.rjs+westsideschoolorguk@gmail.com",
+  "domain": "org.uk",
+  "startedAt": "2026-05-12T22:08:16.043Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:08:43.793Z",
+      "url": "https://westsideschool.org.uk/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:08:43.793Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

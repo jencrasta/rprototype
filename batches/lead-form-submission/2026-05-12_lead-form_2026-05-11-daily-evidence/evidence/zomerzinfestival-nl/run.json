@@ -1,0 +1,17 @@
+{
+  "url": "https://zomerzinfestival.nl",
+  "email": "onb.rjs+zomerzinfestivalnl@gmail.com",
+  "domain": "zomerzinfestival.nl",
+  "startedAt": "2026-05-12T22:21:14.631Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:22:33.385Z",
+      "url": "chrome-error://chromewebdata/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:22:33.385Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

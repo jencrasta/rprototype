@@ -1,0 +1,1 @@
+{"type":"warn","ts":1779074556279,"text":"The Notification permission request was suppressed and shown as a quiet prompt because it was requested without a user gesture. Users are more likely to grant permissions when requested in context. See https://crbug.com/479151408 for more details."}

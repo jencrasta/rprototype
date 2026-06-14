@@ -1,0 +1,19 @@
+{
+  "url": "https://riverdigital.nl",
+  "email": "onb.rjs+riverdigitalnl@gmail.com",
+  "domain": "riverdigital.nl",
+  "startedAt": "2026-05-18T00:29:34.929Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:30:02.904Z",
+      "url": "https://www.riverdigital.nl/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:30:02.905Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

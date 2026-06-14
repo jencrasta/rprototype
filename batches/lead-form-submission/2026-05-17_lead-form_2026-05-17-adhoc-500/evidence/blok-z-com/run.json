@@ -1,0 +1,40 @@
+{
+  "url": "https://blok-z.com",
+  "email": "onb.rjs+blokzcom@gmail.com",
+  "domain": "blok-z.com",
+  "startedAt": "2026-05-18T01:58:37.012Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:58:59.781Z",
+      "fields": [
+        "First Name",
+        "Last Name",
+        "Work Email",
+        "Company Name (Optional)",
+        "Type of Inquiry",
+        "How can we help you?"
+      ],
+      "cta": "Send Message",
+      "placement": "Footer (embedded)",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:58:59.860Z",
+      "url": "https://voltfox.io/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:59:13.024Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://voltfox.io/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:59:13.025Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

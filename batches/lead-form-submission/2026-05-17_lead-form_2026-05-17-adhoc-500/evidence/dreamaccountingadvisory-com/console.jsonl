@@ -1,0 +1,3 @@
+{"type":"log","ts":1779072175737,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"log","ts":1779072194140,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"warn","ts":1779072194882,"text":"Datadog Browser SDK: No storage available for session. We will not send any data."}

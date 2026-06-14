@@ -1,0 +1,2 @@
+{"type":"warn","ts":1779071099782,"text":"An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."}
+{"type":"debug","ts":1779071100657,"text":"Search endpoint requested!"}

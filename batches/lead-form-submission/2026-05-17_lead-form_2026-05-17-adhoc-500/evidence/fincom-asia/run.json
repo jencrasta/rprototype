@@ -1,0 +1,38 @@
+{
+  "url": "https://fincom.asia",
+  "email": "onb.rjs+fincomasia@gmail.com",
+  "domain": "fincom.asia",
+  "startedAt": "2026-05-18T04:19:38.359Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T04:19:54.147Z",
+      "fields": [
+        "Name",
+        "Email\n            *",
+        "Phone number",
+        "Message"
+      ],
+      "cta": "Let's Talk",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T04:19:54.396Z",
+      "url": "https://fincom.asia/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T04:20:07.565Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://fincom.asia/"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:20:07.565Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

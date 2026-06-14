@@ -1,0 +1,19 @@
+{
+  "url": "https://fishsoupparadise.com",
+  "email": "onb.rjs+fishsoupparadisecom@gmail.com",
+  "domain": "fishsoupparadise.com",
+  "startedAt": "2026-05-18T00:47:55.671Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:48:25.816Z",
+      "url": "https://fishsoupparadise.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:48:25.816Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

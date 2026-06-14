@@ -1,0 +1,6 @@
+{"type":"info","ts":1778623574384,"text":"k-web-pixel-version 1"}
+{"type":"warn","ts":1778623578058,"text":"Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details."}
+{"type":"warn","ts":1778623581050,"text":"The resource https://aukey.au/cdn/shop/files/Charger_Stand_Version_Mobile_V2.jpg?v=1754535674 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}
+{"type":"warn","ts":1778623581050,"text":"The resource https://aukey.au/cdn/shop/files/3-in-1-charger-mobile.png?v=1744686756 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}
+{"type":"warn","ts":1778623581050,"text":"The resource https://aukey.au/cdn/shop/files/Powerbank_1_Mobile_-_V2.jpg?v=1754535698 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally."}
+{"type":"debug","ts":1778623586657,"text":" "}

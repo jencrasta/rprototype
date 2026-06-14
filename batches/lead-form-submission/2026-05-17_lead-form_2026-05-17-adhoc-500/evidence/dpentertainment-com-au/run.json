@@ -1,0 +1,38 @@
+{
+  "url": "https://dpentertainment.com.au",
+  "email": "onb.rjs+dpentertainmentcomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-18T00:49:31.850Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:49:44.950Z",
+      "fields": [
+        "Full Name",
+        "Email",
+        "City",
+        "I accept terms & conditions"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:49:45.078Z",
+      "url": "https://www.dpentertainment.com.au/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:49:58.292Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.dpentertainment.com.au/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:49:58.292Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

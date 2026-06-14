@@ -1,0 +1,19 @@
+{
+  "url": "https://acanok.com",
+  "email": "onb.rjs+acanokcom@gmail.com",
+  "domain": "acanok.com",
+  "startedAt": "2026-05-18T03:56:51.358Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:57:18.170Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:57:18.170Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

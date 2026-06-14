@@ -1,0 +1,39 @@
+{
+  "url": "https://theoutreachlab.org",
+  "email": "onb.rjs+theoutreachlaborg@gmail.com",
+  "domain": "theoutreachlab.org",
+  "startedAt": "2026-05-18T02:03:07.721Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:03:20.337Z",
+      "fields": [
+        "First Name(required)",
+        "Last Name(required)",
+        "Email(required)",
+        "Message(required)",
+        "message-yui_76538446-8938-47cc-96fc-463e97cbdc8d-field"
+      ],
+      "cta": "SendSend",
+      "placement": "Popup / Modal",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:03:20.496Z",
+      "url": "https://www.theoutreachlab.org/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:03:27.542Z",
+      "state": "inline-error",
+      "evidence": "Captcha validation failed. ⏎ Please try again.",
+      "url": "https://www.theoutreachlab.org/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:03:27.542Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

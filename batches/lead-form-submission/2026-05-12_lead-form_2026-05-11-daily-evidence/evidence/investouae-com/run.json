@@ -1,0 +1,39 @@
+{
+  "url": "https://investouae.com",
+  "email": "onb.rjs+investouaecom@gmail.com",
+  "domain": "investouae.com",
+  "startedAt": "2026-05-12T22:29:56.093Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:30:15.351Z",
+      "fields": [
+        "First Name*",
+        "Last Name*",
+        "Email Address*",
+        "Phone Number",
+        "Textarea"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:30:15.539Z",
+      "url": "https://investouae.com/contact-us"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:30:28.741Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://investouae.com/contact-us"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:30:28.741Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

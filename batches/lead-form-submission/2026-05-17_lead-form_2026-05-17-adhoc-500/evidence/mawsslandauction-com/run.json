@@ -1,0 +1,19 @@
+{
+  "url": "https://mawsslandauction.com",
+  "email": "onb.rjs+mawsslandauctioncom@gmail.com",
+  "domain": "mawsslandauction.com",
+  "startedAt": "2026-05-18T01:00:17.887Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:00:46.877Z",
+      "url": "https://mawsslandauction.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:00:46.878Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://destekpatent.ae",
+  "email": "onb.rjs+destekpatentae@gmail.com",
+  "domain": "destekpatent.ae",
+  "startedAt": "2026-05-18T00:43:04.217Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:43:22.602Z",
+      "fields": [
+        "First Name & Last Name",
+        "Phone Number",
+        "E-mail Address",
+        "Country",
+        "City",
+        "District",
+        "Your message",
+        "Talep / Şikayet / Öneri Süreçlerine Yönelik Aydınlatma Metni\n’ni okudum ve anladım.",
+        "Açık Rıza Metni\n'ni okudum ve kişisel verilerimin bu kapsamda işlenmesine açık rıza veriyorum.",
+        "Destek Patent ile paylaşacağım iletişim bilgilerime tanıtım, reklam, kampanya, promosyon dahil her türlü pazarlama faaliyetleri çerçevesinde e-posta kanalıyla ileti gönderilmesine\n\n\n  Ticari Elektronik İleti Onay Metni\n\nkapsamında onay veriyorum."
+      ],
+      "cta": "Send Message",
+      "placement": "Footer (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:43:22.784Z",
+      "url": "https://www.destekpatent.com/en/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:43:29.902Z",
+      "state": "inline",
+      "evidence": "Send Message Your submission was successful.",
+      "url": "https://www.destekpatent.com/en/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:43:29.902Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

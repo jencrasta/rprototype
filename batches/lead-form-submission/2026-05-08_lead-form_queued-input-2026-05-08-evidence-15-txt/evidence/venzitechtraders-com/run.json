@@ -1,0 +1,37 @@
+{
+  "url": "https://venzitechtraders.com",
+  "email": "onb.rjs+venzitechtraderscom@gmail.com",
+  "domain": "venzitechtraders.com",
+  "startedAt": "2026-05-08T19:53:50.996Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-08T19:54:02.552Z",
+      "fields": [
+        "Your Name",
+        "Your Email",
+        "Machine ID"
+      ],
+      "cta": "Submit Activation Request",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-08T19:54:02.624Z",
+      "url": "https://venzitechtraders.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-08T19:54:15.730Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://venzitechtraders.com/"
+    }
+  ],
+  "finishedAt": "2026-05-08T19:54:15.730Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

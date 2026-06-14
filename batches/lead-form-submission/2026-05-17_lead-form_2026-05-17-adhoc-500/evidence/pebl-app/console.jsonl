@@ -1,0 +1,8 @@
+{"type":"log","ts":1779075363368,"text":"[LaneManager] Initialized with lanes: [array Array]"}
+{"type":"log","ts":1779075363368,"text":"[BlockingController] Initialized"}
+{"type":"log","ts":1779075363368,"text":"[StarvationMonitor] Initialized with config: [object Object]"}
+{"type":"log","ts":1779075363368,"text":"[TrafficCoordinator] Initialized with config: [object Object]"}
+{"type":"log","ts":1779075363368,"text":"[TrafficCoordinator] Processor set"}
+{"type":"log","ts":1779075363368,"text":"[DispatchRouter] Extractor registry set"}
+{"type":"log","ts":1779075363368,"text":"[WorkerCoordinator] Initialized with worker configs: [object Object]"}
+{"type":"log","ts":1779075363368,"text":"[Presence:Themes] Cleaning up theme watchers"}

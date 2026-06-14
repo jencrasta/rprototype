@@ -1,0 +1,19 @@
+{
+  "url": "https://students.mq.edu.au",
+  "email": "onb.rjs+studentsmqeduau@gmail.com",
+  "domain": "edu.au",
+  "startedAt": "2026-05-18T03:06:47.242Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:07:18.088Z",
+      "url": "https://students.mq.edu.au/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:07:18.088Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

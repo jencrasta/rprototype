@@ -1,0 +1,38 @@
+{
+  "url": "https://remedixrestoration.com",
+  "email": "onb.rjs+remedixrestorationcom@gmail.com",
+  "domain": "remedixrestoration.com",
+  "startedAt": "2026-05-18T00:59:48.102Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:59:59.964Z",
+      "fields": [
+        "Name",
+        "Phone",
+        "Email",
+        "Message"
+      ],
+      "cta": "Get Help Now",
+      "placement": "Inline (page body)",
+      "formType": "Job / Staffing"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:00:00.130Z",
+      "url": "https://remedixrestoration.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:00:13.294Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://remedixrestoration.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:00:13.294Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

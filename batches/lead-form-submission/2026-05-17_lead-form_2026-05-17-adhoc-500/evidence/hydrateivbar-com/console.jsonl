@@ -1,0 +1,70 @@
+{"type":"log","ts":1779071861991,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1779071862485,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"warn","ts":1779071862689,"text":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
+{"type":"warn","ts":1779071862722,"text":"As of February 21st, 2024, google.maps.Marker is deprecated. Please use google.maps.marker.AdvancedMarkerElement instead. At this time, google.maps.Marker is not scheduled to be discontinued, but google.maps.marker.AdvancedMarkerElement is recommended over google.maps.Marker. While google.maps.Marker will continue to receive bug fixes for any major regressions, existing bugs in google.maps.Marker will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/deprecations for additional details and https://developers.google.com/maps/documentation/javascript/advanced-markers/migration for the migration guide."}
+{"type":"warn","ts":1779071862723,"text":"As of March 1st, 2025, google.maps.places.PlacesService is not available to new customers. Please use google.maps.places.Place instead. At this time, google.maps.places.PlacesService is not scheduled to be discontinued, but google.maps.places.Place is recommended over google.maps.places.PlacesService. While google.maps.places.PlacesService will continue to receive bug fixes for any major regressions, existing bugs in google.maps.places.PlacesService will not be addressed. At least 12 months notice will be given before support is discontinued. Please see https://developers.google.com/maps/legacy for additional details and https://developers.google.com/maps/documentation/javascript/places-migration-overview for the migration guide."}
+{"type":"error","ts":1779071863522,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"error","ts":1779071863536,"text":"No iframe code found error"}
+{"type":"error","ts":1779071863537,"text":"[terrific-embedding]: no iframe in response [object Object]"}
+{"type":"error","ts":1779071863537,"text":"[terrific-embedding]: Error inserting iframe [object Object]"}
+{"type":"error","ts":1779071863537,"text":"[terrific-embedding]: Error inserting iImXnl0A90eAs9BqWq98 iframe: Error: No iframe code error"}
+{"type":"warn","ts":1779071864182,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - You are sending a non-standard event 'afl_wc_utm.optin'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - You are attempting to send an unverified event. The event was suppressed. Go to Events Manager to learn more."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864290,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864291,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071864704,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071864774,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071865090,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"log","ts":1779071878811,"text":"grecaptcha resetted"}
+{"type":"warn","ts":1779071878811,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071878953,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"log","ts":1779071883819,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"error","ts":1779071883897,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
+{"type":"debug","ts":1779071884414,"text":"Search endpoint requested!"}
+{"type":"error","ts":1779071885031,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"log","ts":1779071885110,"text":"grecaptcha -  Error: No reCAPTCHA clients exist."}
+{"type":"warn","ts":1779071885231,"text":"[Meta Pixel] - You are sending a non-standard event 'afl_wc_utm.optin'. The preferred way to send these events is using trackCustom. See 'https://developers.facebook.com/docs/ads-for-websites/pixel-events/#events' for more information."}
+{"type":"warn","ts":1779071885231,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885232,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885232,"text":"[Meta Pixel] - You are attempting to send an unverified event. The event was suppressed. Go to Events Manager to learn more."}
+{"type":"warn","ts":1779071885232,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885232,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885232,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885232,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885233,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885234,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885234,"text":"[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885234,"text":"[Meta Pixel] - Invalid parameter format for value. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."}
+{"type":"warn","ts":1779071885779,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071886015,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071886093,"text":"iframe is not visible, so we can't calculate the height"}
+{"type":"warn","ts":1779071886611,"text":"iframe is not visible, so we can't calculate the height"}

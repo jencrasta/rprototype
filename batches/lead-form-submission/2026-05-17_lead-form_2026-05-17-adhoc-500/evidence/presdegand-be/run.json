@@ -1,0 +1,19 @@
+{
+  "url": "https://presdegand.be",
+  "email": "onb.rjs+presdegandbe@gmail.com",
+  "domain": "presdegand.be",
+  "startedAt": "2026-05-17T23:58:48.215Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:59:16.218Z",
+      "url": "https://presdegand.be/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:59:16.218Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

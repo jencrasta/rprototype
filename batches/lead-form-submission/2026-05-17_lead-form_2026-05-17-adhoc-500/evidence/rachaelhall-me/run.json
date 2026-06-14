@@ -1,0 +1,35 @@
+{
+  "url": "https://rachaelhall.me",
+  "email": "onb.rjs+rachaelhallme@gmail.com",
+  "domain": "rachaelhall.me",
+  "startedAt": "2026-05-18T03:34:49.734Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:35:02.476Z",
+      "fields": [
+        "Email Address"
+      ],
+      "cta": "Sign Up",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:35:02.687Z",
+      "url": "https://www.rachaelhall.me/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:35:09.723Z",
+      "state": "inline",
+      "evidence": "You'll receive occasional emails with writing, course updates and resources. ⏎ Thank you. ⏎ Please check your inbox to confirm your subscription. ⏎ Once you click the confirmation link, you'll be…",
+      "url": "https://www.rachaelhall.me/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:35:09.723Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

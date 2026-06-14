@@ -1,0 +1,19 @@
+{
+  "url": "https://univ.teluq.ca",
+  "email": "onb.rjs+univteluqca@gmail.com",
+  "domain": "teluq.ca",
+  "startedAt": "2026-05-18T01:49:01.610Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:49:29.694Z",
+      "url": "https://univ.teluq.ca/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:49:29.694Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://artsnationalperth.au",
+  "email": "onb.rjs+artsnationalperthau@gmail.com",
+  "domain": "artsnationalperth.au",
+  "startedAt": "2026-05-18T00:17:08.009Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:17:42.458Z",
+      "url": "https://www.artsnational.au/societies/perth/",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:17:42.458Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

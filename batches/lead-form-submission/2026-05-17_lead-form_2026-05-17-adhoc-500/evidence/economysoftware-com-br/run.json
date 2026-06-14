@@ -1,0 +1,41 @@
+{
+  "url": "https://economysoftware.com.br",
+  "email": "onb.rjs+economysoftwarecombr@gmail.com",
+  "domain": "com.br",
+  "startedAt": "2026-05-18T01:31:26.299Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:31:37.527Z",
+      "fields": [
+        "Nome",
+        "Sobrenome",
+        "Hotel",
+        "Email",
+        "Telefone",
+        "Selecione o seu PMS",
+        "Ao preencher este formulário, o usuário concorda e aceita os termos estabelecidos pela Lei Geral de Proteção de Dados (LGPD), que tem como objetivo assegurar a privacidade e a segurança das informações pessoais fornecidas."
+      ],
+      "cta": "FALE CONOSCO",
+      "placement": "Footer (embedded)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:31:37.783Z",
+      "url": "https://economysoftware.com.br/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:31:44.893Z",
+      "state": "inline-error",
+      "evidence": "Nome Sobrenome Hotel Email Telefone Invalid number: (DDD) 91234-5678 Selecione o seu PMS Selecione o seu PMS PMS HITS PMS ADMH PMS ERBON Ao preencher este formulário, o usuário concorda e aceita…",
+      "url": "https://economysoftware.com.br/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:31:44.893Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

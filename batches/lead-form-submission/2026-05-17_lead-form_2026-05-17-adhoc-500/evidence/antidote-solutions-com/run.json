@@ -1,0 +1,19 @@
+{
+  "url": "https://antidote-solutions.com",
+  "email": "onb.rjs+antidotesolutionscom@gmail.com",
+  "domain": "antidote-solutions.com",
+  "startedAt": "2026-05-18T04:07:47.068Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T04:08:15.728Z",
+      "url": "https://antidote-solutions.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:08:15.728Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

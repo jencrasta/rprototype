@@ -1,0 +1,17 @@
+{
+  "url": "https://infokiln.com",
+  "email": "onb.rjs+infokilncom@gmail.com",
+  "domain": "infokiln.com",
+  "startedAt": "2026-05-12T21:50:24.002Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:50:52.242Z",
+      "url": "https://www.infokiln.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:50:52.242Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

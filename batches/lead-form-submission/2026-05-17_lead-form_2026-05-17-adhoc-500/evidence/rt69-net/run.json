@@ -1,0 +1,19 @@
+{
+  "url": "https://rt69.net",
+  "email": "onb.rjs+rt69net@gmail.com",
+  "domain": "rt69.net",
+  "startedAt": "2026-05-18T03:07:20.658Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:07:49.057Z",
+      "url": "https://rt69.net/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:07:49.057Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

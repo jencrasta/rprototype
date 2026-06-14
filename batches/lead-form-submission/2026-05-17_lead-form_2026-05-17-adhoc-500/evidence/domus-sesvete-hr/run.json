@@ -1,0 +1,35 @@
+{
+  "url": "https://domus-sesvete.hr",
+  "email": "onb.rjs+domussesvetehr@gmail.com",
+  "domain": "domus-sesvete.hr",
+  "startedAt": "2026-05-18T01:41:16.687Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:41:34.830Z",
+      "fields": [
+        "E-pošta"
+      ],
+      "cta": "Prijavi se",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:41:34.908Z",
+      "url": "https://www.domus-sesvete.hr/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:41:48.120Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.domus-sesvete.hr/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:41:48.120Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

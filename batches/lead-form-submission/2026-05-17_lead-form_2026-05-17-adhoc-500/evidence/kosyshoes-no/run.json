@@ -1,0 +1,19 @@
+{
+  "url": "https://kosyshoes.no",
+  "email": "onb.rjs+kosyshoesno@gmail.com",
+  "domain": "kosyshoes.no",
+  "startedAt": "2026-05-17T23:32:36.739Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:33:10.512Z",
+      "url": "https://kosyshoes.no/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:33:10.512Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

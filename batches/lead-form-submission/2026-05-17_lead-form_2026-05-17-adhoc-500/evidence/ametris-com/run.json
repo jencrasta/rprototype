@@ -1,0 +1,44 @@
+{
+  "url": "https://ametris.com",
+  "email": "onb.rjs+ametriscom@gmail.com",
+  "domain": "ametris.com",
+  "startedAt": "2026-05-17T23:22:51.452Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:23:12.647Z",
+      "fields": [
+        "First Name*",
+        "Last Name*",
+        "Work Email*",
+        "Work Phone Number*",
+        "Company Name*",
+        "Job Title*",
+        "Company Type*",
+        "Country/Region*",
+        "Message*",
+        "Marketing communications.*"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Support"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:23:12.692Z",
+      "url": "https://ametris.com/contact-us"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:23:19.754Z",
+      "state": "inline-error",
+      "evidence": "Swaziland) Ethiopia Fiji Finland France Gabon Gambia Georgia Germany Ghana Greece Grenada Guatemala Guinea Guinea-Bissau Guyana Haiti Honduras Hungary Iceland India Indonesia Iraq Ireland Israel…",
+      "url": "https://ametris.com/contact-us"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:23:19.754Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

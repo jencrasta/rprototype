@@ -1,0 +1,19 @@
+{
+  "url": "https://groep5700.nl",
+  "email": "onb.rjs+groep5700nl@gmail.com",
+  "domain": "groep5700.nl",
+  "startedAt": "2026-05-18T02:16:52.971Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:17:23.691Z",
+      "url": "https://www.groep5700.nl/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:17:23.692Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://bluetravel.pt",
+  "email": "onb.rjs+bluetravelpt@gmail.com",
+  "domain": "bluetravel.pt",
+  "startedAt": "2026-05-18T01:32:24.725Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:32:52.265Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:32:52.266Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

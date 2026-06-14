@@ -1,0 +1,40 @@
+{
+  "url": "https://zohomail.eu",
+  "email": "onb.rjs+zohomaileu@gmail.com",
+  "domain": "zohomail.eu",
+  "startedAt": "2026-05-18T04:20:10.936Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T04:20:28.694Z",
+      "fields": [
+        "Business Email",
+        "Personal Email",
+        "Name *",
+        "Email / Phone *",
+        "Password *",
+        "Change the State"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Account Registration"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T04:20:28.752Z",
+      "url": "https://www.zoho.com/mail/?zsrc=fromproduct"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T04:20:42.141Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.zoho.com/mail/?zsrc=fromproduct"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:20:42.141Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://degracetechnologie.com",
+  "email": "onb.rjs+degracetechnologiecom@gmail.com",
+  "domain": "degracetechnologie.com",
+  "startedAt": "2026-05-18T02:41:16.348Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:41:36.706Z",
+      "fields": [],
+      "cta": "",
+      "placement": "Sidebar (embedded)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:41:36.780Z",
+      "url": "https://degracetechnologie.com/contacts/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:41:49.943Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://degracetechnologie.com/contacts/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:41:49.943Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

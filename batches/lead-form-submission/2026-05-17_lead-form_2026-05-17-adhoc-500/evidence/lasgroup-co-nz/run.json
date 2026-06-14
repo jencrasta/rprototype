@@ -1,0 +1,41 @@
+{
+  "url": "https://lasgroup.co.nz",
+  "email": "onb.rjs+lasgroupconz@gmail.com",
+  "domain": "co.nz",
+  "startedAt": "2026-05-17T23:31:32.248Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:31:45.713Z",
+      "fields": [
+        "First Name(required)",
+        "Last Name(required)",
+        "Email address(required)",
+        "text",
+        "Job Address(required)",
+        "Job Description(required)",
+        "message-yui_82347f35-1152-44e4-9102-a59e9295dda1-field"
+      ],
+      "cta": "Submit your requestSubmit your request",
+      "placement": "Popup / Modal",
+      "formType": "Job / Staffing"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:31:45.906Z",
+      "url": "https://www.lasgroup.co.nz/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:31:52.959Z",
+      "state": "inline-error",
+      "evidence": "Form submission failed. ⏎ Review the following information: Job Address and Job Description. ⏎ Name First Name (required) Last Name (required) Email address (required) Phone number (required) Job…",
+      "url": "https://www.lasgroup.co.nz/"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:31:52.959Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

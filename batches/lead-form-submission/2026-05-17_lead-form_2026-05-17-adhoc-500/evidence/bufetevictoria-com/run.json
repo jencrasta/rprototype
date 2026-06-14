@@ -1,0 +1,19 @@
+{
+  "url": "https://bufetevictoria.com",
+  "email": "onb.rjs+bufetevictoriacom@gmail.com",
+  "domain": "bufetevictoria.com",
+  "startedAt": "2026-05-18T02:26:10.102Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:26:41.075Z",
+      "url": "https://www.bufetevictoria.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:26:41.075Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://yfcnanaimo.com",
+  "email": "onb.rjs+yfcnanaimocom@gmail.com",
+  "domain": "yfcnanaimo.com",
+  "startedAt": "2026-05-18T01:05:25.432Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:05:37.116Z",
+      "fields": [
+        "Your Name*",
+        "Email*",
+        "Your Message*"
+      ],
+      "cta": "Submit",
+      "placement": "Footer (embedded)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:05:37.230Z",
+      "url": "https://yfc.ca/nanaimo/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:05:44.271Z",
+      "state": "inline-error",
+      "evidence": "YOUR NAME* EMAIL* YOUR MESSAGE* This field is required. ⏎ CAPTCHA The reCAPTCHA was invalid. ⏎ Go back and try it again.",
+      "url": "https://yfc.ca/nanaimo/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:05:44.271Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

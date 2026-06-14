@@ -1,0 +1,19 @@
+{
+  "url": "https://horner.com.au",
+  "email": "onb.rjs+hornercomau@gmail.com",
+  "domain": "com.au",
+  "startedAt": "2026-05-18T03:33:36.031Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:34:05.521Z",
+      "url": "https://www.horner.com.au/contact-us/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:34:05.521Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

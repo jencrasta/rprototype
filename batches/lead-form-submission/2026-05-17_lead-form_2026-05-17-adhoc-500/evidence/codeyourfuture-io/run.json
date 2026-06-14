@@ -1,0 +1,35 @@
+{
+  "url": "https://codeyourfuture.io",
+  "email": "onb.rjs+codeyourfutureio@gmail.com",
+  "domain": "codeyourfuture.io",
+  "startedAt": "2026-05-17T23:21:47.958Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:22:00.469Z",
+      "fields": [
+        "email address"
+      ],
+      "cta": "Subscribe",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:22:00.667Z",
+      "url": "https://codeyourfuture.io/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:22:13.928Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://codeyourfuture.io/"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:22:13.928Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

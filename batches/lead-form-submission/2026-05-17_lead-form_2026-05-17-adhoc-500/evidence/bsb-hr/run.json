@@ -1,0 +1,19 @@
+{
+  "url": "https://bsb.hr",
+  "email": "onb.rjs+bsbhr@gmail.com",
+  "domain": "bsb.hr",
+  "startedAt": "2026-05-18T01:02:40.158Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:03:07.922Z",
+      "url": "https://bsb.hr/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:03:07.923Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

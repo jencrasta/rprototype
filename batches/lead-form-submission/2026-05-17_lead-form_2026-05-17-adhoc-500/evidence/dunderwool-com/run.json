@@ -1,0 +1,19 @@
+{
+  "url": "https://dunderwool.com",
+  "email": "onb.rjs+dunderwoolcom@gmail.com",
+  "domain": "dunderwool.com",
+  "startedAt": "2026-05-18T02:14:37.006Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:15:08.039Z",
+      "url": "https://www.dunderwool.com/sv/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:15:08.039Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

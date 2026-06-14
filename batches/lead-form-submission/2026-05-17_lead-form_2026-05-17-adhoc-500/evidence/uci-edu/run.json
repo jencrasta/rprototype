@@ -1,0 +1,19 @@
+{
+  "url": "https://uci.edu",
+  "email": "onb.rjs+uciedu@gmail.com",
+  "domain": "uci.edu",
+  "startedAt": "2026-05-18T01:32:56.007Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:33:24.575Z",
+      "url": "https://uci.edu/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:33:24.576Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

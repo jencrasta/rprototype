@@ -1,0 +1,17 @@
+{
+  "url": "https://uoc.edu",
+  "email": "onb.rjs+uocedu@gmail.com",
+  "domain": "uoc.edu",
+  "startedAt": "2026-05-12T21:32:36.170Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:33:06.096Z",
+      "url": "https://www.uoc.edu/en"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:33:06.096Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

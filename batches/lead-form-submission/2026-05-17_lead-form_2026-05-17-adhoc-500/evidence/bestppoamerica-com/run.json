@@ -1,0 +1,19 @@
+{
+  "url": "https://bestppoamerica.com",
+  "email": "onb.rjs+bestppoamericacom@gmail.com",
+  "domain": "bestppoamerica.com",
+  "startedAt": "2026-05-18T00:20:35.199Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:21:02.052Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:21:02.052Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

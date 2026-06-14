@@ -1,0 +1,19 @@
+{
+  "url": "https://mrme.hu",
+  "email": "onb.rjs+mrmehu@gmail.com",
+  "domain": "mrme.hu",
+  "startedAt": "2026-05-18T01:08:12.152Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:08:40.473Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:08:40.473Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

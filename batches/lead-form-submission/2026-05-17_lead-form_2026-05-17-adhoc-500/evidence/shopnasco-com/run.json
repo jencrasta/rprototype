@@ -1,0 +1,35 @@
+{
+  "url": "https://shopnasco.com",
+  "email": "onb.rjs+shopnascocom@gmail.com",
+  "domain": "shopnasco.com",
+  "startedAt": "2026-05-18T02:49:54.451Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:50:08.146Z",
+      "fields": [
+        "Email"
+      ],
+      "cta": "Sign up",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:50:08.289Z",
+      "url": "https://shopnasco.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:50:21.616Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://shopnasco.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:50:21.616Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

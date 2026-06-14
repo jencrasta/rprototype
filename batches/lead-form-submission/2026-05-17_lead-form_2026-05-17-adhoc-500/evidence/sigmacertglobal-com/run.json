@@ -1,0 +1,39 @@
+{
+  "url": "https://sigmacertglobal.com",
+  "email": "onb.rjs+sigmacertglobalcom@gmail.com",
+  "domain": "sigmacertglobal.com",
+  "startedAt": "2026-05-18T01:24:53.388Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:25:07.847Z",
+      "fields": [
+        "Enter your name",
+        "Your Email",
+        "Your Phone Number",
+        "Message",
+        "Gerçek bir kişi misiniz? 1+3 = ?"
+      ],
+      "cta": "Send",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:25:07.913Z",
+      "url": "https://sigmacertglobal.com/index.php/tr/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:25:21.107Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://sigmacertglobal.com/index.php/tr/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:25:21.107Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

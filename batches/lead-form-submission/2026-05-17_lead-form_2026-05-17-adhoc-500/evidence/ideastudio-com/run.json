@@ -1,0 +1,40 @@
+{
+  "url": "https://ideastudio.com",
+  "email": "onb.rjs+ideastudiocom@gmail.com",
+  "domain": "ideastudio.com",
+  "startedAt": "2026-05-18T00:48:55.014Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T00:49:14.925Z",
+      "fields": [
+        "Email Address *",
+        "First Name",
+        "Last Name",
+        "Airport",
+        "State",
+        "b_3445bb6b7af5c312b5aa2ed8e_7f70ec833e"
+      ],
+      "cta": "Subscribe",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T00:49:15.016Z",
+      "url": "https://ideastudio.com/subscribe/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T00:49:28.229Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://ideastudio.com/subscribe/"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:49:28.229Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

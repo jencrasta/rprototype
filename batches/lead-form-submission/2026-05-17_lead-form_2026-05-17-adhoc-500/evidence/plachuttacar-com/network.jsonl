@@ -1,0 +1,6 @@
+{"type":"request","ts":1779065850641,"method":"GET","url":"https://plachuttacar.com/","resourceType":"document"}
+{"type":"response","ts":1779065851207,"status":301,"url":"https://plachuttacar.com/"}
+{"type":"request","ts":1779065851207,"method":"GET","url":"https://www.plachuttacar.com/","resourceType":"document"}
+{"type":"response","ts":1779065851598,"status":500,"url":"https://www.plachuttacar.com/"}
+{"type":"request","ts":1779065851627,"method":"GET","url":"https://www.plachuttacar.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779065851759,"status":500,"url":"https://www.plachuttacar.com/favicon.ico"}

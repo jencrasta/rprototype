@@ -1,0 +1,36 @@
+{
+  "url": "https://pawpal.to",
+  "email": "onb.rjs+pawpalto@gmail.com",
+  "domain": "pawpal.to",
+  "startedAt": "2026-05-18T03:18:42.287Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:18:53.312Z",
+      "fields": [
+        "Email address",
+        "b_93e51127bc0e80778e5b2ecf4_dec43b615e"
+      ],
+      "cta": "I'm in",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:18:53.490Z",
+      "url": "https://pawpal.to/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:19:06.702Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://pawpal.to/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:19:06.702Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

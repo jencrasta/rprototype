@@ -1,0 +1,39 @@
+{
+  "url": "https://canopyworx.com",
+  "email": "onb.rjs+canopyworxcom@gmail.com",
+  "domain": "canopyworx.com",
+  "startedAt": "2026-05-12T22:35:32.227Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:36:27.079Z",
+      "fields": [
+        "First name",
+        "Last name",
+        "Email",
+        "Phone",
+        "Details on Where to Throw Some Shade (the Good Kind)"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:36:27.286Z",
+      "url": "https://www.canopyworx.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:36:40.536Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.canopyworx.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:36:40.536Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

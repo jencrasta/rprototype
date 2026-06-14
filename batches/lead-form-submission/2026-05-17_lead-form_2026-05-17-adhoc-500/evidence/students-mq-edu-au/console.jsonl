@@ -1,0 +1,3 @@
+{"type":"log","ts":1779073609964,"text":"%cUTM Tracking for %cMarketo%c - @digitalpi. %cVersion: 20230206. Append #debug to URL to enable console logging. font-weight:bold;color:#646669 font-weight:bold;color:#5944b0 font-weight:normal;color:#3AA5B6 font-weight:normal;color:#C4C6C9"}
+{"type":"debug","ts":1779073610661,"text":"Attempting to join ad interest group [object Object]"}
+{"type":"log","ts":1779073610791,"text":"\u001b[41m QuantJS \u001b[0m Error fetching rules.js \n [object Event] [object Object]"}

@@ -1,0 +1,59 @@
+{"type":"request","ts":1778622595630,"method":"GET","url":"https://cronicasdelmiedo.com/","resourceType":"document"}
+{"type":"response","ts":1778622595805,"status":403,"url":"https://cronicasdelmiedo.com/"}
+{"type":"request","ts":1778622595814,"method":"GET","url":"https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap","resourceType":"stylesheet"}
+{"type":"request","ts":1778622595814,"method":"GET","url":"https://cronicasdelmiedo.com/hcdn-cgi/jschallenge","resourceType":"script"}
+{"type":"response","ts":1778622595841,"status":200,"url":"https://cronicasdelmiedo.com/hcdn-cgi/jschallenge"}
+{"type":"response","ts":1778622595899,"status":200,"url":"https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600&display=swap"}
+{"type":"request","ts":1778622595913,"method":"GET","url":"https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2","resourceType":"font"}
+{"type":"response","ts":1778622595964,"status":200,"url":"https://fonts.gstatic.com/s/dmsans/v17/rP2Yp2ywxg089UriI5-g4vlH9VoD8Cmcqbu0-K6z9mXg.woff2"}
+{"type":"request","ts":1778622595968,"method":"GET","url":"https://cronicasdelmiedo.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1778622596204,"status":404,"url":"https://cronicasdelmiedo.com/favicon.ico"}
+{"type":"request","ts":1778622598919,"method":"POST","url":"https://cronicasdelmiedo.com/hcdn-cgi/jschallenge-validate","resourceType":"xhr"}
+{"type":"response","ts":1778622598959,"status":200,"url":"https://cronicasdelmiedo.com/hcdn-cgi/jschallenge-validate"}
+{"type":"request","ts":1778622598961,"method":"GET","url":"https://cronicasdelmiedo.com/","resourceType":"document"}
+{"type":"response","ts":1778622599185,"status":200,"url":"https://cronicasdelmiedo.com/"}
+{"type":"request","ts":1778622599194,"method":"GET","url":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap","resourceType":"stylesheet"}
+{"type":"request","ts":1778622599194,"method":"GET","url":"https://cronicasdelmiedo.com/css/design.css","resourceType":"stylesheet"}
+{"type":"request","ts":1778622599194,"method":"GET","url":"https://cronicasdelmiedo.com/img/logo.png","resourceType":"image"}
+{"type":"request","ts":1778622599195,"method":"GET","url":"https://cronicasdelmiedo.com/img/ouija-figura.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599195,"method":"GET","url":"https://cronicasdelmiedo.com/img/keziah-avatar-1.png","resourceType":"image"}
+{"type":"request","ts":1778622599195,"method":"GET","url":"https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js","resourceType":"script"}
+{"type":"response","ts":1778622599263,"status":200,"url":"https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap"}
+{"type":"response","ts":1778622599427,"status":200,"url":"https://cronicasdelmiedo.com/css/design.css"}
+{"type":"request","ts":1778622599434,"method":"GET","url":"https://chimpstatic.com/mcjs-connected/js/users/5106699cb56e5c198da445ace/77362dadda47ef4283edc3834.js","resourceType":"script"}
+{"type":"request","ts":1778622599440,"method":"GET","url":"https://cronicasdelmiedo.com/video/keziah_avatar.mp4","resourceType":"media"}
+{"type":"request","ts":1778622599484,"method":"GET","url":"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='600'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='3' seed='3'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>","resourceType":"image"}
+{"type":"response","ts":1778622599485,"status":200,"url":"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='600'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.012' numOctaves='3' seed='3'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.008' numOctaves='3' seed='7'/><feColorMatrix values='0 0 0 0 0.6  0 0 0 0 0.55  0 0 0 0 0.5  0 0 0 0.5 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>","resourceType":"image"}
+{"type":"response","ts":1778622599485,"status":200,"url":"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='800'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.008' numOctaves='3' seed='7'/><feColorMatrix values='0 0 0 0 0.6  0 0 0 0 0.55  0 0 0 0 0.5  0 0 0 0.5 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='400'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.015' numOctaves='2' seed='4'/><feColorMatrix values='0 0 0 0 0.85  0 0 0 0 0.8  0 0 0 0 0.7  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>","resourceType":"image"}
+{"type":"response","ts":1778622599485,"status":200,"url":"data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='400'><filter id='f'><feTurbulence type='fractalNoise' baseFrequency='0.015' numOctaves='2' seed='4'/><feColorMatrix values='0 0 0 0 0.85  0 0 0 0 0.8  0 0 0 0 0.7  0 0 0 0.6 0'/></filter><rect width='100%' height='100%' filter='url(%23f)'/></svg>"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://cronicasdelmiedo.com/img/reliquia-san-miguel.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://cronicasdelmiedo.com/img/fantasmas-auschwitz.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://cronicasdelmiedo.com/img/hoia-baciu.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://img.youtube.com/vi/LrUkGIwXzHc/maxresdefault.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://img.youtube.com/vi/d_mdISz7cm4/maxresdefault.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://img.youtube.com/vi/PbPAHv6IK5I/maxresdefault.jpg","resourceType":"image"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://fonts.gstatic.com/s/ebgaramond/v32/SlGUmQSNjdsmc35JDF1K5GR1SDk_YAPI.woff2","resourceType":"font"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://fonts.gstatic.com/s/cinzeldecorative/v19/daaHSScvJGqLYhG8nNt8KPPswUAPniZoadlESTGplhXF.woff2","resourceType":"font"}
+{"type":"request","ts":1778622599485,"method":"GET","url":"https://fonts.gstatic.com/s/cinzeldecorative/v19/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMxpazyD.woff2","resourceType":"font"}
+{"type":"request","ts":1778622599486,"method":"GET","url":"https://fonts.gstatic.com/s/ebgaramond/v32/SlGWmQSNjdsmc35JDF1K5GRweDs1ZyHKpWg.woff2","resourceType":"font"}
+{"type":"response","ts":1778622599507,"status":200,"url":"https://fonts.gstatic.com/s/cinzeldecorative/v19/daaCSScvJGqLYhG8nNt8KPPswUAPni7TTMxpazyD.woff2"}
+{"type":"response","ts":1778622599508,"status":200,"url":"https://fonts.gstatic.com/s/cinzeldecorative/v19/daaHSScvJGqLYhG8nNt8KPPswUAPniZoadlESTGplhXF.woff2"}
+{"type":"response","ts":1778622599522,"status":200,"url":"https://fonts.gstatic.com/s/ebgaramond/v32/SlGWmQSNjdsmc35JDF1K5GRweDs1ZyHKpWg.woff2"}
+{"type":"response","ts":1778622599523,"status":200,"url":"https://fonts.gstatic.com/s/ebgaramond/v32/SlGUmQSNjdsmc35JDF1K5GR1SDk_YAPI.woff2"}
+{"type":"response","ts":1778622599541,"status":200,"url":"https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"}
+{"type":"request","ts":1778622599568,"method":"GET","url":"https://cronicasdelmiedo.com/audio/keziah-voz.mp3","resourceType":"xhr"}
+{"type":"response","ts":1778622599609,"status":206,"url":"https://cronicasdelmiedo.com/video/keziah_avatar.mp4"}
+{"type":"response","ts":1778622599645,"status":200,"url":"https://img.youtube.com/vi/d_mdISz7cm4/maxresdefault.jpg"}
+{"type":"response","ts":1778622599658,"status":200,"url":"https://img.youtube.com/vi/LrUkGIwXzHc/maxresdefault.jpg"}
+{"type":"response","ts":1778622599689,"status":200,"url":"https://img.youtube.com/vi/PbPAHv6IK5I/maxresdefault.jpg"}
+{"type":"response","ts":1778622599777,"status":200,"url":"https://cronicasdelmiedo.com/audio/keziah-voz.mp3"}
+{"type":"response","ts":1778622599802,"status":200,"url":"https://chimpstatic.com/mcjs-connected/js/users/5106699cb56e5c198da445ace/77362dadda47ef4283edc3834.js"}
+{"type":"request","ts":1778622599803,"method":"GET","url":"https://form-assets.mailchimp.com/snippet/account/253005319?site=77362dadda47ef4283edc3834","resourceType":"script"}
+{"type":"response","ts":1778622599929,"status":200,"url":"https://cronicasdelmiedo.com/img/logo.png"}
+{"type":"response","ts":1778622599969,"status":200,"url":"https://cronicasdelmiedo.com/img/ouija-figura.jpg"}
+{"type":"response","ts":1778622599970,"status":200,"url":"https://cronicasdelmiedo.com/img/keziah-avatar-1.png"}
+{"type":"response","ts":1778622600239,"status":200,"url":"https://cronicasdelmiedo.com/img/reliquia-san-miguel.jpg"}
+{"type":"response","ts":1778622600257,"status":200,"url":"https://cronicasdelmiedo.com/img/fantasmas-auschwitz.jpg"}
+{"type":"response","ts":1778622600257,"status":200,"url":"https://cronicasdelmiedo.com/img/hoia-baciu.jpg"}

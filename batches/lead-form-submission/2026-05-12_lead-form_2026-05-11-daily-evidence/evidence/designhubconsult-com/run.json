@@ -1,0 +1,38 @@
+{
+  "url": "https://designhubconsult.com",
+  "email": "onb.rjs+designhubconsultcom@gmail.com",
+  "domain": "designhubconsult.com",
+  "startedAt": "2026-05-12T21:34:32.652Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:34:57.087Z",
+      "fields": [
+        "Your Name",
+        "Your Email",
+        "Subject",
+        "Your Message"
+      ],
+      "cta": "Submit",
+      "placement": "Sidebar (embedded)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:34:57.160Z",
+      "url": "https://designhubconsult.com/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:35:04.202Z",
+      "state": "inline",
+      "evidence": "Thank you for your message. It has been sent.",
+      "url": "https://designhubconsult.com/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:35:04.202Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

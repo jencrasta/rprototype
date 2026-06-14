@@ -1,0 +1,17 @@
+{
+  "url": "https://solaspetadoption.org",
+  "email": "onb.rjs+solaspetadoptionorg@gmail.com",
+  "domain": "solaspetadoption.org",
+  "startedAt": "2026-05-12T22:38:07.549Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:38:38.054Z",
+      "url": "https://solaspetadoption.org/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:38:38.054Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

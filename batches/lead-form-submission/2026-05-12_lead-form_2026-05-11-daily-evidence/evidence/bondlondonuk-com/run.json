@@ -1,0 +1,17 @@
+{
+  "url": "https://bondlondonuk.com",
+  "email": "onb.rjs+bondlondonukcom@gmail.com",
+  "domain": "bondlondonuk.com",
+  "startedAt": "2026-05-12T21:40:28.493Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T21:41:40.317Z",
+      "url": "https://www.bondlondonuk.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:41:40.317Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

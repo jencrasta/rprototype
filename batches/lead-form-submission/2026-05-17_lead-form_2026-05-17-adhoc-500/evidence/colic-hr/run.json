@@ -1,0 +1,35 @@
+{
+  "url": "https://colic.hr",
+  "email": "onb.rjs+colichr@gmail.com",
+  "domain": "colic.hr",
+  "startedAt": "2026-05-18T01:45:28.082Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:45:43.085Z",
+      "fields": [
+        "Email"
+      ],
+      "cta": "PRETPLATI SE",
+      "placement": "Popup / Modal",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:45:43.273Z",
+      "url": "https://www.colic.hr/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:45:50.298Z",
+      "state": "inline-error",
+      "evidence": "An error occurred, please try later.",
+      "url": "https://www.colic.hr/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:45:50.298Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

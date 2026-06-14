@@ -1,0 +1,40 @@
+{
+  "url": "https://jasonsoane.com",
+  "email": "onb.rjs+jasonsoanecom@gmail.com",
+  "domain": "jasonsoane.com",
+  "startedAt": "2026-05-18T01:26:54.578Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:27:10.339Z",
+      "fields": [
+        "*",
+        "*",
+        "Email *",
+        "Phone",
+        "*",
+        "I agree to be contacted by Jason Soane | Berkshire Hathaway HomeServices Florida Realty via call, email, and text for real estate services. To opt out, reply “STOP” at any time or reply “HELP” for assistance. You can also click the unsubscribe link in emails. Message and data rates may apply. Message frequency may vary. Privacy Policy *"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:27:10.560Z",
+      "url": "https://jasonsoane.com/contact/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:27:17.595Z",
+      "state": "inline-error",
+      "evidence": "* * Email * Phone * Please fill out this field. ⏎ I agree to be contacted by Jason Soane",
+      "url": "https://jasonsoane.com/contact/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:27:17.595Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

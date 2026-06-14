@@ -1,0 +1,8 @@
+{"type":"info","ts":1779073020201,"text":"%c💧 Elixir%c@v1.5.4%c • %c[CoreElixir::INFO] %cReady! color: #66C3ED; font-weight: bold; color: #AAAAAA; color: inherit; color: lightgreen; color: inherit;"}
+{"type":"debug","ts":1779073020201,"text":"%c💧 Elixir%c@v1.5.4%c • %c[FreeGiftSetup::DEBUG] %c{\n    \"relyOnProductId\": \"\",\n    \"freeGiftProductIds\": [],\n    \"firstFreeGiftId\": null,\n    \"source\": \"global\"\n} color: #66C3ED; font-weight: bold; color: #AAAAAA; color: inherit; color: lightgreen; color: inherit;"}
+{"type":"debug","ts":1779073020201,"text":"%c💧 Elixir%c@v1.5.4%c • %c[FreeShippingThreshholdSetup::DEBUG] %c{\n    \"freeShippingThreshhold\": 9000\n} color: #66C3ED; font-weight: bold; color: #AAAAAA; color: inherit; color: lightgreen; color: inherit;"}
+{"type":"log","ts":1779073020575,"text":"Enhanced Button Effects: [object Object]"}
+{"type":"log","ts":1779073020575,"text":"No premium-attachment-kit found, exiting"}
+{"type":"log","ts":1779073020576,"text":"block:  "}
+{"type":"error","ts":1779073020708,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
+{"type":"log","ts":1779073031947,"text":"recaptchacompat disabled"}

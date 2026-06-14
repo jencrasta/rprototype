@@ -1,0 +1,444 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LettingOps Ltd — Operational Support for Landlords</title>
+  <meta name="description" content="Professional operational support for self-managing London landlords. Systems, compliance and structure — without the cost of a full letting agent.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<style>.in-view { opacity: 1 !important; transform: translateY(0) !important; }</style><script type="text/javascript" src="https://assets.mlcdn.com/ml/ajax/libs/jquery/3.7.1/jquery.min.js"></script><script type="text/javascript" src="https://static.mailerlite.com/js/w/ml_jQuery.inputmask.bundle.min.js?v3.3.1"></script></head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="site-nav" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="nav-inner">
+        <a aria-label="LettingOps Home" class="nav-logo-link" href="/">
+          <div class="site-logo">
+            <svg class="site-logo__mark" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="0.9" y="9" width="6.2" height="21" stroke="#162032" stroke-width="1.8" rx="0.5"></rect>
+              <rect x="9.9" y="0.9" width="6.2" height="29.1" stroke="#162032" stroke-width="1.8" rx="0.5"></rect>
+              <rect x="18.9" y="13" width="6.2" height="17" stroke="#162032" stroke-width="1.8" rx="0.5"></rect>
+              <line x1="0" y1="24" x2="26" y2="24" stroke="#c9a84c" stroke-width="1.6"></line>
+            </svg>
+            <div class="site-logo__text">
+              <span class="site-logo__name">LettingOps</span>
+              <span class="site-logo__tag">London</span>
+            </div>
+          </div>
+        </a>
+        <ul class="nav-links" id="navMenu" role="list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/how-it-works">How It Works</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/faq">FAQ</a></li>
+          <li><a class="nav-cta" href="/contact">Contact Us</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main style="padding-top:68px">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <span class="label">London · Independent Landlords</span>
+            <h1>Operational support for landlords — <em>without the overhead.</em></h1>
+            <p class="lead">We coordinate maintenance, contractors, and day-to-day operational issues so you stay in control — without handling the workload yourself.</p>
+            <div class="hero-actions">
+              <a class="btn btn--primary btn--lg" href="/contact">Speak to LettingOps</a>
+              <a class="btn btn--outline btn--lg" href="/services">View Services</a>
+            </div>
+          </div>
+
+          <div class="hero-aside" aria-hidden="true">
+            <div class="hero-card">
+              <h4>What we do &amp; what we don't</h4>
+              <div class="hero-card-cols">
+                <div class="hero-card-col do">
+                  <h5>We handle</h5>
+                  <ul>
+                    <li>Maintenance requests</li>
+                    <li>Issue triage</li>
+                    <li>Contractor coordination</li>
+                    <li>Repair monitoring</li>
+                    <li>Landlord updates</li>
+                    <li>Property inspections</li>
+                  </ul>
+                </div>
+                <div class="hero-card-col dont">
+                  <h5>We don't do</h5>
+                  <ul>
+                    <li>Rent collection</li>
+                    <li>Tenancy management</li>
+                    <li>Tenant sourcing</li>
+                    <li>Deposit handling</li>
+                    <li>Letting agency services</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FREE GUIDE ===== -->
+    <section class="section guide-section">
+      <div class="container">
+        <div class="guide-center">
+          <span class="label label--gold">Free Download</span>
+          <h2 class="guide-headline">Free Guide: The London Landlord Legislation Guide 2026</h2>
+          <p class="guide-sub">Find out exactly what the Renters’ Rights Act means for you — download your free copy below.</p>
+          <div class="guide-form-wrap" id="guideFormWrap">
+            <form class="guide-form" id="guideForm" novalidate="">
+              <input type="hidden" name="ml-submit" value="1">
+              <div class="guide-form-row">
+                <input type="email" name="fields[email]" id="guideEmail" required="" placeholder="Enter your email address" class="guide-email-input" autocomplete="email">
+                <button type="submit" class="btn guide-btn-gold btn--lg">Send me the free guide</button>
+              </div>
+            </form>
+            <div class="guide-success" id="guideSuccess" hidden="">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="#c9a84c" style="width:36px;height:36px;margin-bottom:0.75rem;" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+              <h4 class="guide-success-title">You’re on the list!</h4>
+              <p class="guide-success-msg">Check your inbox — your free guide is on its way.</p>
+            </div>
+          </div>
+          <p class="guide-small-print">No spam. Just straight-talking landlord guidance. Unsubscribe any time.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SCOPE BANNER ===== -->
+    <div class="scope-banner">
+      <div class="container">
+        <div class="scope-banner-inner">
+          <span class="badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            Coordination only — no client money held
+          </span>
+          <span class="badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            No tenancy management
+          </span>
+          <span class="badge">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            Not a letting agency
+          </span>
+          <p>LettingOps is an operational coordination service — distinct from property management or letting agency services.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== VALUE PROPOSITION ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="split split--center">
+          <div>
+            <span class="label">The Problem</span>
+            <h2>A gap in the market for independent landlords</h2>
+            <p class="lead mt-2">Traditional letting agents charge substantial fees but often provide inconsistent operational support. Managing maintenance yourself is time-consuming and reactive.</p>
+            <p class="mt-2">LettingOps focuses specifically on maintenance coordination and operational efficiency — giving independent landlords a structured, transparent service without requiring full agency involvement.</p>
+            <a class="btn btn--outline mt-4" href="/how-it-works">See how it works</a>
+          </div>
+          <div>
+            <div class="value-grid">
+              <div class="value-item" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="num">24h</div>
+                <h4>Response targets</h4>
+                <p>Emergencies escalated immediately. Urgent issues within 24 hours. Routine issues within 48 hours.</p>
+              </div>
+              <div class="value-item" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="num">3</div>
+                <h4>Service tiers</h4>
+                <p>From hands-on support to minimal landlord involvement — choose what suits your portfolio.</p>
+              </div>
+              <div class="value-item" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="num">100%</div>
+                <h4>Transparent</h4>
+                <p>Every action, update, and contractor communication is documented and reported to you.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WHO WE HELP ===== -->
+    <section class="section section--light">
+      <div class="container">
+        <div class="split split--3-2 split--center">
+          <div>
+            <span class="label">Who We Help</span>
+            <h2>Built for self-managing landlords</h2>
+            <p class="mt-2">LettingOps is designed for independent landlords who want operational support without handing over full control — or paying full agency fees.</p>
+            <ul class="who-list mt-3">
+              <li>
+                <span class="icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                </span>
+                Landlords who self-manage their properties
+              </li>
+              <li>
+                <span class="icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                </span>
+                Landlords who want support with maintenance issues
+              </li>
+              <li>
+                <span class="icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                </span>
+                Landlords who prefer transparency over agency fees
+              </li>
+              <li>
+                <span class="icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                </span>
+                Landlords who want reliable contractor coordination
+              </li>
+              <li>
+                <span class="icon-wrap">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5"></path></svg>
+                </span>
+                Landlords with busy schedules
+              </li>
+            </ul>
+            <a class="btn btn--primary mt-4" href="/pricing">View pricing plans</a>
+          </div>
+          <div>
+            <div class="do-dont-grid">
+              <div class="do-card">
+                <h3>We do</h3>
+                <ul class="check-list">
+                  <li>Maintenance request handling</li>
+                  <li>Issue triage &amp; prioritisation</li>
+                  <li>Contractor coordination</li>
+                  <li>Repair monitoring</li>
+                  <li>Landlord updates</li>
+                  <li>Property inspections (selected plans)</li>
+                </ul>
+              </div>
+              <div class="dont-card">
+                <h3>We don't do</h3>
+                <ul class="check-list">
+                  <li>Rent collection</li>
+                  <li>Tenancy management</li>
+                  <li>Tenant sourcing</li>
+                  <li>Deposit handling</li>
+                  <li>Letting agency services</li>
+                </ul>
+                <p style="font-size:0.8rem;color:#b91c1c;margin-top:1rem;max-width:none;">This keeps the service focused and transparent.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES OVERVIEW ===== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="label">Core Services</span>
+          <h2>What LettingOps provides</h2>
+          <p>Structured operational coordination for your rental property — from first report to resolved issue.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"></path></svg>
+            </div>
+            <h3>Maintenance Coordination</h3>
+            <p>We manage tenant-reported maintenance issues end-to-end and coordinate contractors to resolution.</p>
+          </div>
+          <div class="service-card" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z"></path></svg>
+            </div>
+            <h3>Issue Triage</h3>
+            <p>Every issue is assessed and categorised: emergency, urgent, or routine — ensuring appropriate response times.</p>
+          </div>
+          <div class="service-card" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"></path></svg>
+            </div>
+            <h3>Contractor Management</h3>
+            <p>We coordinate trusted independent contractors, schedule visits, and monitor completion of works.</p>
+          </div>
+          <div class="service-card" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25zM6.75 12h.008v.008H6.75V12zm0 3h.008v.008H6.75V15zm0 3h.008v.008H6.75V18z"></path></svg>
+            </div>
+            <h3>Landlord Reporting</h3>
+            <p>Clear, structured updates on issue progress and outcomes — so you're always informed without being overwhelmed.</p>
+          </div>
+          <div class="service-card" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 010-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            </div>
+            <h3>Property Inspections</h3>
+            <p>Bi-annual inspections with structured photographic reports — available on Managed and Complete plans.</p>
+          </div>
+          <div class="service-card" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+            <div class="service-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"></path></svg>
+            </div>
+            <h3>Approval Controls</h3>
+            <p>Each landlord sets their own repair threshold. We act within it — and always consult you above it.</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a class="btn btn--outline" href="/services">View full service detail</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HOW IT WORKS PREVIEW ===== -->
+    <section class="section section--dark">
+      <div class="container">
+        <div class="split split--center">
+          <div>
+            <span class="label label--light">Process</span>
+            <h2>Simple, structured, transparent</h2>
+            <p class="mt-2">From first contact to resolved issue — LettingOps follows a clear, documented process designed to keep you informed and in control.</p>
+            <a class="btn btn--outline-light mt-4" href="/how-it-works">See the full process</a>
+          </div>
+          <div>
+            <div class="steps">
+              <div class="step" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="step-num">1</div>
+                <div class="step-body">
+                  <div class="step-line"></div>
+                  <h3 style="color:#fff">Landlord subscribes</h3>
+                  <p>Choose a service tier that fits your portfolio and involvement preference.</p>
+                </div>
+              </div>
+              <div class="step" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="step-num">2</div>
+                <div class="step-body">
+                  <div class="step-line"></div>
+                  <h3 style="color:#fff">Tenants report issues</h3>
+                  <p>Issues are submitted through structured channels — no chasing, no ambiguity.</p>
+                </div>
+              </div>
+              <div class="step" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="step-num">3</div>
+                <div class="step-body">
+                  <div class="step-line"></div>
+                  <h3 style="color:#fff">LettingOps triages</h3>
+                  <p>We assess urgency and determine the required course of action.</p>
+                </div>
+              </div>
+              <div class="step" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="step-num">4</div>
+                <div class="step-body">
+                  <div class="step-line"></div>
+                  <h3 style="color:#fff">Contractors coordinated</h3>
+                  <p>We arrange appropriate trades and schedule works.</p>
+                </div>
+              </div>
+              <div class="step" style="opacity: 0; transform: translateY(16px); transition: opacity 0.45s, transform 0.45s;">
+                <div class="step-num">5</div>
+                <div class="step-body">
+                  <h3 style="color:#fff">Issue resolved</h3>
+                  <p>You receive structured updates and confirmation of completion.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="section section--light cta-section">
+      <div class="container">
+        <span class="label">Get Started</span>
+        <h2 style="color:var(--navy)">Discuss your property with LettingOps</h2>
+        <p style="color:var(--text-muted)">We work with independent landlords across London. Contact us to discuss your portfolio and find the right service tier.</p>
+        <div class="btn-group">
+          <a class="btn btn--primary btn--lg" href="/contact">Contact us</a>
+          <a class="btn btn--outline btn--lg" href="/pricing">View pricing</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="site-logo site-logo--footer" style="margin-bottom:1.25rem;">
+            <svg class="site-logo__mark" viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="0.9" y="9" width="6.2" height="21" stroke="rgba(255,255,255,0.55)" stroke-width="1.8" rx="0.5"></rect>
+              <rect x="9.9" y="0.9" width="6.2" height="29.1" stroke="rgba(255,255,255,0.55)" stroke-width="1.8" rx="0.5"></rect>
+              <rect x="18.9" y="13" width="6.2" height="17" stroke="rgba(255,255,255,0.55)" stroke-width="1.8" rx="0.5"></rect>
+              <line x1="0" y1="24" x2="26" y2="24" stroke="#c9a84c" stroke-width="1.6"></line>
+            </svg>
+            <div class="site-logo__text">
+              <span class="site-logo__name">LettingOps</span>
+              <span class="site-logo__tag">Operational Support</span>
+            </div>
+          </div>
+          <p>Structured maintenance coordination and operational support for independent landlords in London.</p>
+        </div>
+        <div class="footer-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="/services">Maintenance Coordination</a></li>
+            <li><a href="/services">Issue Triage</a></li>
+            <li><a href="/services">Contractor Management</a></li>
+            <li><a href="/services">Property Inspections</a></li>
+            <li><a href="/pricing">Pricing Plans</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="/about">About LettingOps</a></li>
+            <li><a href="/how-it-works">How It Works</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:hello@lettingops.co.uk">hello@lettingops.co.uk</a></li>
+            <li style="color:rgba(255,255,255,0.4);font-size:0.88rem;">London, United Kingdom</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-compliance">
+        <strong style="color:rgba(255,255,255,0.6)">Important:</strong> LettingOps Ltd provides operational coordination services only. We do not provide property management, letting agency services, tenancy management, rent collection, or deposit handling. LettingOps is not a letting agent and does not hold client money. LettingOps Ltd is registered in England and Wales.
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span class="copyright-year">2026</span> LettingOps Ltd. All rights reserved. Registered in England and Wales.</p>
+        <div class="legal">
+          <a href="/privacy">Privacy Policy</a>
+          <a href="/terms">Terms of Service</a>
+          <a href="/cookies">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="https://groot.mailerlite.com/js/w/webforms.min.js?vb397d78ebaa8a0f631d35384c46d781b"></script>
+
+
+<div id="cookieBanner" role="region" aria-label="Cookie consent" style="transform: translateY(0px); opacity: 1; transition: transform 0.35s, opacity 0.35s;"><div class="cookie-banner__inner"><div class="cookie-banner__text"><strong>Cookie notice</strong><p>This site uses Google Analytics to understand how visitors use it. No personal data is shared with third parties. See our <a href="cookies.html">Cookie Policy</a> and <a href="privacy.html">Privacy Policy</a>.</p></div><div class="cookie-banner__actions"><button id="cookieDecline" class="cookie-btn cookie-btn--outline">Decline</button><button id="cookieAccept" class="cookie-btn cookie-btn--primary">Accept</button></div></div></div></body></html>

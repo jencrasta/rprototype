@@ -1,0 +1,39 @@
+{
+  "url": "https://gmm-yachting.com",
+  "email": "onb.rjs+gmmyachtingcom@gmail.com",
+  "domain": "gmm-yachting.com",
+  "startedAt": "2026-05-18T01:55:08.649Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:55:26.917Z",
+      "fields": [
+        "Ihr Vor- und Nachname",
+        "E-Mail",
+        "Yacht, die Sie buchen möchten",
+        "Zeitraum",
+        "Ihre Nachricht"
+      ],
+      "cta": "Anfrage senden",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:55:27.140Z",
+      "url": "https://gmm-yachting.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:55:40.300Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://gmm-yachting.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:55:40.300Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

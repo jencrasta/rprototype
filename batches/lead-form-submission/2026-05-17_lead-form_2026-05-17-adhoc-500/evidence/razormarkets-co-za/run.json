@@ -1,0 +1,45 @@
+{
+  "url": "https://razormarkets.co.za",
+  "email": "onb.rjs+razormarketscoza@gmail.com",
+  "domain": "co.za",
+  "startedAt": "2026-05-18T02:31:00.278Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:31:43.321Z",
+      "fields": [
+        "Title",
+        "First name",
+        "Last Name",
+        "Country",
+        "National ID Number",
+        "Phone Number",
+        "Email",
+        "I accept Privacy Policy",
+        "I accept General Terms and Conditions",
+        "I accept AML Policy",
+        "I accept Client Agreement"
+      ],
+      "cta": "Country",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:31:43.390Z",
+      "url": "https://crm.razormarkets.co.za/register/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:31:56.632Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://crm.razormarkets.co.za/register/"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:31:56.633Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

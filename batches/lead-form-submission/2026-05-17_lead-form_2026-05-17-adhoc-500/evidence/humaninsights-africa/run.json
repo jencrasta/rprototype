@@ -1,0 +1,39 @@
+{
+  "url": "https://humaninsights.africa",
+  "email": "onb.rjs+humaninsightsafrica@gmail.com",
+  "domain": "humaninsights.africa",
+  "startedAt": "2026-05-18T03:21:26.373Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:21:47.577Z",
+      "fields": [
+        "Your Name",
+        "Your Email",
+        "Your Phone Number",
+        "Subject Line",
+        "Your Message"
+      ],
+      "cta": "Send Message",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:21:47.685Z",
+      "url": "https://www.humaninsights.africa/contact"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:22:00.841Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.humaninsights.africa/contact"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:22:00.841Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

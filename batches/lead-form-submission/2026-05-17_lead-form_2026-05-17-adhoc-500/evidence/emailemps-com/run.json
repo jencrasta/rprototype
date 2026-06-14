@@ -1,0 +1,19 @@
+{
+  "url": "https://emailemps.com",
+  "email": "onb.rjs+emailempscom@gmail.com",
+  "domain": "emailemps.com",
+  "startedAt": "2026-05-17T23:35:14.014Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:36:25.717Z",
+      "url": "https://emailemps.com/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:36:25.717Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

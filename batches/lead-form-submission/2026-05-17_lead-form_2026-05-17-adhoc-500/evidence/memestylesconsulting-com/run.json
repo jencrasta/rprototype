@@ -1,0 +1,19 @@
+{
+  "url": "https://memestylesconsulting.com",
+  "email": "onb.rjs+memestylesconsultingcom@gmail.com",
+  "domain": "memestylesconsulting.com",
+  "startedAt": "2026-05-18T02:57:57.906Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:58:26.576Z",
+      "url": "https://memestylesconsulting.com/contact-us",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:58:26.576Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

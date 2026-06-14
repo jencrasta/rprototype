@@ -1,0 +1,35 @@
+{
+  "url": "https://barfoot.co.nz",
+  "email": "onb.rjs+barfootconz@gmail.com",
+  "domain": "co.nz",
+  "startedAt": "2026-05-08T19:49:24.249Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-08T19:50:27.238Z",
+      "fields": [
+        "Enter your email"
+      ],
+      "cta": "Sign up",
+      "placement": "Inline (page body)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-08T19:50:27.390Z",
+      "url": "https://www.barfoot.co.nz/rent/rental-insider-sign-up"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-08T19:50:40.552Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://www.barfoot.co.nz/rent/rental-insider-sign-up"
+    }
+  ],
+  "finishedAt": "2026-05-08T19:50:40.552Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

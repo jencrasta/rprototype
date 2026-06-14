@@ -1,0 +1,10 @@
+{"type":"request","ts":1778623696210,"method":"GET","url":"https://westsideschool.org.uk/","resourceType":"document"}
+{"type":"response","ts":1778623696725,"status":200,"url":"https://westsideschool.org.uk/"}
+{"type":"request","ts":1778623696734,"method":"GET","url":"https://fonts.googleapis.com/css?family=Open+Sans:200,300","resourceType":"stylesheet"}
+{"type":"response","ts":1778623696877,"status":200,"url":"https://fonts.googleapis.com/css?family=Open+Sans:200,300"}
+{"type":"request","ts":1778623696888,"method":"GET","url":"https://westsideschool.org.uk/website_unavailable.jpg","resourceType":"image"}
+{"type":"request","ts":1778623696888,"method":"GET","url":"https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVIUwaEQbjA.woff2","resourceType":"font"}
+{"type":"response","ts":1778623696987,"status":200,"url":"https://fonts.gstatic.com/s/opensans/v44/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVIUwaEQbjA.woff2"}
+{"type":"response","ts":1778623697080,"status":200,"url":"https://westsideschool.org.uk/website_unavailable.jpg"}
+{"type":"request","ts":1778623697183,"method":"GET","url":"https://westsideschool.org.uk/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1778623697284,"status":404,"url":"https://westsideschool.org.uk/favicon.ico"}

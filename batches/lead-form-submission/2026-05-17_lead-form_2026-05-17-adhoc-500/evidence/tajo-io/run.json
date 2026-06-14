@@ -1,0 +1,33 @@
+{
+  "url": "https://tajo.io",
+  "email": "onb.rjs+tajoio@gmail.com",
+  "domain": "tajo.io",
+  "startedAt": "2026-05-17T23:19:23.391Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-17T23:19:35.451Z",
+      "fields": [],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-17T23:19:35.527Z",
+      "url": "https://tajo.io/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-17T23:19:48.650Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://tajo.io/"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:19:48.650Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

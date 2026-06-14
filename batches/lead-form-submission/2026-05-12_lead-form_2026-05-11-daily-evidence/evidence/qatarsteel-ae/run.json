@@ -1,0 +1,17 @@
+{
+  "url": "https://qatarsteel.ae",
+  "email": "onb.rjs+qatarsteelae@gmail.com",
+  "domain": "qatarsteel.ae",
+  "startedAt": "2026-05-12T22:06:45.316Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:07:13.434Z",
+      "url": "chrome-error://chromewebdata/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:07:13.434Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

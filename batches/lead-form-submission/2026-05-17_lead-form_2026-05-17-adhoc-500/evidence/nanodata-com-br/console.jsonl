@@ -1,0 +1,8 @@
+{"type":"log","ts":1779074849258,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
+{"type":"log","ts":1779074850065,"text":"opt-in"}
+{"type":"startGroup","ts":1779074850074,"text":"Deprecation Alert: Functions listed below are deprecated and will be removed in Version 7.0.0. Please update accordingly."}
+{"type":"info","ts":1779074850074,"text":"\"getArrSliders\" is deprecated. Use \"get_sliders\" instead."}
+{"type":"info","ts":1779074850074,"text":"\"getAlias\" is deprecated. Use \"get_alias\" instead."}
+{"type":"info","ts":1779074850074,"text":"\"getTitle\" is deprecated. Use \"get_title\" instead."}
+{"type":"endGroup","ts":1779074850074,"text":"console.groupEnd"}
+{"type":"warn","ts":1779074850407,"text":"A preload for 'https://nanodata.com.br/wp-content/uploads/revslider/slider-1/shape-31.png' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute."}

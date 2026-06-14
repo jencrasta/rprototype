@@ -1,0 +1,19 @@
+{
+  "url": "https://3mcopycenter.com",
+  "email": "onb.rjs+3mcopycentercom@gmail.com",
+  "domain": "3mcopycenter.com",
+  "startedAt": "2026-05-18T01:49:31.518Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:50:00.799Z",
+      "url": "https://3mcopycenter.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:50:00.800Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

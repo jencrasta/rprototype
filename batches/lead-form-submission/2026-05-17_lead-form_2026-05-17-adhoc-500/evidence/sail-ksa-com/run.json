@@ -1,0 +1,19 @@
+{
+  "url": "https://sail-ksa.com",
+  "email": "onb.rjs+sailksacom@gmail.com",
+  "domain": "sail-ksa.com",
+  "startedAt": "2026-05-18T03:43:51.585Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:44:20.916Z",
+      "url": "https://www.sail-ksa.com/contact-us",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:44:20.916Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

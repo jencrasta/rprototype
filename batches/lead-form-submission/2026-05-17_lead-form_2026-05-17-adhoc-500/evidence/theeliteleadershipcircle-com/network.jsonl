@@ -1,0 +1,16 @@
+{"type":"request","ts":1779066578699,"method":"GET","url":"https://theeliteleadershipcircle.com/","resourceType":"document"}
+{"type":"response","ts":1779066578918,"status":521,"url":"https://theeliteleadershipcircle.com/"}
+{"type":"request","ts":1779066578929,"method":"GET","url":"https://theeliteleadershipcircle.com/cdn-cgi/styles/main.css","resourceType":"stylesheet"}
+{"type":"response","ts":1779066578938,"status":200,"url":"https://theeliteleadershipcircle.com/cdn-cgi/styles/main.css"}
+{"type":"request","ts":1779066578956,"method":"GET","url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-browser.png","resourceType":"image"}
+{"type":"request","ts":1779066578956,"method":"GET","url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-ok.png","resourceType":"image"}
+{"type":"request","ts":1779066578956,"method":"GET","url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-cloud.png","resourceType":"image"}
+{"type":"request","ts":1779066578956,"method":"GET","url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-server.png","resourceType":"image"}
+{"type":"request","ts":1779066578956,"method":"GET","url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-error.png","resourceType":"image"}
+{"type":"response","ts":1779066578957,"status":200,"url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-browser.png"}
+{"type":"response","ts":1779066578960,"status":200,"url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-ok.png"}
+{"type":"response","ts":1779066578960,"status":200,"url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-cloud.png"}
+{"type":"response","ts":1779066578961,"status":200,"url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-server.png"}
+{"type":"response","ts":1779066578961,"status":200,"url":"https://theeliteleadershipcircle.com/cdn-cgi/images/cf-icon-error.png"}
+{"type":"request","ts":1779066578964,"method":"GET","url":"https://theeliteleadershipcircle.com/favicon.ico","resourceType":"other"}
+{"type":"response","ts":1779066579015,"status":521,"url":"https://theeliteleadershipcircle.com/favicon.ico"}

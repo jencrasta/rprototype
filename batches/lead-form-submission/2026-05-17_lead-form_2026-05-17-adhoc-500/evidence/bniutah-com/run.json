@@ -1,0 +1,19 @@
+{
+  "url": "https://bniutah.com",
+  "email": "onb.rjs+bniutahcom@gmail.com",
+  "domain": "bniutah.com",
+  "startedAt": "2026-05-18T01:35:05.442Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:35:34.671Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:35:34.671Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

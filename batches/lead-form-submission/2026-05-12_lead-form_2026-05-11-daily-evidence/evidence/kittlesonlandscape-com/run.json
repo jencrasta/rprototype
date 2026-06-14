@@ -1,0 +1,38 @@
+{
+  "url": "https://kittlesonlandscape.com",
+  "email": "onb.rjs+kittlesonlandscapecom@gmail.com",
+  "domain": "kittlesonlandscape.com",
+  "startedAt": "2026-05-12T21:48:34.804Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:48:55.978Z",
+      "fields": [
+        "Name(Required)",
+        "Email(Required)",
+        "Phone",
+        "Message(Required)"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:48:56.161Z",
+      "url": "https://www.kittlesonlandscape.com/contact-us/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:49:03.203Z",
+      "state": "inline-error",
+      "evidence": "Name (Required) Email (Required) Phone Message (Required) This field is required.",
+      "url": "https://www.kittlesonlandscape.com/contact-us/"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:49:03.203Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

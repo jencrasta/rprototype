@@ -1,0 +1,19 @@
+{
+  "url": "https://dbsoundvision.com",
+  "email": "onb.rjs+dbsoundvisioncom@gmail.com",
+  "domain": "dbsoundvision.com",
+  "startedAt": "2026-05-17T23:36:58.909Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:37:27.161Z",
+      "url": "https://www.dbsoundvision.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:37:27.161Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

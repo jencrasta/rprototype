@@ -1,0 +1,39 @@
+{
+  "url": "https://obturatormedia.com",
+  "email": "onb.rjs+obturatormediacom@gmail.com",
+  "domain": "obturatormedia.com",
+  "startedAt": "2026-05-18T01:11:44.280Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:11:56.241Z",
+      "fields": [
+        "Tu nombre",
+        "tu@empresa.com",
+        "Nombre de tu empresa",
+        "servicio",
+        "Cuéntanos tu proyecto..."
+      ],
+      "cta": "Enviar Mensaje",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:11:56.502Z",
+      "url": "https://obturatormedia.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:12:09.645Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://obturatormedia.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:12:09.645Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

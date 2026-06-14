@@ -1,0 +1,35 @@
+{
+  "url": "https://theenergygroup.uk",
+  "email": "onb.rjs+theenergygroupuk@gmail.com",
+  "domain": "theenergygroup.uk",
+  "startedAt": "2026-05-18T01:47:39.044Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T01:47:50.744Z",
+      "fields": [
+        "email"
+      ],
+      "cta": "",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T01:47:50.855Z",
+      "url": "https://theenergygroup.uk/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T01:47:57.905Z",
+      "state": "inline",
+      "evidence": "Thanks for subscribing! ⏎ Please check your email for further instructions.",
+      "url": "https://theenergygroup.uk/"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:47:57.905Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

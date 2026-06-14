@@ -1,0 +1,19 @@
+{
+  "url": "https://chromasylum.com",
+  "email": "onb.rjs+chromasylumcom@gmail.com",
+  "domain": "chromasylum.com",
+  "startedAt": "2026-05-17T23:41:32.551Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:42:01.855Z",
+      "url": "https://chromasylum.com/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:42:01.855Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

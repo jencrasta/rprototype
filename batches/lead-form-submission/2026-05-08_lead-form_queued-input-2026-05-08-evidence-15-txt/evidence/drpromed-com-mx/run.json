@@ -1,0 +1,17 @@
+{
+  "url": "https://drpromed.com.mx",
+  "email": "onb.rjs+drpromedcommx@gmail.com",
+  "domain": "com.mx",
+  "startedAt": "2026-05-08T19:48:28.202Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-08T19:48:58.501Z",
+      "url": "https://drpromed.com.mx/"
+    }
+  ],
+  "finishedAt": "2026-05-08T19:48:58.501Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

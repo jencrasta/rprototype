@@ -1,0 +1,19 @@
+{
+  "url": "https://rate.com",
+  "email": "onb.rjs+ratecom@gmail.com",
+  "domain": "rate.com",
+  "startedAt": "2026-05-18T01:13:19.981Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T01:13:50.133Z",
+      "url": "https://www.rate.com/home-search",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T01:13:50.134Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://neighborsbettersf.com",
+  "email": "onb.rjs+neighborsbettersfcom@gmail.com",
+  "domain": "neighborsbettersf.com",
+  "startedAt": "2026-05-17T23:59:52.447Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:00:20.562Z",
+      "url": "https://www.neighborsbettersf.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:00:20.562Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

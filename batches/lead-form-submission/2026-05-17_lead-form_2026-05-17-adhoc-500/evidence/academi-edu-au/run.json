@@ -1,0 +1,19 @@
+{
+  "url": "https://academi.edu.au",
+  "email": "onb.rjs+academieduau@gmail.com",
+  "domain": "edu.au",
+  "startedAt": "2026-05-18T02:35:01.566Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:35:30.919Z",
+      "url": "https://www.academi.edu.au/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:35:30.920Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

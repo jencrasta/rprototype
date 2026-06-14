@@ -1,0 +1,19 @@
+{
+  "url": "https://wanta.io",
+  "email": "onb.rjs+wantaio@gmail.com",
+  "domain": "wanta.io",
+  "startedAt": "2026-05-17T23:57:00.082Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:57:28.652Z",
+      "url": "https://wanta.io/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:57:28.652Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://waigf.org",
+  "email": "onb.rjs+waigforg@gmail.com",
+  "domain": "waigf.org",
+  "startedAt": "2026-05-18T00:32:13.524Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:37:01.227Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:37:01.228Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

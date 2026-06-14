@@ -1,0 +1,19 @@
+{
+  "url": "https://elevategraphicsgroup.com",
+  "email": "onb.rjs+elevategraphicsgroupcom@gmail.com",
+  "domain": "elevategraphicsgroup.com",
+  "startedAt": "2026-05-17T23:29:14.910Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-17T23:29:44.267Z",
+      "url": "https://www.elev8customapparel.com/",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-17T23:29:44.267Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

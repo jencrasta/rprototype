@@ -1,0 +1,39 @@
+{
+  "url": "https://marceltours.com",
+  "email": "onb.rjs+marceltourscom@gmail.com",
+  "domain": "marceltours.com",
+  "startedAt": "2026-05-12T22:03:38.550Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T22:04:33.403Z",
+      "fields": [
+        "Name",
+        "Email",
+        "Phone",
+        "Address",
+        "-"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Unknown"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T22:04:33.612Z",
+      "url": "https://www.marceltours.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T22:04:40.641Z",
+      "state": "inline",
+      "evidence": "- Submit Thanks for submitting!",
+      "url": "https://www.marceltours.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:04:40.641Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline"
+  }
+}

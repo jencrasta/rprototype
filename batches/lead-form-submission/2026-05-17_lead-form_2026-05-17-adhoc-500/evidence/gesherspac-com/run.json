@@ -1,0 +1,39 @@
+{
+  "url": "https://gesherspac.com",
+  "email": "onb.rjs+gesherspaccom@gmail.com",
+  "domain": "gesherspac.com",
+  "startedAt": "2026-05-18T03:31:30.137Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T03:31:42.464Z",
+      "fields": [
+        "First Name",
+        "Last Name",
+        "Email(Required)",
+        "Phone(Required)",
+        "Message(Required)"
+      ],
+      "cta": "GET IN TOUCH",
+      "placement": "Inline (page body)",
+      "formType": "Contact / Inquiry"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T03:31:42.550Z",
+      "url": "https://gesherspac.com/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T03:31:49.580Z",
+      "state": "inline-error",
+      "evidence": "Name (Required) First Name Last Name Email (Required) Phone (Required) Message (Required) 0 of 600 max characters This field is required.",
+      "url": "https://gesherspac.com/"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:31:49.580Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "inline-error"
+  }
+}

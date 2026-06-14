@@ -1,0 +1,19 @@
+{
+  "url": "https://insfpsantcugat.cat",
+  "email": "onb.rjs+insfpsantcugatcat@gmail.com",
+  "domain": "insfpsantcugat.cat",
+  "startedAt": "2026-05-18T02:55:56.405Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:56:24.767Z",
+      "url": "https://insfpsantcugat.cat/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:56:24.769Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

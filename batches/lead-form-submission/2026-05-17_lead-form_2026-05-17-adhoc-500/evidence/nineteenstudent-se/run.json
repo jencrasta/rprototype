@@ -1,0 +1,35 @@
+{
+  "url": "https://nineteenstudent.se",
+  "email": "onb.rjs+nineteenstudentse@gmail.com",
+  "domain": "nineteenstudent.se",
+  "startedAt": "2026-05-18T04:22:30.380Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T04:22:42.739Z",
+      "fields": [
+        "Din e-postadress"
+      ],
+      "cta": "",
+      "placement": "Footer (embedded)",
+      "formType": "Marketing Lead Capture"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T04:22:43.037Z",
+      "url": "https://nineteenstudent.se/"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T04:22:56.187Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://nineteenstudent.se/"
+    }
+  ],
+  "finishedAt": "2026-05-18T04:22:56.187Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}

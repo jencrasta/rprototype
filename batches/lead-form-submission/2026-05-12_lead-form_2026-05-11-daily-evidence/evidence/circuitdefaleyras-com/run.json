@@ -1,0 +1,17 @@
+{
+  "url": "https://circuitdefaleyras.com",
+  "email": "onb.rjs+circuitdefaleyrascom@gmail.com",
+  "domain": "circuitdefaleyras.com",
+  "startedAt": "2026-05-12T22:12:04.076Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-12T22:12:33.147Z",
+      "url": "https://circuitdefaleyras.com/"
+    }
+  ],
+  "finishedAt": "2026-05-12T22:12:33.147Z",
+  "outcome": {
+    "status": "no_form"
+  }
+}

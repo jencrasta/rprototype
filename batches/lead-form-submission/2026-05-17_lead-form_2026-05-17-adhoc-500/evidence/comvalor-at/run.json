@@ -1,0 +1,19 @@
+{
+  "url": "https://comvalor.at",
+  "email": "onb.rjs+comvalorat@gmail.com",
+  "domain": "comvalor.at",
+  "startedAt": "2026-05-18T02:22:25.072Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:22:54.700Z",
+      "url": "https://www.comvalor.at/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:22:54.700Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

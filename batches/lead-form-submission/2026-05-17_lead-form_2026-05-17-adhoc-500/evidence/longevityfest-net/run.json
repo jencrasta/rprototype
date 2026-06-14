@@ -1,0 +1,19 @@
+{
+  "url": "https://longevityfest.net",
+  "email": "onb.rjs+longevityfestnet@gmail.com",
+  "domain": "longevityfest.net",
+  "startedAt": "2026-05-18T00:58:42.176Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T00:59:12.233Z",
+      "url": "https://longevityfest.net/#",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T00:59:12.234Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

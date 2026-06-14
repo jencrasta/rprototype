@@ -1,0 +1,19 @@
+{
+  "url": "https://kupilikeraclia5outlook.onmicrosoft.com",
+  "email": "onb.rjs+kupilikeraclia5outlookonmicrosoftcom@gmail.com",
+  "domain": "onmicrosoft.com",
+  "startedAt": "2026-05-18T03:10:23.713Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:10:50.415Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:10:50.415Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

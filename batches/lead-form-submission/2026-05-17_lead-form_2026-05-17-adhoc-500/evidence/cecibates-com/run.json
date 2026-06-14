@@ -1,0 +1,19 @@
+{
+  "url": "https://cecibates.com",
+  "email": "onb.rjs+cecibatescom@gmail.com",
+  "domain": "cecibates.com",
+  "startedAt": "2026-05-18T02:42:22.556Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:42:50.569Z",
+      "url": "https://cecibates.com/",
+      "noFormReason": "no_email_form"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:42:50.571Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "no_email_form"
+  }
+}

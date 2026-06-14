@@ -1,0 +1,13 @@
+{"type":"warn","ts":1778620758868,"text":"This version of the marker clusterer is no longer in service.\n  We recommend updating your code to use @googlemaps/markerclusterer instead.\n  More information is available at https://github.com/googlemaps/js-markerclusterer\n  and https://developers.google.com/maps/documentation/javascript/marker-clustering."}
+{"type":"warn","ts":1778620759221,"text":"Failed to decode downloaded font: https://www.ikm.no/themes/ikm/fonts/Bahnschrift-Regular.ttf"}
+{"type":"warn","ts":1778620759221,"text":"OTS parsing error: glyf: Bad glyph flag (101), bit 6 must be set to zero for flag 4\nglyf: Failed to parse glyph flags 4\nglyf: Failed to parse glyph 0\nglyf: Failed to parse table"}
+{"type":"warn","ts":1778620759221,"text":"Failed to decode downloaded font: https://www.ikm.no/themes/ikm/fonts/Bahnschrift-Regular.ttf"}
+{"type":"warn","ts":1778620759221,"text":"OTS parsing error: glyf: Bad glyph flag (101), bit 6 must be set to zero for flag 4\nglyf: Failed to parse glyph flags 4\nglyf: Failed to parse glyph 0\nglyf: Failed to parse table"}
+{"type":"warn","ts":1778620759419,"text":"Failed to decode downloaded font: https://www.ikm.no/themes/ikm/fonts/Bahnschrift-Regular.ttf"}
+{"type":"warn","ts":1778620759419,"text":"OTS parsing error: glyf: Bad glyph flag (101), bit 6 must be set to zero for flag 4\nglyf: Failed to parse glyph flags 4\nglyf: Failed to parse glyph 0\nglyf: Failed to parse table"}
+{"type":"error","ts":1778620759528,"text":"Connecting to 'wss://ws.hotjar.com/api/v2/client/ws?v=7&site_id=457392' violates the following Content Security Policy directive: \"default-src 'self' 'unsafe-eval' 'unsafe-inline' data: https:\". Note that 'connect-src' was not explicitly set, so 'default-src' is used as a fallback. The action has been blocked."}
+{"type":"warn","ts":1778620759636,"text":"Failed to decode downloaded font: https://www.ikm.no/themes/ikm/fonts/Bahnschrift-Regular.ttf"}
+{"type":"warn","ts":1778620759636,"text":"OTS parsing error: glyf: Bad glyph flag (101), bit 6 must be set to zero for flag 4\nglyf: Failed to parse glyph flags 4\nglyf: Failed to parse glyph 0\nglyf: Failed to parse table"}
+{"type":"log","ts":1778620759739,"text":"Event listener added"}
+{"type":"warn","ts":1778620784064,"text":"USP is not accessible"}
+{"type":"warn","ts":1778620790064,"text":"USP is not accessible"}

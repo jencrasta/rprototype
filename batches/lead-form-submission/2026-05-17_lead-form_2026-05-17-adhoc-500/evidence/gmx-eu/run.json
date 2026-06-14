@@ -1,0 +1,19 @@
+{
+  "url": "https://gmx.eu",
+  "email": "onb.rjs+gmxeu@gmail.com",
+  "domain": "gmx.eu",
+  "startedAt": "2026-05-18T02:13:29.220Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T02:13:59.390Z",
+      "url": "chrome-error://chromewebdata/",
+      "noFormReason": "site_unavailable"
+    }
+  ],
+  "finishedAt": "2026-05-18T02:13:59.390Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "site_unavailable"
+  }
+}

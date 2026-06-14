@@ -1,0 +1,39 @@
+{
+  "url": "https://roomsync.com",
+  "email": "onb.rjs+roomsynccom@gmail.com",
+  "domain": "roomsync.com",
+  "startedAt": "2026-05-18T02:47:48.690Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-18T02:48:08.861Z",
+      "fields": [
+        "Name",
+        "Email",
+        "Phone Number",
+        "Organization",
+        "How can we help?"
+      ],
+      "cta": "Submit",
+      "placement": "Inline (page body)",
+      "formType": "Membership Application"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-18T02:48:08.912Z",
+      "url": "https://www.roomsync.com/help/contact-us"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-18T02:48:15.942Z",
+      "state": "redirect",
+      "evidence": "→ https://www.roomsync.com/help/contact-us?name=&Email=&Phone-2=5166157427&Organization=&Notes= (path doesn't look like a confirmation)",
+      "url": "https://www.roomsync.com/help/contact-us?name=&Email=&Phone-2=5166157427&Organization=&Notes="
+    }
+  ],
+  "finishedAt": "2026-05-18T02:48:15.942Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "redirect"
+  }
+}

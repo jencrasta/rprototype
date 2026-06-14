@@ -1,0 +1,19 @@
+{
+  "url": "https://cfagansourcingpropertysolutions.com",
+  "email": "onb.rjs+cfagansourcingpropertysolutionscom@gmail.com",
+  "domain": "cfagansourcingpropertysolutions.com",
+  "startedAt": "2026-05-18T03:10:51.943Z",
+  "steps": [
+    {
+      "name": "no-form",
+      "ts": "2026-05-18T03:11:21.886Z",
+      "url": "https://www.godaddy.com/domainsearch/find?key=parkweb&utm_source=godaddy&utm_medium=parkedpages&utm_campaign=x_dom-broker_parkedpages_x_x_invest_0_001&tmskey=dpp_dbs&domainToCheck=cfagansourcingpropertysolutions.com&isc=GPPTCOM&itc=parkedpage_landers",
+      "noFormReason": "wrong_redirect"
+    }
+  ],
+  "finishedAt": "2026-05-18T03:11:21.886Z",
+  "outcome": {
+    "status": "no_form",
+    "noFormReason": "wrong_redirect"
+  }
+}

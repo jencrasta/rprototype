@@ -1,0 +1,36 @@
+{
+  "url": "https://strikepathbowling.com",
+  "email": "onb.rjs+strikepathbowlingcom@gmail.com",
+  "domain": "strikepathbowling.com",
+  "startedAt": "2026-05-12T21:18:33.295Z",
+  "steps": [
+    {
+      "name": "form-inspected",
+      "ts": "2026-05-12T21:18:51.632Z",
+      "fields": [
+        "Email",
+        "Password"
+      ],
+      "cta": "",
+      "placement": "Inline (page body)",
+      "formType": "Login Form"
+    },
+    {
+      "name": "pre-submit-captured",
+      "ts": "2026-05-12T21:18:51.845Z",
+      "url": "https://strikepathbowling.com/auth"
+    },
+    {
+      "name": "confirmation-detected",
+      "ts": "2026-05-12T21:19:04.932Z",
+      "state": "no-confirmation",
+      "evidence": "",
+      "url": "https://strikepathbowling.com/auth"
+    }
+  ],
+  "finishedAt": "2026-05-12T21:19:04.932Z",
+  "outcome": {
+    "status": "submitted",
+    "confirmationState": "no-confirmation"
+  }
+}
