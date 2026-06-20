@@ -1,4 +1,0 @@
-{"type":"warn","ts":1779073161855,"text":"cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation"}
-{"type":"error","ts":1779073162047,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
-{"type":"error","ts":1779073162182,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
-{"type":"error","ts":1779073162182,"text":"Failed to load beta access status. TypeError: Failed to fetch"}

@@ -1,4 +1,0 @@
-{"type":"warn","ts":1779077506454,"text":"Manifest: property 'theme_color' ignored, '005377' is not a valid color."}
-{"type":"warn","ts":1779077506454,"text":"Manifest: property 'background_color' ignored, '005377' is not a valid color."}
-{"type":"error","ts":1779077506631,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}
-{"type":"error","ts":1779077506708,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}

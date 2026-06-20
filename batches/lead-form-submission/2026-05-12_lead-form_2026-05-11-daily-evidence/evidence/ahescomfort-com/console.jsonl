@@ -1,3 +1,0 @@
-{"type":"log","ts":1778624955571,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
-{"type":"warn","ts":1778624957607,"text":"The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://developer.chrome.com/blog/autoplay/#web_audio"}
-{"type":"error","ts":1778624967363,"text":"Failed to load resource: net::ERR_NAME_NOT_RESOLVED"}

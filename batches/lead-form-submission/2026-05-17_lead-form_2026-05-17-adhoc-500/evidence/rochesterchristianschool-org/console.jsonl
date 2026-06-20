@@ -1,8 +1,0 @@
-{"type":"warn","ts":1779061815594,"text":"yui: NOT loaded: squarespace-visitor_site_error_reporter"}
-{"type":"warn","ts":1779061815594,"text":"yui: NOT loaded: squarespace-cldr_resource_pack"}
-{"type":"warn","ts":1779061815594,"text":"yui: NOT loaded: squarespace-common_vendors_stable"}
-{"type":"warn","ts":1779061815594,"text":"yui: NOT loaded: squarespace-common_vendors"}
-{"type":"warn","ts":1779061815597,"text":"yui: NOT loaded: squarespace-performance"}
-{"type":"error","ts":1779061815712,"text":"Failed to load resource: the server responded with a status of 401 ()"}
-{"type":"log","ts":1779061815712,"text":"[Sentry][captureException] Request failed with status code 401"}
-{"type":"error","ts":1779061815712,"text":"[object t]"}

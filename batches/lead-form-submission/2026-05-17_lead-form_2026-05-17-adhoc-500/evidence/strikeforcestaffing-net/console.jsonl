@@ -1,9 +1,0 @@
-{"type":"warn","ts":1779072404878,"text":"yui: NOT loaded: squarespace-visitor_site_error_reporter"}
-{"type":"warn","ts":1779072404878,"text":"yui: NOT loaded: squarespace-cldr_resource_pack"}
-{"type":"warn","ts":1779072404878,"text":"yui: NOT loaded: squarespace-common_vendors_stable"}
-{"type":"warn","ts":1779072404878,"text":"yui: NOT loaded: squarespace-common_vendors"}
-{"type":"warn","ts":1779072404882,"text":"yui: NOT loaded: squarespace-user_account_core"}
-{"type":"warn","ts":1779072404882,"text":"yui: NOT loaded: squarespace-performance"}
-{"type":"log","ts":1779072404914,"text":"The current href is: https://www.strikeforcestaffing.net"}
-{"type":"log","ts":1779072404914,"text":"This is an ENGLISH page"}
-{"type":"log","ts":1779072404964,"text":"[Visitor Sentry] Initialized and sending events"}

@@ -1,2 +1,0 @@
-{"type":"error","ts":1779067305422,"text":"ErrorUtils caught an error:\n\nCannot listen to an undefined element. [Caught in: Tried to listen to element of type click]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]"}
-{"type":"error","ts":1779067306546,"text":"ErrorUtils caught an error:\n\nCannot listen to an undefined element. [Caught in: Tried to listen to element of type click]\n\nSubsequent non-fatal errors won't be logged; see https://fburl.com/debugjs. [object Object]"}

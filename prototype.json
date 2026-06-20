@@ -1,0 +1,12 @@
+{
+  "name": "Cold Open",
+  "description": "Getting started prototype — automated lead-form detection, probe email submission, role inference, and welcome email capture for Mailchimp onboarding research.",
+  "tags": [
+    "Onboarding",
+    "Email",
+    "AI",
+    "Research"
+  ],
+  "author": "riannaschanno-byte",
+  "previewImage": "preview.png"
+}

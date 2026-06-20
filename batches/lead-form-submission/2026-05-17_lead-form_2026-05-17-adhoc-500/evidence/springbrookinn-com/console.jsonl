@@ -1,8 +1,0 @@
-{"type":"error","ts":1779067740690,"text":"Failed to load resource: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH"}
-{"type":"log","ts":1779067741406,"text":"JQMIGRATE: Logging is active"}
-{"type":"warn","ts":1779067741413,"text":"JQMIGRATE: jQuery.attrFn is deprecated"}
-{"type":"trace","ts":1779067741413,"text":"console.trace"}
-{"type":"warn","ts":1779067744076,"text":"JQMIGRATE: jQuery.fn.attr('selected') may use property instead of attribute"}
-{"type":"trace","ts":1779067744076,"text":"console.trace"}
-{"type":"warn","ts":1779067744083,"text":"JQMIGRATE: jQuery.fn.live() is deprecated"}
-{"type":"trace","ts":1779067744083,"text":"console.trace"}

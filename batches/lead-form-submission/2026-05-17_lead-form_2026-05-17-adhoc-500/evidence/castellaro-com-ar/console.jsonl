@@ -1,2 +1,0 @@
-{"type":"warn","ts":1779076886692,"text":"Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://castellaro.com.ar')."}
-{"type":"warn","ts":1779076886906,"text":"<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"}

@@ -1,6 +1,0 @@
-{"type":"error","ts":1779064841742,"text":"Failed to load resource: the server responded with a status of 401 ()"}
-{"type":"warn","ts":1779064842061,"text":"yui: NOT loaded: squarespace-cldr_resource_pack"}
-{"type":"warn","ts":1779064842062,"text":"yui: NOT loaded: squarespace-common_vendors_stable"}
-{"type":"warn","ts":1779064842062,"text":"yui: NOT loaded: squarespace-common_vendors"}
-{"type":"warn","ts":1779064842113,"text":"Squarespace.load called but YUI sandbox already exists — skipping re-initialization."}
-{"type":"verbose","ts":1779064842113,"text":"[DOM] Input elements should have autocomplete attributes (suggested: \"new-password\"): (More info: https://goo.gl/9p2vKq) %o"}

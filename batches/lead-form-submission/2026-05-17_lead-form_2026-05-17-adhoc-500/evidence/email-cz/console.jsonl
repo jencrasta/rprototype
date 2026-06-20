@@ -1,8 +1,0 @@
-{"type":"verbose","ts":1779071907109,"text":"[DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"verbose","ts":1779071907109,"text":"[DOM] Input elements should have autocomplete attributes (suggested: \"new-password\"): (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"verbose","ts":1779071907110,"text":"[DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"verbose","ts":1779071907112,"text":"[DOM] Input elements should have autocomplete attributes (suggested: \"new-password\"): (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"verbose","ts":1779071907112,"text":"[DOM] Input elements should have autocomplete attributes (suggested: \"new-password\"): (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"verbose","ts":1779071907112,"text":"[DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"error","ts":1779071916115,"text":"TypeError: Cannot read properties of undefined (reading 'sessionParams')"}
-{"type":"error","ts":1779071917322,"text":"TypeError: Cannot read properties of undefined (reading 'sessionParams')"}

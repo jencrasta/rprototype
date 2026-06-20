@@ -1,6 +1,0 @@
-{"type":"request","ts":1779072730572,"method":"GET","url":"https://cascaispodemais.pt/","resourceType":"document"}
-{"type":"response","ts":1779072731217,"status":200,"url":"https://cascaispodemais.pt/"}
-{"type":"request","ts":1779072731227,"method":"GET","url":"https://cascaispodemais.pt/assets/banner-cascais-pode-mais.png","resourceType":"image"}
-{"type":"response","ts":1779072731336,"status":200,"url":"https://cascaispodemais.pt/assets/banner-cascais-pode-mais.png"}
-{"type":"request","ts":1779072731824,"method":"GET","url":"https://cascaispodemais.pt/favicon.ico","resourceType":"other"}
-{"type":"response","ts":1779072731924,"status":404,"url":"https://cascaispodemais.pt/favicon.ico"}

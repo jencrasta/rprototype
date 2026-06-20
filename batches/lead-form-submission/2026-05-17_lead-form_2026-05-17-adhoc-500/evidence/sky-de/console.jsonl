@@ -1,9 +1,0 @@
-{"type":"warn","ts":1779063961007,"text":"🚀 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"}
-{"type":"log","ts":1779063961746,"text":"onMessageReceiveData [object Object]"}
-{"type":"log","ts":1779063961746,"text":"Messaging without detection successfully executed."}
-{"type":"log","ts":1779063962246,"text":"onMessageReady"}
-{"type":"error","ts":1779063962666,"text":"Failed to load resource: net::ERR_CONNECTION_RESET"}
-{"type":"info","ts":1779063962785,"text":"Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner."}
-{"type":"verbose","ts":1779063979675,"text":"Rendering was performed in a subtree hidden by content-visibility."}
-{"type":"verbose","ts":1779063979676,"text":"Rendering was performed in a subtree hidden by content-visibility."}
-{"type":"verbose","ts":1779063979676,"text":"Rendering was performed in a subtree hidden by content-visibility."}

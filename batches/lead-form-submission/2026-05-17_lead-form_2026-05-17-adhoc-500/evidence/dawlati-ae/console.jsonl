@@ -1,5 +1,0 @@
-{"type":"warn","ts":1779065694672,"text":"Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details."}
-{"type":"error","ts":1779065694746,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
-{"type":"error","ts":1779065711830,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"warn","ts":1779065711844,"text":"Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details."}
-{"type":"error","ts":1779065711877,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}

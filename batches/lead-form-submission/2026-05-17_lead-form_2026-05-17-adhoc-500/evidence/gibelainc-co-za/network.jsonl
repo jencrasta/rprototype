@@ -1,4 +1,0 @@
-{"type":"request","ts":1779061917493,"method":"GET","url":"https://gibelainc.co.za/","resourceType":"document"}
-{"type":"response","ts":1779061919333,"status":200,"url":"https://gibelainc.co.za/"}
-{"type":"request","ts":1779061919351,"method":"GET","url":"https://gibelainc.co.za/favicon.ico","resourceType":"other"}
-{"type":"response","ts":1779061919583,"status":404,"url":"https://gibelainc.co.za/favicon.ico"}

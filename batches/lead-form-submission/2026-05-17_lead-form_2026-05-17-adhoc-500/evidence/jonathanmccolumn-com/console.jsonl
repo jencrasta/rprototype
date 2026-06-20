@@ -1,9 +1,0 @@
-{"type":"log","ts":1779062360892,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
-{"type":"error","ts":1779062361213,"text":"Access to font at 'https://cbfreeland.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo7cnqeu92fr1me7ksn66agldtyluamaxkubgee.woff2' from origin 'https://jonathanmccolumn.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."}
-{"type":"error","ts":1779062361213,"text":"Failed to load resource: net::ERR_FAILED"}
-{"type":"error","ts":1779062361219,"text":"Access to font at 'https://cbfreeland.com/wp-content/uploads/elementor/google-fonts/fonts/jost-92zatbhpnqw73otd4g.woff2' from origin 'https://jonathanmccolumn.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."}
-{"type":"error","ts":1779062361219,"text":"Failed to load resource: net::ERR_FAILED"}
-{"type":"log","ts":1779062361376,"text":"xliding bg refresh"}
-{"type":"error","ts":1779062361380,"text":"Access to font at 'https://cbfreeland.com/wp-content/uploads/elementor/google-fonts/fonts/roboto-kfo5cnqeu92fr1mu53zec9_vu3r1gihoszmkbnka.woff2' from origin 'https://jonathanmccolumn.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."}
-{"type":"error","ts":1779062361381,"text":"Failed to load resource: net::ERR_FAILED"}
-{"type":"warn","ts":1779062361728,"text":"Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://jonathanmccolumn.com')."}

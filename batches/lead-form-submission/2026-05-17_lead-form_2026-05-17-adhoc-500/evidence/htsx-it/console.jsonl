@@ -1,4 +1,0 @@
-{"type":"error","ts":1779068444263,"text":"Mixed Content: The page at 'https://www.htsx.it/it/hospital-technology-systems.htm' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Titillium+Web:400,700,200'. This request has been blocked; the content must be served over HTTPS."}
-{"type":"error","ts":1779068444487,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}
-{"type":"error","ts":1779068444835,"text":"Failed to load resource: net::ERR_NAME_NOT_RESOLVED"}
-{"type":"error","ts":1779068444835,"text":"Failed to load resource: net::ERR_NAME_NOT_RESOLVED"}

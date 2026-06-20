@@ -1,2 +1,0 @@
-{"type":"log","ts":1778620422273,"text":"Sanity client initialized: [object Object]"}
-{"type":"warn","ts":1778620422273,"text":"The default export of @sanity/image-url has been deprecated. Use the named export `createImageUrlBuilder` instead."}

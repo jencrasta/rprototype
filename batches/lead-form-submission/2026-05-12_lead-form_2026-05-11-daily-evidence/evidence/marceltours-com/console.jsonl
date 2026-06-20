@@ -1,4 +1,0 @@
-{"type":"warn","ts":1778623421096,"text":"Unrecognized feature: 'vr'."}
-{"type":"warn","ts":1778623422744,"text":"react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour."}
-{"type":"warn","ts":1778623427384,"text":"[2026-05-12T22:03:47.382Z]  @firebase/app-compat: \n    Warning: Firebase is already defined in the global scope. Please make sure\n    Firebase library is only loaded once.\n  "}
-{"type":"error","ts":1778623473620,"text":"Pattern attribute value ^[+]?([(][0-9]{1,3}[)][-]?)?([0-9][-]?){3,16}[0-9]$ is not a valid regular expression: Uncaught SyntaxError: Failed to read the 'validationMessage' property from 'HTMLInputElement': Invalid regular expression: /^[+]?([(][0-9]{1,3}[)][-]?)?([0-9][-]?){3,16}[0-9]$/v: Invalid character in character class"}

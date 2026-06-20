@@ -1,9 +1,0 @@
-{"type":"log","ts":1779064986300,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
-{"type":"info","ts":1779064986320,"text":"Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.destekpatent.com/wp-content/themes/caren/assets/fonts/icons/caren-icon-1.0.2.woff2"}
-{"type":"log","ts":1779064987955,"text":"Notice: TranslatePress trp-ajax request uses fall back to admin ajax."}
-{"type":"log","ts":1779064991157,"text":"Notice: TranslatePress trp-ajax request uses fall back to admin ajax."}
-{"type":"error","ts":1779064992850,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"error","ts":1779065001761,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"error","ts":1779065001829,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"error","ts":1779065002999,"text":"Pattern attribute value [0-9()#&+*-=.]+ is not a valid regular expression: Uncaught SyntaxError: Failed to execute 'reportValidity' on 'HTMLFormElement': Invalid regular expression: /[0-9()#&+*-=.]+/v: Invalid character in character class"}
-{"type":"info","ts":1779065006805,"text":"Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://www.destekpatent.com/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2?5.41.0"}

@@ -1,6 +1,0 @@
-{"type":"log","ts":1778269898227,"text":"[node HTMLFormElement]"}
-{"type":"verbose","ts":1778269898335,"text":"[DOM] Password forms should have (optionally hidden) username fields for accessibility: (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"error","ts":1778269908209,"text":"An invalid form control with name='email' is not focusable."}
-{"type":"error","ts":1778269908209,"text":"An invalid form control with name='terms' is not focusable."}
-{"type":"error","ts":1778269926261,"text":"Access to script at 'https://www.clarity.ms/tag/ux9mtioswv?ref=gtm' from origin 'https://www.nationalacademies.org' has been blocked by CORS policy: Permission was denied for this request to access the `local` address space."}
-{"type":"error","ts":1778269926261,"text":"Failed to load resource: net::ERR_FAILED"}

@@ -1,3 +1,0 @@
-{"type":"log","ts":1778623806619,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
-{"type":"warn","ts":1778623807771,"text":"Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://flex-sol.com')."}
-{"type":"warn","ts":1778623807771,"text":"Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://flex-sol.com')."}

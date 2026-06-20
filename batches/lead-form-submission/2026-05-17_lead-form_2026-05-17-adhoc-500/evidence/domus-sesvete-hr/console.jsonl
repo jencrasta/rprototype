@@ -1,4 +1,0 @@
-{"type":"log","ts":1779068481053,"text":"JQMIGRATE: Migrate is installed, version 3.3.0"}
-{"type":"verbose","ts":1779068481076,"text":"[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"}
-{"type":"log","ts":1779068495644,"text":"JQMIGRATE: Migrate is installed, version 3.3.0"}
-{"type":"verbose","ts":1779068495661,"text":"[DOM] Input elements should have autocomplete attributes (suggested: \"current-password\"): (More info: https://goo.gl/9p2vKq) %o"}

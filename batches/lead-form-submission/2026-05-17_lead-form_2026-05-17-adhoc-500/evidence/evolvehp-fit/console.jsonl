@@ -1,2 +1,0 @@
-{"type":"error","ts":1779067562323,"text":"`DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.\n\nIf you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.\n\nFor more information, see https://radix-ui.com/primitives/docs/components/dialog"}
-{"type":"warn","ts":1779067562324,"text":"Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}."}

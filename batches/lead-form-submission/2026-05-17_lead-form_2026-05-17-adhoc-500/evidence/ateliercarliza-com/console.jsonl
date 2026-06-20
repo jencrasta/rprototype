@@ -1,8 +1,0 @@
-{"type":"error","ts":1779070823400,"text":"Failed to load resource: the server responded with a status of 403 ()"}
-{"type":"log","ts":1779070823401,"text":"hr: {"}
-{"type":"error","ts":1779070823401,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
-{"type":"error","ts":1779070823625,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"error","ts":1779070823926,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"error","ts":1779070841775,"text":"Failed to load resource: net::ERR_CONNECTION_CLOSED"}
-{"type":"error","ts":1779070842036,"text":"Failed to load resource: the server responded with a status of 404 ()"}
-{"type":"error","ts":1779070842254,"text":"Failed to load resource: the server responded with a status of 404 ()"}

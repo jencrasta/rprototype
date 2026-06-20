@@ -1,2 +1,0 @@
-{"type":"warn","ts":1779071604156,"text":"Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading"}
-{"type":"error","ts":1779071604438,"text":"Failed to load resource: the server responded with a status of 404 (Not Found)"}

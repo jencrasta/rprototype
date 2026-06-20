@@ -1,4 +1,0 @@
-{"type":"log","ts":1779075688806,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
-{"type":"log","ts":1779075707309,"text":"JQMIGRATE: Migrate is installed, version 3.4.1"}
-{"type":"debug","ts":1779075708161,"text":"Search endpoint requested!"}
-{"type":"error","ts":1779075708526,"text":"Pattern attribute value [0-9()#&+*-=.]+ is not a valid regular expression: Uncaught SyntaxError: Failed to execute 'reportValidity' on 'HTMLFormElement': Invalid regular expression: /[0-9()#&+*-=.]+/v: Invalid character in character class"}
